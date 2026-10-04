@@ -1,0 +1,1262 @@
+F800: 00           BRK 
+F801: 00           BRK 
+F802: 00           BRK 
+F803: 00           BRK 
+F804: 00           BRK 
+F805: 00           BRK 
+F806: 00           BRK 
+F807: 00           BRK 
+F808: F0 3E        BEQ $F848
+F80A: A9 D1        LDA #$D1
+F80C: 48           PHA 
+F80D: A2 05        LDX #$05
+F80F: BD 56 F8     LDA $F856,X
+F812: 20 1F FE     JSR $FE1F
+F815: CA           DEX 
+F816: 10 F7        BPL $F80F
+F818: A9 61        LDA #$61
+F81A: A2 F8        LDX #$F8
+F81C: 20 53 FD     JSR $FD53
+F81F: 68           PLA 
+F820: 20 82 FD     JSR $FD82
+F823: A9 F1        LDA #$F1
+F825: A2 07        LDX #$07
+F827: 20 1F FE     JSR $FE1F
+F82A: A9 00        LDA #$00
+F82C: A2 D8        LDX #$D8
+F82E: 20 1F FE     JSR $FE1F
+F831: A0 1F        LDY #$1F
+F833: A9 F1        LDA #$F1
+F835: 20 82 FD     JSR $FD82
+F838: 88           DEY 
+F839: 10 FA        BPL $F835
+F83B: 20 33 FD     JSR $FD33
+F83E: D0 FB        BNE $F83B
+F840: 88           DEY 
+F841: D0 F8        BNE $F83B
+F843: 20 4B F8     JSR $F84B
+F846: EA           NOP 
+F847: EA           NOP 
+F848: 6C E8 BF     JMP ($BFE8)
+F84B: A2 07        LDX #$07
+F84D: BD F0 BF     LDA $BFF0,X
+F850: 20 1F FE     JSR $FE1F
+F853: CA           DEX 
+F854: 10 F7        BPL $F84D
+F856: 60           RTS 
+F857: C0 04        CPY #$04
+F859: 60           RTS 
+F85A: 00           BRK 
+F85B: 10 A2        BPL $F7FF
+F85D: FF          .byte $FF
+F85E: 4C 9E FD     JMP $FD9E
+F861: C8           INY 
+F862: 00           BRK 
+F863: 01 C0        ORA ($C0,X)
+F865: D1 2F        CMP ($2F),Y
+F867: 06 C0        ASL $C0
+F869: C0 C0        CPY #$C0
+F86B: C0 C0        CPY #$C0
+F86D: C0 D1        CPY #$D1
+F86F: 4C 08 C0     JMP $C008
+F872: C0 C0        CPY #$C0
+F874: C0 C0        CPY #$C0
+F876: C0 C0        CPY #$C0
+F878: C0 D2        CPY #$D2
+F87A: 18           CLC 
+F87B: 04          .byte $04
+F87C: DA          .byte $DA
+F87D: D1 D9        CMP ($D9),Y
+F87F: D8           CLD 
+F880: 00           BRK 
+F881: 3C          .byte $3C
+F882: 62          .byte $62
+F883: 66 6A        ROR $6A
+F885: 72          .byte $72
+F886: 62          .byte $62
+F887: 3C          .byte $3C
+F888: 00           BRK 
+F889: 18           CLC 
+F88A: 38           SEC 
+F88B: 18           CLC 
+F88C: 18           CLC 
+F88D: 18           CLC 
+F88E: 18           CLC 
+F88F: 3C          .byte $3C
+F890: 00           BRK 
+F891: 3C          .byte $3C
+F892: 62          .byte $62
+F893: 02          .byte $02
+F894: 06 18        ASL $18
+F896: 60           RTS 
+F897: 7E 00 3C     ROR $3C00,X
+F89A: 46 06        LSR $06
+F89C: 0C          .byte $0C
+F89D: 06 46        ASL $46
+F89F: 3C          .byte $3C
+F8A0: 00           BRK 
+F8A1: 0C          .byte $0C
+F8A2: 1C          .byte $1C
+F8A3: 34          .byte $34
+F8A4: 64          .byte $64
+F8A5: 7E 04 04     ROR $0404,X
+F8A8: 00           BRK 
+F8A9: 7E 60 7C     ROR $7C60,X
+F8AC: 02          .byte $02
+F8AD: 02          .byte $02
+F8AE: 62          .byte $62
+F8AF: 3C          .byte $3C
+F8B0: 00           BRK 
+F8B1: 1E 30 60     ASL $6030,X
+F8B4: 7C          .byte $7C
+F8B5: 62          .byte $62
+F8B6: 62          .byte $62
+F8B7: 3C          .byte $3C
+F8B8: 00           BRK 
+F8B9: 7E 06 0C     ROR $0C06,X
+F8BC: 18           CLC 
+F8BD: 30 30        BMI $F8EF
+F8BF: 30 00        BMI $F8C1
+F8C1: 3C          .byte $3C
+F8C2: 62          .byte $62
+F8C3: 62          .byte $62
+F8C4: 3C          .byte $3C
+F8C5: 62          .byte $62
+F8C6: 62          .byte $62
+F8C7: 3C          .byte $3C
+F8C8: 00           BRK 
+F8C9: 3C          .byte $3C
+F8CA: 62          .byte $62
+F8CB: 62          .byte $62
+F8CC: 3E 02 04     ROL $0402,X
+F8CF: 78           SEI 
+F8D0: 00           BRK 
+F8D1: 1C          .byte $1C
+F8D2: 22          .byte $22
+F8D3: 5D 51 5D     EOR $5D51,X
+F8D6: 22          .byte $22
+F8D7: 1C          .byte $1C
+F8D8: 00           BRK 
+F8D9: 00           BRK 
+F8DA: 00           BRK 
+F8DB: 00           BRK 
+F8DC: 00           BRK 
+F8DD: 00           BRK 
+F8DE: 18           CLC 
+F8DF: 04          .byte $04
+F8E0: 00           BRK 
+F8E1: 00           BRK 
+F8E2: 00           BRK 
+F8E3: 00           BRK 
+F8E4: 00           BRK 
+F8E5: 00           BRK 
+F8E6: 0C          .byte $0C
+F8E7: 10 39        BPL $F922
+F8E9: 42          .byte $42
+F8EA: 82          .byte $82
+F8EB: 82          .byte $82
+F8EC: 82          .byte $82
+F8ED: 42          .byte $42
+F8EE: 3C          .byte $3C
+F8EF: 00           BRK 
+F8F0: C7          .byte $C7
+F8F1: 28           PLP 
+F8F2: 28           PLP 
+F8F3: C6 48        DEC $48
+F8F5: 28           PLP 
+F8F6: 37          .byte $37
+F8F7: 00           BRK 
+F8F8: 27          .byte $27
+F8F9: 51 51        EOR ($51),Y
+F8FB: 89          .byte $89
+F8FC: B9 89 05     LDA $0589,Y
+F8FF: 00           BRK 
+F900: D4          .byte $D4
+F901: 14          .byte $14
+F902: 12          .byte $12
+F903: 12          .byte $12
+F904: 12          .byte $12
+F905: 12          .byte $12
+F906: 11 01        ORA ($01),Y
+F908: 00           BRK 
+F909: 18           CLC 
+F90A: 34          .byte $34
+F90B: 62          .byte $62
+F90C: 62          .byte $62
+F90D: 7E 62 62     ROR $6262,X
+F910: 00           BRK 
+F911: 7C          .byte $7C
+F912: 62          .byte $62
+F913: 62          .byte $62
+F914: 7C          .byte $7C
+F915: 62          .byte $62
+F916: 62          .byte $62
+F917: 7C          .byte $7C
+F918: 00           BRK 
+F919: 3C          .byte $3C
+F91A: 62          .byte $62
+F91B: 60           RTS 
+F91C: 60           RTS 
+F91D: 60           RTS 
+F91E: 62          .byte $62
+F91F: 3C          .byte $3C
+F920: 00           BRK 
+F921: 78           SEI 
+F922: 64          .byte $64
+F923: 62          .byte $62
+F924: 62          .byte $62
+F925: 62          .byte $62
+F926: 64          .byte $64
+F927: 78           SEI 
+F928: 00           BRK 
+F929: 3E 60 60     ROL $6060,X
+F92C: 7C          .byte $7C
+F92D: 60           RTS 
+F92E: 60           RTS 
+F92F: 3E 00 3E     ROL $3E00,X
+F932: 60           RTS 
+F933: 60           RTS 
+F934: 6C 60 60     JMP ($6060)
+F937: 60           RTS 
+F938: 00           BRK 
+F939: 3C          .byte $3C
+F93A: 62          .byte $62
+F93B: 60           RTS 
+F93C: 66 62        ROR $62
+F93E: 62          .byte $62
+F93F: 3E 00 62     ROL $6200,X
+F942: 62          .byte $62
+F943: 62          .byte $62
+F944: 7E 62 62     ROR $6262,X
+F947: 62          .byte $62
+F948: 00           BRK 
+F949: 3C          .byte $3C
+F94A: 18           CLC 
+F94B: 18           CLC 
+F94C: 18           CLC 
+F94D: 18           CLC 
+F94E: 18           CLC 
+F94F: 3C          .byte $3C
+F950: 00           BRK 
+F951: 3C          .byte $3C
+F952: 18           CLC 
+F953: 18           CLC 
+F954: 18           CLC 
+F955: 18           CLC 
+F956: 58           CLI 
+F957: 30 00        BMI $F959
+F959: 62          .byte $62
+F95A: 64          .byte $64
+F95B: 68           PLA 
+F95C: 70 68        BVS $F9C6
+F95E: 64          .byte $64
+F95F: 62          .byte $62
+F960: 00           BRK 
+F961: 60           RTS 
+F962: 60           RTS 
+F963: 60           RTS 
+F964: 60           RTS 
+F965: 60           RTS 
+F966: 70 3E        BVS $F9A6
+F968: 00           BRK 
+F969: 62          .byte $62
+F96A: 76 6A        ROR $6A,X
+F96C: 6A           ROR A
+F96D: 62          .byte $62
+F96E: 62          .byte $62
+F96F: 62          .byte $62
+F970: 00           BRK 
+F971: 62          .byte $62
+F972: 72          .byte $72
+F973: 72          .byte $72
+F974: 6A           ROR A
+F975: 66 66        ROR $66
+F977: 62          .byte $62
+F978: 00           BRK 
+F979: 3C          .byte $3C
+F97A: 62          .byte $62
+F97B: 62          .byte $62
+F97C: 62          .byte $62
+F97D: 62          .byte $62
+F97E: 62          .byte $62
+F97F: 3C          .byte $3C
+F980: 00           BRK 
+F981: 7C          .byte $7C
+F982: 62          .byte $62
+F983: 62          .byte $62
+F984: 62          .byte $62
+F985: 7C          .byte $7C
+F986: 60           RTS 
+F987: 60           RTS 
+F988: 00           BRK 
+F989: 3C          .byte $3C
+F98A: 62          .byte $62
+F98B: 62          .byte $62
+F98C: 62          .byte $62
+F98D: 6A           ROR A
+F98E: 64          .byte $64
+F98F: 3A          .byte $3A
+F990: 00           BRK 
+F991: 7C          .byte $7C
+F992: 62          .byte $62
+F993: 62          .byte $62
+F994: 7C          .byte $7C
+F995: 68           PLA 
+F996: 64          .byte $64
+F997: 62          .byte $62
+F998: 00           BRK 
+F999: 3E 60 60     ROL $6060,X
+F99C: 3C          .byte $3C
+F99D: 02          .byte $02
+F99E: 02          .byte $02
+F99F: 7C          .byte $7C
+F9A0: 00           BRK 
+F9A1: 7E 18 18     ROR $1818,X
+F9A4: 18           CLC 
+F9A5: 18           CLC 
+F9A6: 18           CLC 
+F9A7: 18           CLC 
+F9A8: 00           BRK 
+F9A9: 62          .byte $62
+F9AA: 62          .byte $62
+F9AB: 62          .byte $62
+F9AC: 62          .byte $62
+F9AD: 62          .byte $62
+F9AE: 62          .byte $62
+F9AF: 3C          .byte $3C
+F9B0: 00           BRK 
+F9B1: 62          .byte $62
+F9B2: 62          .byte $62
+F9B3: 62          .byte $62
+F9B4: 62          .byte $62
+F9B5: 34          .byte $34
+F9B6: 34          .byte $34
+F9B7: 18           CLC 
+F9B8: 00           BRK 
+F9B9: 62          .byte $62
+F9BA: 62          .byte $62
+F9BB: 62          .byte $62
+F9BC: 6A           ROR A
+F9BD: 6A           ROR A
+F9BE: 76 62        ROR $62,X
+F9C0: 00           BRK 
+F9C1: 62          .byte $62
+F9C2: 62          .byte $62
+F9C3: 34          .byte $34
+F9C4: 08           PHP 
+F9C5: 34          .byte $34
+F9C6: 62          .byte $62
+F9C7: 62          .byte $62
+F9C8: 00           BRK 
+F9C9: 62          .byte $62
+F9CA: 62          .byte $62
+F9CB: 62          .byte $62
+F9CC: 34          .byte $34
+F9CD: 18           CLC 
+F9CE: 18           CLC 
+F9CF: 18           CLC 
+F9D0: 00           BRK 
+F9D1: 7E 06 0C     ROR $0C06,X
+F9D4: 18           CLC 
+F9D5: 30 60        BMI $FA37
+F9D7: 7E 14 15     ROR $1514,X
+F9DA: 25 24        AND $24
+F9DC: 24 24        BIT $24
+F9DE: 45 C0        EOR $C0
+F9E0: F4          .byte $F4
+F9E1: 04          .byte $04
+F9E2: 05 E5        ORA $E5
+F9E4: 15 14        ORA $14,X
+F9E6: E4 00        CPX $00
+F9E8: 70 89        BVS $F973
+F9EA: 05 05        ORA $05
+F9EC: 05 89        ORA $89
+F9EE: 72          .byte $72
+F9EF: 00           BRK 
+F9F0: 84 48        STY $48
+F9F2: 48           PHA 
+F9F3: 28           PLP 
+F9F4: 28           PLP 
+F9F5: 28           PLP 
+F9F6: 10 00        BPL $F9F8
+F9F8: 00           BRK 
+F9F9: 00           BRK 
+F9FA: 00           BRK 
+F9FB: 00           BRK 
+F9FC: F1 5B        SBC ($5B),Y
+F9FE: 55 51        EOR $51,X
+FA00: A9 00        LDA #$00
+FA02: 8D 01 10     STA $1001
+FA05: 8D 03 10     STA $1003
+FA08: 8D 02 10     STA $1002
+FA0B: A9 0F        LDA #$0F
+FA0D: 8D 00 10     STA $1000
+FA10: A9 04        LDA #$04
+FA12: 8D 01 10     STA $1001
+FA15: 8D 03 10     STA $1003
+FA18: A9 F7        LDA #$F7
+FA1A: A2 03        LDX #$03
+FA1C: 8D 00 10     STA $1000
+FA1F: 48           PHA 
+FA20: AD 02 10     LDA $1002
+FA23: 49 FF        EOR #$FF
+FA25: 95 18        STA $18,X
+FA27: 68           PLA 
+FA28: 38           SEC 
+FA29: 6A           ROR A
+FA2A: CA           DEX 
+FA2B: 10 EF        BPL $FA1C
+FA2D: 8D 00 10     STA $1000
+FA30: 20 67 FE     JSR $FE67
+FA33: A2 03        LDX #$03
+FA35: 8A           TXA 
+FA36: 0A           ASL A
+FA37: 29 02        AND #$02
+FA39: A8           TAY 
+FA3A: B9 AA FB     LDA $FBAA,Y
+FA3D: 85 00        STA $00
+FA3F: B9 AB FB     LDA $FBAB,Y
+FA42: 85 01        STA $01
+FA44: BC AE FB     LDY $FBAE,X
+FA47: B5 18        LDA $18,X
+FA49: 0A           ASL A
+FA4A: F0 12        BEQ $FA5E
+FA4C: D1 00        CMP ($00),Y
+FA4E: F0 05        BEQ $FA55
+FA50: 88           DEY 
+FA51: 10 F9        BPL $FA4C
+FA53: 30 0B        BMI $FA60
+FA55: 98           TYA 
+FA56: 09 80        ORA #$80
+FA58: B4 11        LDY $11,X
+FA5A: F0 02        BEQ $FA5E
+FA5C: 49 C0        EOR #$C0
+FA5E: 95 11        STA $11,X
+FA60: CA           DEX 
+FA61: 10 D2        BPL $FA35
+FA63: A9 00        LDA #$00
+FA65: 85 10        STA $10
+FA67: 85 1D        STA $1D
+FA69: A2 03        LDX #$03
+FA6B: B5 18        LDA $18,X
+FA6D: 0A           ASL A
+FA6E: 26 15        ROL $15
+FA70: 29 FF        AND #$FF
+FA72: F0 04        BEQ $FA78
+FA74: 86 1E        STX $1E
+FA76: E6 1D        INC $1D
+FA78: CA           DEX 
+FA79: 10 F0        BPL $FA6B
+FA7B: A5 15        LDA $15
+FA7D: 4A           LSR A
+FA7E: 4A           LSR A
+FA7F: 4A           LSR A
+FA80: 4A           LSR A
+FA81: 49 0F        EOR #$0F
+FA83: 25 15        AND $15
+FA85: 20 49 FB     JSR $FB49
+FA88: A5 15        LDA $15
+FA8A: 20 49 FB     JSR $FB49
+FA8D: A0 01        LDY #$01
+FA8F: A2 05        LDX #$05
+FA91: A9 04        LDA #$04
+FA93: 24 15        BIT $15
+FA95: F0 04        BEQ $FA9B
+FA97: 86 1E        STX $1E
+FA99: E6 1D        INC $1D
+FA9B: 0A           ASL A
+FA9C: CA           DEX 
+FA9D: 88           DEY 
+FA9E: 10 F3        BPL $FA93
+FAA0: A5 1D        LDA $1D
+FAA2: D0 03        BNE $FAA7
+FAA4: 85 1C        STA $1C
+FAA6: 60           RTS 
+FAA7: A5 1C        LDA $1C
+FAA9: C9 02        CMP #$02
+FAAB: B0 03        BCS $FAB0
+FAAD: E6 1C        INC $1C
+FAAF: 60           RTS 
+FAB0: F0 01        BEQ $FAB3
+FAB2: 60           RTS 
+FAB3: E6 1C        INC $1C
+FAB5: C6 1D        DEC $1D
+FAB7: F0 01        BEQ $FABA
+FAB9: 60           RTS 
+FABA: A5 1E        LDA $1E
+FABC: 0A           ASL A
+FABD: AA           TAX 
+FABE: BD C8 FA     LDA $FAC8,X
+FAC1: 48           PHA 
+FAC2: BD C7 FA     LDA $FAC7,X
+FAC5: 48           PHA 
+FAC6: 60           RTS 
+FAC7: D3          .byte $D3
+FAC8: FA          .byte $FA
+FAC9: E8           INX 
+FACA: FA          .byte $FA
+FACB: EE FA FB     INC $FBFA
+FACE: FA          .byte $FA
+FACF: 02          .byte $02
+FAD0: FB          .byte $FB
+FAD1: 10 FB        BPL $FACE
+FAD3: EA           NOP 
+FAD4: A5 18        LDA $18
+FAD6: 0A           ASL A
+FAD7: C9 18        CMP #$18
+FAD9: D0 0C        BNE $FAE7
+FADB: A2 B1        LDX #$B1
+FADD: A9 02        LDA #$02
+FADF: 24 15        BIT $15
+FAE1: F0 02        BEQ $FAE5
+FAE3: A2 A1        LDX #$A1
+FAE5: 86 10        STX $10
+FAE7: 60           RTS 
+FAE8: EA           NOP 
+FAE9: A5 19        LDA $19
+FAEB: 0A           ASL A
+FAEC: D0 28        BNE $FB16
+FAEE: EA           NOP 
+FAEF: A5 1A        LDA $1A
+FAF1: 0A           ASL A
+FAF2: C9 18        CMP #$18
+FAF4: D0 04        BNE $FAFA
+FAF6: A2 A0        LDX #$A0
+FAF8: 86 10        STX $10
+FAFA: 60           RTS 
+FAFB: EA           NOP 
+FAFC: A5 1B        LDA $1B
+FAFE: 38           SEC 
+FAFF: 2A           ROL A
+FB00: D0 14        BNE $FB16
+FB02: EA           NOP 
+FB03: A2 AD        LDX #$AD
+FB05: A9 02        LDA #$02
+FB07: 24 15        BIT $15
+FB09: F0 02        BEQ $FB0D
+FB0B: A2 BD        LDX #$BD
+FB0D: 86 10        STX $10
+FB0F: 60           RTS 
+FB10: EA           NOP 
+FB11: A2 88        LDX #$88
+FB13: 86 10        STX $10
+FB15: 60           RTS 
+FB16: A2 30        LDX #$30
+FB18: 49 FE        EOR #$FE
+FB1A: DD 79 FB     CMP $FB79,X
+FB1D: F0 04        BEQ $FB23
+FB1F: CA           DEX 
+FB20: 10 F8        BPL $FB1A
+FB22: 60           RTS 
+FB23: 8A           TXA 
+FB24: 29 0F        AND #$0F
+FB26: 85 10        STA $10
+FB28: 8A           TXA 
+FB29: A2 06        LDX #$06
+FB2B: DD 56 FB     CMP $FB56,X
+FB2E: B0 03        BCS $FB33
+FB30: CA           DEX 
+FB31: 10 F8        BPL $FB2B
+FB33: 8A           TXA 
+FB34: 0A           ASL A
+FB35: 0A           ASL A
+FB36: 85 1D        STA $1D
+FB38: A5 15        LDA $15
+FB3A: 29 03        AND #$03
+FB3C: 49 03        EOR #$03
+FB3E: 05 1D        ORA $1D
+FB40: AA           TAX 
+FB41: BD 5D FB     LDA $FB5D,X
+FB44: 05 10        ORA $10
+FB46: 85 10        STA $10
+FB48: 60           RTS 
+FB49: 4A           LSR A
+FB4A: 26 16        ROL $16
+FB4C: 4A           LSR A
+FB4D: 26 16        ROL $16
+FB4F: 4A           LSR A
+FB50: 26 17        ROL $17
+FB52: 4A           LSR A
+FB53: 26 17        ROL $17
+FB55: 60           RTS 
+FB56: 00           BRK 
+FB57: 01 0C        ORA ($0C,X)
+FB59: 10 20        BPL $FB7B
+FB5B: 2D 30 C0     AND $C030
+FB5E: C0 B0        CPY #$B0
+FB60: B0 A0        BCS $FB02
+FB62: A0 B0        LDY #$B0
+FB64: B0 B0        BCS $FB16
+FB66: B0 A0        BCS $FB08
+FB68: A0 80        LDY #$80
+FB6A: C0 80        CPY #$80
+FB6C: C0 90        CPY #$90
+FB6E: D0 90        BNE $FB00
+FB70: D0 80        BNE $FAF2
+FB72: 80          .byte $80
+FB73: 80          .byte $80
+FB74: 80          .byte $80
+FB75: 95 95        STA $95,X
+FB77: 95 95        STA $95,X
+FB79: DB          .byte $DB
+FB7A: 00           BRK 
+FB7B: 9E          .byte $9E
+FB7C: 3E AE 6E     ROL $6EAE,X
+FB7F: 5E F3 7B     LSR $7BF3,X
+FB82: BB          .byte $BB
+FB83: EB          .byte $EB
+FB84: CF          .byte $CF
+FB85: AF          .byte $AF
+FB86: 00           BRK 
+FB87: 3F          .byte $3F
+FB88: 9F          .byte $9F
+FB89: 00           BRK 
+FB8A: DC          .byte $DC
+FB8B: F2          .byte $F2
+FB8C: BA           TSX 
+FB8D: 7C          .byte $7C
+FB8E: D6 F8        DEC $F8,X
+FB90: F4          .byte $F4
+FB91: 77          .byte $77
+FB92: 7D B7 D7     ADC $D7B7,X
+FB95: E7          .byte $E7
+FB96: 6F          .byte $6F
+FB97: 5F          .byte $5F
+FB98: BD DD CE     LDA $CEDD,X
+FB9B: B6 BC        LDX $BC,Y
+FB9D: 76 F9        ROR $F9,X
+FB9F: 7A          .byte $7A
+FBA0: E6 DA        INC $DA
+FBA2: F5 EA        SBC $EA,X
+FBA4: 00           BRK 
+FBA5: 00           BRK 
+FBA6: ED 00 00     SBC $0000
+FBA9: EC B2 FB     CPX $FBB2
+FBAC: C2          .byte $C2
+FBAD: FB          .byte $FB
+FBAE: 0F          .byte $0F
+FBAF: 13          .byte $13
+FBB0: 0F          .byte $0F
+FBB1: 13          .byte $13
+FBB2: 84 04        STY $04
+FBB4: 06 0E        ASL $0E
+FBB6: 0A           ASL A
+FBB7: 08           PHP 
+FBB8: 88           DEY 
+FBB9: 98           TYA 
+FBBA: 90 10        BCC $FBCC
+FBBC: 30 70        BMI $FC2E
+FBBE: 60           RTS 
+FBBF: 40           RTI 
+FBC0: C0 C4        CPY #$C4
+FBC2: 14          .byte $14
+FBC3: 22          .byte $22
+FBC4: 30 60        BMI $FC26
+FBC6: 24 42        BIT $42
+FBC8: 18           CLC 
+FBC9: C0 44        CPY #$44
+FBCB: 82          .byte $82
+FBCC: 28           PLP 
+FBCD: 50 84        BVC $FB53
+FBCF: 06 48        ASL $48
+FBD1: 90 0C        BCC $FBDF
+FBD3: 0A           ASL A
+FBD4: 88           DEY 
+FBD5: A0 A9        LDY #$A9
+FBD7: D5 A0        CMP $A0,X
+FBD9: FC          .byte $FC
+FBDA: 85 04        STA $04
+FBDC: 84 05        STY $05
+FBDE: 08           PHP 
+FBDF: 78           SEI 
+FBE0: BD 00 BF     LDA $BF00,X
+FBE3: 85 00        STA $00
+FBE5: BD 01 BF     LDA $BF01,X
+FBE8: 85 01        STA $01
+FBEA: BC 02 BF     LDY $BF02,X
+FBED: B1 00        LDA ($00),Y
+FBEF: 85 0E        STA $0E
+FBF1: A9 00        LDA #$00
+FBF3: 85 06        STA $06
+FBF5: 85 07        STA $07
+FBF7: 85 08        STA $08
+FBF9: 20 54 FE     JSR $FE54
+FBFC: A5 0E        LDA $0E
+FBFE: 85 09        STA $09
+FC00: E9 01        SBC #$01
+FC02: B0 FC        BCS $FC00
+FC04: C6 09        DEC $09
+FC06: 10 F8        BPL $FC00
+FC08: A9 02        LDA #$02
+FC0A: 85 0A        STA $0A
+FC0C: A6 0A        LDX $0A
+FC0E: 8A           TXA 
+FC0F: 20 3F FD     JSR $FD3F
+FC12: 09 80        ORA #$80
+FC14: 85 0B        STA $0B
+FC16: D6 06        DEC $06,X
+FC18: 10 37        BPL $FC51
+FC1A: 88           DEY 
+FC1B: C0 FF        CPY #$FF
+FC1D: F0 55        BEQ $FC74
+FC1F: B1 00        LDA ($00),Y
+FC21: 29 07        AND #$07
+FC23: AA           TAX 
+FC24: BD 79 FC     LDA $FC79,X
+FC27: A6 0A        LDX $0A
+FC29: 95 06        STA $06,X
+FC2B: B1 00        LDA ($00),Y
+FC2D: 4A           LSR A
+FC2E: 4A           LSR A
+FC2F: 4A           LSR A
+FC30: F0 18        BEQ $FC4A
+FC32: AA           TAX 
+FC33: CA           DEX 
+FC34: D0 04        BNE $FC3A
+FC36: 88           DEY 
+FC37: B1 00        LDA ($00),Y
+FC39: AA           TAX 
+FC3A: A5 0B        LDA $0B
+FC3C: 1D 80 FC     ORA $FC80,X
+FC3F: 20 77 FE     JSR $FE77
+FC42: BD AA FC     LDA $FCAA,X
+FC45: 20 77 FE     JSR $FE77
+FC48: A9 10        LDA #$10
+FC4A: A6 0A        LDX $0A
+FC4C: 95 18        STA $18,X
+FC4E: 4C 5F FC     JMP $FC5F
+FC51: B5 06        LDA $06,X
+FC53: 29 07        AND #$07
+FC55: C9 07        CMP #$07
+FC57: D0 15        BNE $FC6E
+FC59: D6 18        DEC $18,X
+FC5B: 10 02        BPL $FC5F
+FC5D: F6 18        DEC $18,X
+FC5F: 98           TYA 
+FC60: 48           PHA 
+FC61: B4 18        LDY $18,X
+FC63: B1 04        LDA ($04),Y
+FC65: 05 0B        ORA $0B
+FC67: 09 10        ORA #$10
+FC69: 20 77 FE     JSR $FE77
+FC6C: 68           PLA 
+FC6D: A8           TAY 
+FC6E: C6 0A        DEC $0A
+FC70: 10 9A        BPL $FC0C
+FC72: 30 88        BMI $FBFC
+FC74: 20 54 FE     JSR $FE54
+FC77: 28           PLP 
+FC78: 60           RTS 
+FC79: 07          .byte $07
+FC7A: 0F          .byte $0F
+FC7B: 17          .byte $17
+FC7C: 1F          .byte $1F
+FC7D: 2F          .byte $2F
+FC7E: 3F          .byte $3F
+FC7F: 5F          .byte $5F
+FC80: 7F          .byte $7F
+FC81: 0E 03 0A     ASL $0A03
+FC84: 02          .byte $02
+FC85: 0B          .byte $0B
+FC86: 06 02        ASL $02
+FC88: 0F          .byte $0F
+FC89: 0D 0C 0C     ORA $0C0C
+FC8C: 0D 0F 01     ORA $010F
+FC8F: 05 09        ORA $09
+FC91: 0E 03 09     ASL $0903
+FC94: 0F          .byte $0F
+FC95: 06 0E        ASL $0E
+FC97: 06 0F        ASL $0F
+FC99: 07          .byte $07
+FC9A: 01 0A        ORA ($0A,X)
+FC9C: 04          .byte $04
+FC9D: 0F          .byte $0F
+FC9E: 09 0E        ORA #$0E
+FCA0: 0A           ASL A
+FCA1: 08           PHP 
+FCA2: 08           PHP 
+FCA3: 0A           ASL A
+FCA4: 04          .byte $04
+FCA5: 00           BRK 
+FCA6: 0B          .byte $0B
+FCA7: 07          .byte $07
+FCA8: 03          .byte $03
+FCA9: 0F          .byte $0F
+FCAA: 0C          .byte $0C
+FCAB: 1D 1C 1A     ORA $1A1C,X
+FCAE: 19 17 16     ORA $1617,Y
+FCB1: 15 13        ORA $13,X
+FCB3: 12          .byte $12
+FCB4: 11 10        ORA ($10),Y
+FCB6: 0F          .byte $0F
+FCB7: 0E 0E 0D     ASL $0D0E
+FCBA: 0C          .byte $0C
+FCBB: 0B          .byte $0B
+FCBC: 0B          .byte $0B
+FCBD: 0A           ASL A
+FCBE: 09 09        ORA #$09
+FCC0: 08           PHP 
+FCC1: 08           PHP 
+FCC2: 07          .byte $07
+FCC3: 07          .byte $07
+FCC4: 07          .byte $07
+FCC5: 06 06        ASL $06
+FCC7: 05 05        ORA $05
+FCC9: 27          .byte $27
+FCCA: 25 23        AND $23
+FCCC: 21 1F        AND ($1F,X)
+FCCE: 05 05        ORA $05
+FCD0: 04          .byte $04
+FCD1: 04          .byte $04
+FCD2: 04          .byte $04
+FCD3: 03          .byte $03
+FCD4: 03          .byte $03
+FCD5: 0F          .byte $0F
+FCD6: 0F          .byte $0F
+FCD7: 0E 0D 0C     ASL $0C0D
+FCDA: 0B          .byte $0B
+FCDB: 0A           ASL A
+FCDC: 09 08        ORA #$08
+FCDE: 07          .byte $07
+FCDF: 06 05        ASL $05
+FCE1: 04          .byte $04
+FCE2: 03          .byte $03
+FCE3: 02          .byte $02
+FCE4: 01 00        ORA ($00,X)
+FCE6: A9 EB        LDA #$EB
+FCE8: 4C D8 FB     JMP $FBD8
+FCEB: 0F          .byte $0F
+FCEC: 00           BRK 
+FCED: 00           BRK 
+FCEE: 00           BRK 
+FCEF: 00           BRK 
+FCF0: 00           BRK 
+FCF1: 00           BRK 
+FCF2: 00           BRK 
+FCF3: 00           BRK 
+FCF4: 00           BRK 
+FCF5: 00           BRK 
+FCF6: 00           BRK 
+FCF7: 00           BRK 
+FCF8: 00           BRK 
+FCF9: 00           BRK 
+FCFA: 00           BRK 
+FCFB: 00           BRK 
+FCFC: 20 1F FE     JSR $FE1F
+FCFF: A2 E0        LDX #$E0
+FD01: 20 0F FE     JSR $FE0F
+FD04: 95 E0        STA $E0,X
+FD06: E8           INX 
+FD07: D0 F8        BNE $FD01
+FD09: 60           RTS 
+FD0A: A8           TAY 
+FD0B: 84 07        STY $07
+FD0D: 85 06        STA $06
+FD0F: A9 00        LDA #$00
+FD11: A0 07        LDY #$07
+FD13: 46 06        LSR $06
+FD15: 90 03        BCC $FD1A
+FD17: 18           CLC 
+FD18: 65 07        ADC $07
+FD1A: 6A           ROR A
+FD1B: 66 06        ROR $06
+FD1D: 88           DEY 
+FD1E: 10 F5        BPL $FD15
+FD20: 85 07        STA $07
+FD22: 60           RTS 
+FD23: B1 06        LDA ($06),Y
+FD25: 20 82 FD     JSR $FD82
+FD28: C8           INY 
+FD29: D0 F8        BNE $FD23
+FD2B: 60           RTS 
+FD2C: CA           DEX 
+FD2D: CA           DEX 
+FD2E: CA           DEX 
+FD2F: CA           DEX 
+FD30: CA           DEX 
+FD31: CA           DEX 
+FD32: CA           DEX 
+FD33: CA           DEX 
+FD34: 60           RTS 
+FD35: 88           DEY 
+FD36: 88           DEY 
+FD37: 88           DEY 
+FD38: 88           DEY 
+FD39: 88           DEY 
+FD3A: 88           DEY 
+FD3B: 88           DEY 
+FD3C: 88           DEY 
+FD3D: 60           RTS 
+FD3E: 0A           ASL A
+FD3F: 0A           ASL A
+FD40: 0A           ASL A
+FD41: 0A           ASL A
+FD42: 0A           ASL A
+FD43: 0A           ASL A
+FD44: 60           RTS 
+FD45: 4A           LSR A
+FD46: 4A           LSR A
+FD47: 4A           LSR A
+FD48: 4A           LSR A
+FD49: 4A           LSR A
+FD4A: 4A           LSR A
+FD4B: 60           RTS 
+FD4C: FF          .byte $FF
+FD4D: AD F8 BF     LDA $BFF8
+FD50: AE F9 BF     LDX $BFF9
+FD53: 85 09        STA $09
+FD55: 86 0A        STX $0A
+FD57: A0 00        LDY #$00
+FD59: B1 09        LDA ($09),Y
+FD5B: F0 24        BEQ $FD81
+FD5D: AA           TAX 
+FD5E: 20 7C FD     JSR $FD7C
+FD61: B1 09        LDA ($09),Y
+FD63: 20 1F FE     JSR $FE1F
+FD66: 20 7C FD     JSR $FD7C
+FD69: B1 09        LDA ($09),Y
+FD6B: AA           TAX 
+FD6C: 20 7C FD     JSR $FD7C
+FD6F: B1 09        LDA ($09),Y
+FD71: 20 82 FD     JSR $FD82
+FD74: CA           DEX 
+FD75: D0 F5        BNE $FD6C
+FD77: 20 7C FD     JSR $FD7C
+FD7A: D0 DD        BNE $FD59
+FD7C: C8           INY 
+FD7D: D0 02        BNE $FD81
+FD7F: E6 0A        INC $0A
+FD81: 60           RTS 
+FD82: 8D 00 30     STA $3000
+FD85: 60           RTS 
+FD86: AD FA BF     LDA $BFFA
+FD89: AE FB BF     LDX $BFFB
+FD8C: 85 06        STA $06
+FD8E: 86 07        STX $07
+FD90: A0 00        LDY #$00
+FD92: B1 06        LDA ($06),Y
+FD94: F0 EF        BEQ $FD85
+FD96: 20 A6 FD     JSR $FDA6
+FD99: C8           INY 
+FD9A: D0 F6        BNE $FD92
+FD9C: A2 BF        LDX #$BF
+FD9E: A0 00        LDY #$00
+FDA0: 85 06        STA $06
+FDA2: 86 07        STX $07
+FDA4: B1 06        LDA ($06),Y
+FDA6: AA           TAX 
+FDA7: C8           INY 
+FDA8: B1 06        LDA ($06),Y
+FDAA: 20 1F FE     JSR $FE1F
+FDAD: C8           INY 
+FDAE: B1 06        LDA ($06),Y
+FDB0: AA           TAX 
+FDB1: C8           INY 
+FDB2: B1 06        LDA ($06),Y
+FDB4: 85 09        STA $09
+FDB6: C8           INY 
+FDB7: B1 06        LDA ($06),Y
+FDB9: 20 82 FD     JSR $FD82
+FDBC: CA           DEX 
+FDBD: D0 FA        BNE $FDB9
+FDBF: C6 09        DEC $09
+FDC1: 10 F6        BPL $FDB9
+FDC3: 60           RTS 
+FDC4: A9 00        LDA #$00
+FDC6: F0 02        BEQ $FDCA
+FDC8: A9 40        LDA #$40
+FDCA: 05 05        ORA $05
+FDCC: 48           PHA 
+FDCD: A5 04        LDA $04
+FDCF: 20 D3 FD     JSR $FDD3
+FDD2: 68           PLA 
+FDD3: 8D 01 30     STA $3001
+FDD6: 60           RTS 
+FDD7: 85 04        STA $04
+FDD9: 06 04        ASL $04
+FDDB: 26 05        ROL $05
+FDDD: 06 04        ASL $04
+FDDF: 26 05        ROL $05
+FDE1: 06 04        ASL $04
+FDE3: 26 05        ROL $05
+FDE5: 06 05        ASL $05
+FDE7: 06 05        ASL $05
+FDE9: 06 05        ASL $05
+FDEB: 60           RTS 
+FDEC: 46 05        LSR $05
+FDEE: 46 05        LSR $05
+FDF0: 46 05        LSR $05
+FDF2: 46 05        LSR $05
+FDF4: 66 04        ROR $04
+FDF6: 46 05        LSR $05
+FDF8: 66 04        ROR $04
+FDFA: 46 05        LSR $05
+FDFC: 66 04        ROR $04
+FDFE: 60           RTS 
+FDFF: 20 EC FD     JSR $FDEC
+FE02: A5 05        LDA $05
+FE04: 09 10        ORA #$10
+FE06: 85 05        STA $05
+FE08: 60           RTS 
+FE09: 20 FF FD     JSR $FDFF
+FE0C: 20 C4 FD     JSR $FDC4
+FE0F: AD 00 20     LDA $2000
+FE12: 60           RTS 
+FE13: 48           PHA 
+FE14: 20 FF FD     JSR $FDFF
+FE17: 20 C8 FD     JSR $FDC8
+FE1A: 68           PLA 
+FE1B: 20 82 FD     JSR $FD82
+FE1E: 60           RTS 
+FE1F: 08           PHP 
+FE20: 78           SEI 
+FE21: 20 D3 FD     JSR $FDD3
+FE24: 8A           TXA 
+FE25: 49 80        EOR #$80
+FE27: 20 D3 FD     JSR $FDD3
+FE2A: 28           PLP 
+FE2B: 60           RTS 
+FE2C: 6C FE BF     JMP ($BFFE)
+FE2F: A2 00        LDX #$00
+FE31: 8A           TXA 
+FE32: 95 00        STA $00,X
+FE34: E8           INX 
+FE35: D0 FB        BNE $FE32
+FE37: 60           RTS 
+FE38: A2 C6        LDX #$C6
+FE3A: A9 00        LDA #$00
+FE3C: 20 1F FE     JSR $FE1F
+FE3F: A2 00        LDX #$00
+FE41: BD 00 F8     LDA $F800,X
+FE44: 20 82 FD     JSR $FD82
+FE47: E8           INX 
+FE48: D0 F7        BNE $FE41
+FE4A: BD 00 F9     LDA $F900,X
+FE4D: 20 82 FD     JSR $FD82
+FE50: E8           INX 
+FE51: D0 F7        BNE $FE4A
+FE53: 60           RTS 
+FE54: 20 67 FE     JSR $FE67
+FE57: A2 03        LDX #$03
+FE59: BD 63 FE     LDA $FE63,X
+FE5C: 20 77 FE     JSR $FE77
+FE5F: CA           DEX 
+FE60: 10 F7        BPL $FE59
+FE62: 60           RTS 
+FE63: FF          .byte $FF
+FE64: DF          .byte $DF
+FE65: BF          .byte $BF
+FE66: 9F          .byte $9F
+FE67: A9 22        LDA #$22
+FE69: 8D 03 10     STA $1003
+FE6C: A9 FF        LDA #$FF
+FE6E: 8D 02 10     STA $1002
+FE71: A9 26        LDA #$26
+FE73: 8D 03 10     STA $1003
+FE76: 60           RTS 
+FE77: 8D 02 10     STA $1002
+FE7A: AD 03 10     LDA $1003
+FE7D: 10 FB        BPL $FE7A
+FE7F: AD 02 10     LDA $1002
+FE82: 60           RTS 
+FE83: A5 15        LDA $15
+FE85: F0 13        BEQ $FE9A
+FE87: C6 0F        DEC $0F
+FE89: 10 11        BPL $FE9C
+FE8B: E6 0D        INC $0D
+FE8D: A5 0D        LDA $0D
+FE8F: 38           SEC 
+FE90: ED ED BF     SBC $BFED
+FE93: D0 02        BNE $FE97
+FE95: 85 0D        STA $0D
+FE97: AD E7 BF     LDA $BFE7
+FE9A: 85 0F        STA $0F
+FE9C: AD EE BF     LDA $BFEE
+FE9F: AE EF BF     LDX $BFEF
+FEA2: 20 1F FE     JSR $FE1F
+FEA5: A5 0D        LDA $0D
+FEA7: 18           CLC 
+FEA8: 69 01        ADC #$01
+FEAA: 20 C5 FE     JSR $FEC5
+FEAD: 48           PHA 
+FEAE: 4A           LSR A
+FEAF: 4A           LSR A
+FEB0: 4A           LSR A
+FEB1: 4A           LSR A
+FEB2: 20 B8 FE     JSR $FEB8
+FEB5: 68           PLA 
+FEB6: 29 0F        AND #$0F
+FEB8: C9 0A        CMP #$0A
+FEBA: 90 02        BCC $FEBE
+FEBC: 69 06        ADC #$06
+FEBE: 6D EC BF     ADC $BFEC
+FEC1: 20 82 FD     JSR $FD82
+FEC4: 60           RTS 
+FEC5: A8           TAY 
+FEC6: A2 00        LDX #$00
+FEC8: A9 0A        LDA #$0A
+FECA: 85 0E        STA $0E
+FECC: A9 00        LDA #$00
+FECE: C4 0E        CPY $0E
+FED0: 90 0C        BCC $FEDE
+FED2: E8           INX 
+FED3: E8           INX 
+FED4: E8           INX 
+FED5: E8           INX 
+FED6: E8           INX 
+FED7: E8           INX 
+FED8: A9 09        LDA #$09
+FEDA: 65 0E        ADC $0E
+FEDC: 90 EC        BCC $FECA
+FEDE: 86 0E        STX $0E
+FEE0: 98           TYA 
+FEE1: 65 0E        ADC $0E
+FEE3: 60           RTS 
+FEE4: 86 07        STX $07
+FEE6: 85 06        STA $06
+FEE8: A0 08        LDY #$08
+FEEA: 20 BA FF     JSR $FFBA
+FEED: A9 F8        LDA #$F8
+FEEF: 18           CLC 
+FEF0: 65 06        ADC $06
+FEF2: 85 06        STA $06
+FEF4: B0 02        BCS $FEF8
+FEF6: C6 07        DEC $07
+FEF8: 60           RTS 
+FEF9: 20 E4 FE     JSR $FEE4
+FEFC: 20 E8 FE     JSR $FEE8
+FEFF: A9 20        LDA #$20
+FF01: 20 24 FF     JSR $FF24
+FF04: 20 E8 FE     JSR $FEE8
+FF07: 4C E8 FE     JMP $FEE8
+FF0A: 86 07        STX $07
+FF0C: 85 06        STA $06
+FF0E: A0 F8        LDY #$F8
+FF10: B1 06        LDA ($06),Y
+FF12: 85 09        STA $09
+FF14: A2 07        LDX #$07
+FF16: 06 09        ASL $09
+FF18: 6A           ROR A
+FF19: CA           DEX 
+FF1A: 10 FA        BPL $FF16
+FF1C: 20 82 FD     JSR $FD82
+FF1F: C8           INY 
+FF20: D0 EE        BNE $FF10
+FF22: A9 08        LDA #$08
+FF24: 18           CLC 
+FF25: 65 06        ADC $06
+FF27: 85 06        STA $06
+FF29: 90 02        BCC $FF2D
+FF2B: E6 07        INC $07
+FF2D: 60           RTS 
+FF2E: 20 0A FF     JSR $FF0A
+FF31: 20 0E FF     JSR $FF0E
+FF34: A9 E0        LDA #$E0
+FF36: 20 EF FE     JSR $FEEF
+FF39: 20 0E FF     JSR $FF0E
+FF3C: 4C 0E FF     JMP $FF0E
+FF3F: 48           PHA 
+FF40: 8A           TXA 
+FF41: 48           PHA 
+FF42: 98           TYA 
+FF43: 48           PHA 
+FF44: AD 01 20     LDA $2001
+FF47: 85 0C        STA $0C
+FF49: 20 58 FF     JSR $FF58
+FF4C: 20 00 FA     JSR $FA00
+FF4F: 6C EA BF     JMP ($BFEA)
+FF52: 68           PLA 
+FF53: A8           TAY 
+FF54: 68           PLA 
+FF55: AA           TAX 
+FF56: 68           PLA 
+FF57: 40           RTI 
+FF58: A9 20        LDA #$20
+FF5A: 25 03        AND $03
+FF5C: 0A           ASL A
+FF5D: 45 03        EOR $03
+FF5F: 0A           ASL A
+FF60: 0A           ASL A
+FF61: 26 02        ROL $02
+FF63: 26 03        ROL $03
+FF65: 60           RTS 
+FF66: 78           SEI 
+FF67: D8           CLD 
+FF68: A2 40        LDX #$40
+FF6A: 88           DEY 
+FF6B: D0 FD        BNE $FF6A
+FF6D: CA           DEX 
+FF6E: D0 FA        BNE $FF6A
+FF70: AD 01 20     LDA $2001
+FF73: 20 54 FE     JSR $FE54
+FF76: 20 4B F8     JSR $F84B
+FF79: A2 05        LDX #$05
+FF7B: CA           DEX 
+FF7C: F0 20        BEQ $FF9E
+FF7E: BD FB BF     LDA $BFFB,X
+FF81: DD FF 01     CMP $01FF,X
+FF84: F0 F5        BEQ $FF7B
+FF86: 20 2F FE     JSR $FE2F
+FF89: A9 F4        LDA #$F4
+FF8B: 20 5C F8     JSR $F85C
+FF8E: 20 38 FE     JSR $FE38
+FF91: A2 03        LDX #$03
+FF93: BD FC BF     LDA $BFFC,X
+FF96: 9D 00 02     STA $0200,X
+FF99: CA           DEX 
+FF9A: 10 F7        BPL $FF93
+FF9C: 86 02        STX $02
+FF9E: 6C FC BF     JMP ($BFFC)
+FFA1: BC 00 BF     LDY $BF00,X
+FFA4: AD E6 BF     LDA $BFE6
+FFA7: 85 07        STA $07
+FFA9: BD 01 BF     LDA $BF01,X
+FFAC: 85 06        STA $06
+FFAE: BD 02 BF     LDA $BF02,X
+FFB1: 8D 01 30     STA $3001
+FFB4: BD 03 BF     LDA $BF03,X
+FFB7: 20 D3 FD     JSR $FDD3
+FFBA: B1 06        LDA ($06),Y
+FFBC: 20 82 FD     JSR $FD82
+FFBF: 88           DEY 
+FFC0: D0 F8        BNE $FFBA
+FFC2: 60           RTS 
+FFC3: C0 F2        CPY #$F2
+FFC5: E5 F6        SBC $F6
+FFC7: EF          .byte $EF
+FFC8: C0 E5        CPY #$E5
+FFCA: ED E1 E7     SBC $E7E1
+FFCD: C0 F0        CPY #$F0
+FFCF: F5 D1        SBC $D1,X
+FFD1: F0 F5        BEQ $FFC8
+FFD3: D2          .byte $D2
+FFD4: E5 F2        SBC $F2
+FFD6: EF          .byte $EF
+FFD7: E3          .byte $E3
+FFD8: F3          .byte $F3
+FFD9: C0 E9        CPY #$E9
+FFDB: E8           INX 
+FFDC: E8           INX 
+FFDD: E7          .byte $E7
+FFDE: E9 E8        SBC #$E8
+FFE0: A9 EB        LDA #$EB
+FFE2: A2 FF        LDX #$FF
+FFE4: 20 9E FD     JSR $FD9E
+FFE7: C8           INY 
+FFE8: 4C A4 FD     JMP $FDA4
+FFEB: D1 4A        CMP ($4A),Y
+FFED: 0B          .byte $0B
+FFEE: 00           BRK 
+FFEF: C0 D1        CPY #$D1
+FFF1: 8A           TXA 
+FFF2: 0B          .byte $0B
+FFF3: 00           BRK 
+FFF4: C0 00        CPY #$00
+FFF6: 00           BRK 
+FFF7: 40           RTI 
+FFF8: 00           BRK 
+FFF9: FF          .byte $FF
+FFFA: 66 FF        ROR $FF
+FFFC: 66 FF        ROR $FF
+FFFE: 2C          .byte $2C  ; (truncated at EOF)
+FFFF: FE          .byte $FE  ; (truncated at EOF)

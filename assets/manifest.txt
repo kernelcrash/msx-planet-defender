@@ -1,0 +1,16 @@
+# Planet Defender — Phase 2 extracted assets
+# Ground-truth VRAM (tools/fv_dump_vram.py), verified static across
+# title / gamestart / attract captures. TMS9918 format, ready to INCBIN.
+
+patterns.bin                  2048 B   256-tile pattern generator, scroll offset 0 (VRAM $3800)
+terrain_shift1.bin             704 B   terrain tiles $01-$58 shifted 1px (VRAM $3008-$32C8)
+terrain_shift2.bin             704 B   terrain tiles $01-$58 shifted 2px (VRAM $2808-$2AC8)
+terrain_shift4.bin             704 B   terrain tiles $01-$58 shifted 4px (VRAM $1808-$1AC8)
+terrain_shift5.bin             704 B   terrain tiles $01-$58 shifted 5px (VRAM $1008-$12C8)
+terrain_shift6.bin             704 B   terrain tiles $01-$58 shifted 6px (VRAM $0808-$0AC8)
+terrain_shift7.bin             704 B   terrain tiles $01-$58 shifted 7px (VRAM $0008-$02C8)
+sprite_patterns.bin           2048 B   sprite pattern generator, 64 x 16x16 (VRAM $2000)
+colour_table.bin                32 B   TMS colour table, 32 x (fg<<4|bg); entries 7-10 flash in-game
+nametable_chrome.bin           768 B   name-table cells constant across all 3 dumps (86 non-zero; rest scrolls)
+nametable_title.bin            768 B   complete title/game-start name table (32x24) — Phase 3 reference frame
+oam_title.bin                  128 B   sprite attribute table at the title screen (mostly parked)

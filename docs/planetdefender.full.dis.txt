@@ -1,0 +1,5894 @@
+A000: 00           BRK 
+A001: 00           BRK 
+A002: 00           BRK 
+A003: 00           BRK 
+A004: 00           BRK 
+A005: 00           BRK 
+A006: 00           BRK 
+A007: 00           BRK 
+A008: 15 09        ORA $09,X
+A00A: 32          .byte $32
+A00B: 00           BRK 
+A00C: 00           BRK 
+A00D: 00           BRK 
+A00E: 00           BRK 
+A00F: 00           BRK 
+A010: 00           BRK 
+A011: 00           BRK 
+A012: 00           BRK 
+A013: 00           BRK 
+A014: 00           BRK 
+A015: 00           BRK 
+A016: 00           BRK 
+A017: 00           BRK 
+A018: 00           BRK 
+A019: 00           BRK 
+A01A: 00           BRK 
+A01B: 00           BRK 
+A01C: 00           BRK 
+A01D: 00           BRK 
+A01E: 00           BRK 
+A01F: 00           BRK 
+A020: 00           BRK 
+A021: 00           BRK 
+A022: 00           BRK 
+A023: 12          .byte $12
+A024: 36 41        ROL $41,X
+A026: 40           RTI 
+A027: 4A           LSR A
+A028: 0E 1B 1A     ASL $1A1B
+A02B: 2D 00 00     AND $0000
+A02E: 00           BRK 
+A02F: 00           BRK 
+A030: 00           BRK 
+A031: 00           BRK 
+A032: 00           BRK 
+A033: 00           BRK 
+A034: 00           BRK 
+A035: 00           BRK 
+A036: 00           BRK 
+A037: 00           BRK 
+A038: 00           BRK 
+A039: 00           BRK 
+A03A: 00           BRK 
+A03B: 00           BRK 
+A03C: 00           BRK 
+A03D: 00           BRK 
+A03E: 00           BRK 
+A03F: 00           BRK 
+A040: 00           BRK 
+A041: 00           BRK 
+A042: 00           BRK 
+A043: 00           BRK 
+A044: 00           BRK 
+A045: 00           BRK 
+A046: 00           BRK 
+A047: 00           BRK 
+A048: 16 35        ASL $35,X
+A04A: 0F          .byte $0F
+A04B: 30 00        BMI $A04D
+A04D: 00           BRK 
+A04E: 00           BRK 
+A04F: 00           BRK 
+A050: 00           BRK 
+A051: 13          .byte $13
+A052: 07          .byte $07
+A053: 06 24        ASL $24
+A055: 23          .byte $23
+A056: 2C 00 00     BIT $0000
+A059: 00           BRK 
+A05A: 13          .byte $13
+A05B: 21 14        AND ($14,X)
+A05D: 2E 00 00     ROL $0000
+A060: 00           BRK 
+A061: 00           BRK 
+A062: 00           BRK 
+A063: 16 35        ASL $35,X
+A065: 43          .byte $43
+A066: 42          .byte $42
+A067: 4B          .byte $4B
+A068: 50 55        BVC $A0BF
+A06A: 0E 0F 30     ASL $300F
+A06D: 00           BRK 
+A06E: 00           BRK 
+A06F: 00           BRK 
+A070: 00           BRK 
+A071: 00           BRK 
+A072: 00           BRK 
+A073: 00           BRK 
+A074: 00           BRK 
+A075: 00           BRK 
+A076: 00           BRK 
+A077: 00           BRK 
+A078: 00           BRK 
+A079: 00           BRK 
+A07A: 00           BRK 
+A07B: 00           BRK 
+A07C: 05 2D        ORA $2D
+A07E: 00           BRK 
+A07F: 00           BRK 
+A080: 00           BRK 
+A081: 00           BRK 
+A082: 29 28        AND #$28
+A084: 2D 00 00     AND $0000
+A087: 12          .byte $12
+A088: 36 0E        ROL $0E,X
+A08A: 0D 0B 2E     ORA $2E0B
+A08D: 00           BRK 
+A08E: 00           BRK 
+A08F: 15 09        ORA $09,X
+A091: 08           PHP 
+A092: 34          .byte $34
+A093: 50 55        BVC $A0EA
+A095: 11 2F        ORA ($2F),Y
+A097: 00           BRK 
+A098: 00           BRK 
+A099: 00           BRK 
+A09A: 22          .byte $22
+A09B: 34          .byte $34
+A09C: 0D 20 2B     ORA $2B20
+A09F: 00           BRK 
+A0A0: 00           BRK 
+A0A1: 15 1C        ORA $1C,X
+A0A3: 58           CLI 
+A0A4: 50 55        BVC $A0FB
+A0A6: 0E 0E 53     ASL $530E
+A0A9: 56 0E        LSR $0E,X
+A0AB: 0D 31 00     ORA $0031
+A0AE: 00           BRK 
+A0AF: 00           BRK 
+A0B0: 00           BRK 
+A0B1: 00           BRK 
+A0B2: 00           BRK 
+A0B3: 15 09        ORA $09,X
+A0B5: 14          .byte $14
+A0B6: 2E 00 00     ROL $0000
+A0B9: 13          .byte $13
+A0BA: 07          .byte $07
+A0BB: 06 37        ASL $37
+A0BD: 04          .byte $04
+A0BE: 2C 00 00     BIT $0000
+A0C1: 29 18        AND #$18
+A0C3: 34          .byte $34
+A0C4: 0F          .byte $0F
+A0C5: 30 05        BMI $A0CC
+A0C7: 25 35        AND $35
+A0C9: 50 55        BVC $A120
+A0CB: 0D 31 00     ORA $0031
+A0CE: 00           BRK 
+A0CF: 16 35        ASL $35,X
+A0D1: 0E 53 56     ASL $5653
+A0D4: 0E 0E 0F     ASL $0F0E
+A0D7: 19 09 08     ORA $0809,Y
+A0DA: 34          .byte $34
+A0DB: 50 55        BVC $A132
+A0DD: 11 1F        ORA ($1F),Y
+A0DF: 2B          .byte $2B
+A0E0: 13          .byte $13
+A0E1: 1D 34 50     ORA $5034,X
+A0E4: 55 0E        EOR $0E,X
+A0E6: 0E 50 55     ASL $5550
+A0E9: 0E 0E 0E     ASL $0E0E
+A0EC: 0F          .byte $0F
+A0ED: 30 00        BMI $A0EF
+A0EF: 00           BRK 
+A0F0: 00           BRK 
+A0F1: 00           BRK 
+A0F2: 00           BRK 
+A0F3: 16 35        ASL $35,X
+A0F5: 0D 0B 0A     ORA $0A0B
+A0F8: 09 08        ORA #$08
+A0FA: 34          .byte $34
+A0FB: 50 55        BVC $A152
+A0FD: 03          .byte $03
+A0FE: 10 2B        BPL $A12B
+A100: 33          .byte $33
+A101: 16 35        ASL $35,X
+A103: 0E 0D 27     ASL $270D
+A106: 37          .byte $37
+A107: 53          .byte $53
+A108: 56 39        LSR $39,X
+A10A: 38           SEC 
+A10B: 3C          .byte $3C
+A10C: 04          .byte $04
+A10D: 2C 12 36     BIT $3612
+A110: 45 44        EOR $44
+A112: 48           PHA 
+A113: 0E 0E 0E     ASL $0E0E
+A116: 0D 0C 35     ORA $350C
+A119: 0E 39 38     ASL $3839
+A11C: 3C          .byte $3C
+A11D: 0E 02 01     ASL $0102
+A120: 1E 35 53     ASL $5335,X
+A123: 56 0E        LSR $0E,X
+A125: 0E 0E 0E     ASL $0E0E
+A128: 39 38 3C     AND $3C38,Y
+A12B: 0E 11 2F     ASL $2F11
+A12E: 00           BRK 
+A12F: 13          .byte $13
+A130: 07          .byte $07
+A131: 17          .byte $17
+A132: 06 37        ASL $37
+A134: 0E 0E 0D     ASL $0D0E
+A137: 0C          .byte $0C
+A138: 35 50        AND $50,X
+A13A: 54          .byte $54
+A13B: 56 0E        LSR $0E,X
+A13D: 0E 02 01     ASL $0102
+A140: 2A           ROL A
+A141: 37          .byte $37
+A142: 0E 41 40     ASL $4041
+A145: 4A           LSR A
+A146: 50 54        BVC $A19C
+A148: 56 3B        LSR $3B,X
+A14A: 3A          .byte $3A
+A14B: 3D 03 10     AND $1003,X
+A14E: 26 35        ROL $35
+A150: 47          .byte $47
+A151: 46 49        LSR $49
+A153: 39 38 3C     AND $3C38,Y
+A156: 0E 50 51     ASL $5150
+A159: 55 3B        EOR $3B,X
+A15B: 3A          .byte $3A
+A15C: 3D 0E 53     AND $530E,X
+A15F: 56 50        LSR $50,X
+A161: 55 45        EOR $45,X
+A163: 44          .byte $44
+A164: 48           PHA 
+A165: 39 38 3C     AND $3C38,Y
+A168: 3B          .byte $3B
+A169: 3A          .byte $3A
+A16A: 3D 0E 0E     AND $0E0E,X
+A16D: 0F          .byte $0F
+A16E: 19 18 34     ORA $3418,Y
+A171: 50 55        BVC $A1C8
+A173: 50 55        BVC $A1CA
+A175: 45 44        EOR $44
+A177: 48           PHA 
+A178: 0E 50 55     ASL $5550
+A17B: 0E 0E 39     ASL $390E
+A17E: 38           SEC 
+A17F: 3C          .byte $3C
+A180: 0E 50 55     ASL $5550
+A183: 43          .byte $43
+A184: 42          .byte $42
+A185: 4B          .byte $4B
+A186: 0E 0E 39     ASL $390E
+A189: 38           SEC 
+A18A: 3C          .byte $3C
+A18B: 50 55        BVC $A1E2
+A18D: 0E 50 55     ASL $5550
+A190: 0E 0E 0E     ASL $0E0E
+A193: 3B          .byte $3B
+A194: 3A          .byte $3A
+A195: 3D 50 54     AND $5450,X
+A198: 56 0E        LSR $0E,X
+A19A: 50 55        BVC $A1F1
+A19C: 39 38 3C     AND $3C38,Y
+A19F: 0E 0E 0E     ASL $0E0E
+A1A2: 47          .byte $47
+A1A3: 46 49        LSR $49
+A1A5: 3B          .byte $3B
+A1A6: 3A          .byte $3A
+A1A7: 3D 0E 0E     AND $0E0E,X
+A1AA: 0E 50 55     ASL $5550
+A1AD: 0D 0C 35     ORA $350C
+A1B0: 53          .byte $53
+A1B1: 56 50        LSR $50,X
+A1B3: 55 0E        EOR $0E,X
+A1B5: 47          .byte $47
+A1B6: 46 49        LSR $49
+A1B8: 50 54        BVC $A20E
+A1BA: 56 0E        LSR $0E,X
+A1BC: 0E 3B 3A     ASL $3A3B
+A1BF: 3D 53 56     AND $5653,X
+A1C2: 0E 0E 0E     ASL $0E0E
+A1C5: 53          .byte $53
+A1C6: 56 0E        LSR $0E,X
+A1C8: 3B          .byte $3B
+A1C9: 3A          .byte $3A
+A1CA: 3D 0E 53     AND $530E,X
+A1CD: 52          .byte $52
+A1CE: 55 0E        EOR $0E,X
+A1D0: 0E 0E 0E     ASL $0E0E
+A1D3: 0E 0E 53     ASL $530E
+A1D6: 56 0E        LSR $0E,X
+A1D8: 0E 53 56     ASL $5653
+A1DB: 0E 3B 3A     ASL $3A3B
+A1DE: 3D 0E 50     AND $500E,X
+A1E1: 51 55        EOR ($55),Y
+A1E3: 0E 0E 0E     ASL $0E0E
+A1E6: 0E 0E 0E     ASL $0E0E
+A1E9: 0E 53 56     ASL $5653
+A1EC: 0E 0E 0E     ASL $0E0E
+A1EF: 53          .byte $53
+A1F0: 52          .byte $52
+A1F1: 54          .byte $54
+A1F2: 56 39        LSR $39,X
+A1F4: 38           SEC 
+A1F5: 3C          .byte $3C
+A1F6: 0E 53 56     ASL $5653
+A1F9: 0E 0E 39     ASL $390E
+A1FC: 38           SEC 
+A1FD: 3C          .byte $3C
+A1FE: 0E 0E 00     ASL $000E
+A201: 15 09        ORA $09,X
+A203: 14          .byte $14
+A204: 2E 00 00     ROL $0000
+A207: 16 35        ASL $35,X
+A209: 11 2F        ORA ($2F),Y
+A20B: 00           BRK 
+A20C: 12          .byte $12
+A20D: 36 0E        ROL $0E,X
+A20F: 0E 0F 30     ASL $300F
+A212: 16 35        ASL $35,X
+A214: 0E 0E 11     ASL $110E
+A217: 2F          .byte $2F
+A218: E4 42        CPX $42
+A21A: 0C          .byte $0C
+A21B: 0E 1D 3B     ASL $3B1D
+A21E: 3F          .byte $3F
+A21F: 3F          .byte $3F
+A220: 23          .byte $23
+A221: 31 3F        AND ($3F),Y
+A223: 3C          .byte $3C
+A224: 18           CLC 
+A225: 0C          .byte $0C
+A226: 06 E4        ASL $E4
+A228: 52          .byte $52
+A229: 0C          .byte $0C
+A22A: 70 B8        BVS $A1E4
+A22C: DC          .byte $DC
+A22D: FC          .byte $FC
+A22E: FC          .byte $FC
+A22F: C4 8C        CPY $8C
+A231: FC          .byte $FC
+A232: 3C          .byte $3C
+A233: 18           CLC 
+A234: 30 60        BMI $A296
+A236: E4 22        CPX $22
+A238: 0C          .byte $0C
+A239: 38           SEC 
+A23A: 39 3B 3F     AND $3F3B,Y
+A23D: 3F          .byte $3F
+A23E: 23          .byte $23
+A23F: 31 3F        AND ($3F),Y
+A241: 3C          .byte $3C
+A242: 18           CLC 
+A243: 0E 07 E4     ASL $E407
+A246: 32          .byte $32
+A247: 0C          .byte $0C
+A248: 1C          .byte $1C
+A249: 9C          .byte $9C
+A24A: DC          .byte $DC
+A24B: FC          .byte $FC
+A24C: FC          .byte $FC
+A24D: C4 8C        CPY $8C
+A24F: FC          .byte $FC
+A250: 3C          .byte $3C
+A251: 18           CLC 
+A252: 70 E0        BVS $A234
+A254: E4 02        CPX $02
+A256: 0C          .byte $0C
+A257: E0 70        CPX #$70
+A259: 38           SEC 
+A25A: 3F          .byte $3F
+A25B: 3F          .byte $3F
+A25C: 23          .byte $23
+A25D: 31 3F        AND ($3F),Y
+A25F: 3C          .byte $3C
+A260: 1B          .byte $1B
+A261: 0F          .byte $0F
+A262: 07          .byte $07
+A263: E4 12        CPX $12
+A265: 0C          .byte $0C
+A266: 07          .byte $07
+A267: 0E 1C FC     ASL $FC1C
+A26A: FC          .byte $FC
+A26B: C4 8C        CPY $8C
+A26D: FC          .byte $FC
+A26E: 3C          .byte $3C
+A26F: D8           CLD 
+A270: F0 E0        BEQ $A252
+A272: E4 64        CPX $64
+A274: 07          .byte $07
+A275: 1C          .byte $1C
+A276: 22          .byte $22
+A277: 22          .byte $22
+A278: 04          .byte $04
+A279: 08           PHP 
+A27A: 10 3E        BPL $A2BA
+A27C: E4 74        CPX $74
+A27E: 07          .byte $07
+A27F: 38           SEC 
+A280: 44          .byte $44
+A281: 44          .byte $44
+A282: 44          .byte $44
+A283: 44          .byte $44
+A284: 44          .byte $44
+A285: 38           SEC 
+A286: E4 C3        CPX $C3
+A288: 0A           ASL A
+A289: 01 19        ORA ($19,X)
+A28B: 3C          .byte $3C
+A28C: 7F          .byte $7F
+A28D: 7F          .byte $7F
+A28E: 7B          .byte $7B
+A28F: 72          .byte $72
+A290: 62          .byte $62
+A291: 44          .byte $44
+A292: 24 E4        BIT $E4
+A294: D3          .byte $D3
+A295: 0A           ASL A
+A296: 80          .byte $80
+A297: 98           TYA 
+A298: 3C          .byte $3C
+A299: FE FE DE     INC $DEFE,X
+A29C: 4E 46 22     LSR $2246
+A29F: 24 E4        BIT $E4
+A2A1: A3          .byte $A3
+A2A2: 0A           ASL A
+A2A3: 01 09        ORA ($09,X)
+A2A5: 1C          .byte $1C
+A2A6: 3F          .byte $3F
+A2A7: 3F          .byte $3F
+A2A8: 3B          .byte $3B
+A2A9: 32          .byte $32
+A2AA: 22          .byte $22
+A2AB: 14          .byte $14
+A2AC: 04          .byte $04
+A2AD: E4 B3        CPX $B3
+A2AF: 0A           ASL A
+A2B0: 80          .byte $80
+A2B1: 90 38        BCC $A2EB
+A2B3: FC          .byte $FC
+A2B4: FC          .byte $FC
+A2B5: DC          .byte $DC
+A2B6: 4C 44 28     JMP $2844
+A2B9: 20 E4 83     JSR $83E4
+A2BC: 0A           ASL A
+A2BD: 01 09        ORA ($09,X)
+A2BF: 1C          .byte $1C
+A2C0: 1F          .byte $1F
+A2C1: 1F          .byte $1F
+A2C2: 1B          .byte $1B
+A2C3: 12          .byte $12
+A2C4: 12          .byte $12
+A2C5: 04          .byte $04
+A2C6: 04          .byte $04
+A2C7: E4 93        CPX $93
+A2C9: 0A           ASL A
+A2CA: 80          .byte $80
+A2CB: 90 38        BCC $A305
+A2CD: F8           SED 
+A2CE: F8           SED 
+A2CF: D8           CLD 
+A2D0: 48           PHA 
+A2D1: 48           PHA 
+A2D2: 20 20 E4     JSR $E420
+A2D5: E4 07        CPX $07
+A2D7: 1C          .byte $1C
+A2D8: 22          .byte $22
+A2D9: 02          .byte $02
+A2DA: 0C          .byte $0C
+A2DB: 02          .byte $02
+A2DC: 22          .byte $22
+A2DD: 1C          .byte $1C
+A2DE: E4 F4        CPX $F4
+A2E0: 07          .byte $07
+A2E1: 38           SEC 
+A2E2: 44          .byte $44
+A2E3: 44          .byte $44
+A2E4: 44          .byte $44
+A2E5: 44          .byte $44
+A2E6: 44          .byte $44
+A2E7: 38           SEC 
+A2E8: E5 45        SBC $45
+A2EA: 07          .byte $07
+A2EB: 18           CLC 
+A2EC: 7D FF C6     ADC $C6FF,X
+A2EF: 83          .byte $83
+A2F0: 01 02        ORA ($02,X)
+A2F2: E5 55        SBC $55
+A2F4: 07          .byte $07
+A2F5: 18           CLC 
+A2F6: BE FF 63     LDX $63FF,Y
+A2F9: C1 80        CMP ($80,X)
+A2FB: 40           RTI 
+A2FC: E5 25        SBC $25
+A2FE: 07          .byte $07
+A2FF: 18           CLC 
+A300: 3D 7F 66     AND $667F,X
+A303: 43          .byte $43
+A304: 21 02        AND ($02,X)
+A306: E5 35        SBC $35
+A308: 07          .byte $07
+A309: 18           CLC 
+A30A: BC FE 66     LDY $66FE,X
+A30D: C2          .byte $C2
+A30E: 84 40        STY $40
+A310: E5 05        SBC $05
+A312: 07          .byte $07
+A313: 0C          .byte $0C
+A314: 1D 3F 36     ORA $363F,X
+A317: 23          .byte $23
+A318: 11 02        ORA ($02),Y
+A31A: E5 15        SBC $15
+A31C: 07          .byte $07
+A31D: 30 B8        BMI $A2D7
+A31F: FC          .byte $FC
+A320: 6C C4 88     JMP ($88C4)
+A323: 40           RTI 
+A324: E5 64        SBC $64
+A326: 07          .byte $07
+A327: 3E 20 3C     ROL $3C20,X
+A32A: 02          .byte $02
+A32B: 02          .byte $02
+A32C: 22          .byte $22
+A32D: 1C          .byte $1C
+A32E: E5 74        SBC $74
+A330: 07          .byte $07
+A331: 38           SEC 
+A332: 44          .byte $44
+A333: 44          .byte $44
+A334: 44          .byte $44
+A335: 44          .byte $44
+A336: 44          .byte $44
+A337: 38           SEC 
+A338: E5 E7        SBC $E7
+A33A: 03          .byte $03
+A33B: 02          .byte $02
+A33C: 05 02        ORA $02
+A33E: E6 05        INC $05
+A340: 06 02        ASL $02
+A342: 10 04        BPL $A348
+A344: 00           BRK 
+A345: 01 08        ORA ($08,X)
+A347: E6 12        INC $12
+A349: 09 78        ORA #$78
+A34B: 3C          .byte $3C
+A34C: 1E 1F 8F     ASL $8F1F,X
+A34F: 2C 4C 0F     BIT $0F4C
+A352: 1E E6 25     ASL $25E6,X
+A355: 06 0A        ASL $0A
+A357: 25 8B        AND $8B
+A359: 03          .byte $03
+A35A: 24 0A        BIT $0A
+A35C: E6 32        INC $32
+A35E: 09 78        ORA #$78
+A360: 3C          .byte $3C
+A361: 1E 1F 4F     ASL $4F1F,X
+A364: AC 6C 8F     LDY $8F6C
+A367: 1E E6 42     ASL $42E6,X
+A36A: 09 1E        ORA #$1E
+A36C: 3C          .byte $3C
+A36D: 78           SEI 
+A36E: F8           SED 
+A36F: F1 34        SBC ($34),Y
+A371: 32          .byte $32
+A372: F0 78        BEQ $A3EC
+A374: E6 55        INC $55
+A376: 06 40        ASL $40
+A378: 08           PHP 
+A379: 20 00 80     JSR $8000
+A37C: 10 E6        BPL $A364
+A37E: 62          .byte $62
+A37F: 09 1E        ORA #$1E
+A381: 3C          .byte $3C
+A382: 78           SEI 
+A383: F8           SED 
+A384: F2          .byte $F2
+A385: 35 36        AND $36,X
+A387: F1 78        SBC ($78),Y
+A389: E6 75        INC $75
+A38B: 06 50        ASL $50
+A38D: A2 D1        LDX #$D1
+A38F: C0 24        CPY #$24
+A391: 50 E6        BVC $A379
+A393: 85 05        STA $05
+A395: 0F          .byte $0F
+A396: 3F          .byte $3F
+A397: FF          .byte $FF
+A398: FF          .byte $FF
+A399: 1F          .byte $1F
+A39A: E6 95        INC $95
+A39C: 05 F0        ORA $F0
+A39E: FC          .byte $FC
+A39F: FF          .byte $FF
+A3A0: FF          .byte $FF
+A3A1: F8           SED 
+A3A2: E6 AF        INC $AF
+A3A4: 01 FF        ORA ($FF,X)
+A3A6: E6 BF        INC $BF
+A3A8: 01 FF        ORA ($FF,X)
+A3AA: E6 C0        INC $C0
+A3AC: 04          .byte $04
+A3AD: 05 02        ORA $02
+A3AF: 02          .byte $02
+A3B0: 02          .byte $02
+A3B1: E6 EC        INC $EC
+A3B3: 01 80        ORA ($80,X)
+A3B5: C4 29        CPY $29
+A3B7: 0F          .byte $0F
+A3B8: 5B          .byte $5B
+A3B9: 00           BRK 
+A3BA: 00           BRK 
+A3BB: 00           BRK 
+A3BC: 00           BRK 
+A3BD: 00           BRK 
+A3BE: 5B          .byte $5B
+A3BF: 00           BRK 
+A3C0: 5B          .byte $5B
+A3C1: 00           BRK 
+A3C2: 00           BRK 
+A3C3: 00           BRK 
+A3C4: 00           BRK 
+A3C5: 00           BRK 
+A3C6: 5B          .byte $5B
+A3C7: C4 49        CPY $49
+A3C9: 0F          .byte $0F
+A3CA: 5C          .byte $5C
+A3CB: 00           BRK 
+A3CC: 00           BRK 
+A3CD: 00           BRK 
+A3CE: 00           BRK 
+A3CF: 00           BRK 
+A3D0: 5C          .byte $5C
+A3D1: 00           BRK 
+A3D2: 5C          .byte $5C
+A3D3: 00           BRK 
+A3D4: 00           BRK 
+A3D5: 00           BRK 
+A3D6: 00           BRK 
+A3D7: 00           BRK 
+A3D8: 5C          .byte $5C
+A3D9: C4 69        CPY $69
+A3DB: 0E 5D 5D     ASL $5D5D
+A3DE: 5D 5D 5D     EOR $5D5D,X
+A3E1: 5D 5D 5D     EOR $5D5D,X
+A3E4: 5D 5D 5D     EOR $5D5D,X
+A3E7: 5D 5D 5D     EOR $5D5D,X
+A3EA: C4 85        CPY $85
+A3EC: 04          .byte $04
+A3ED: 78           SEI 
+A3EE: 79 7A 6E     ADC $6E7A,Y
+A3F1: C4 93        CPY $93
+A3F3: 01 5E        ORA ($5E,X)
+A3F5: C4 9D        CPY $9D
+A3F7: 01 67        ORA ($67,X)
+A3F9: C4 A4        CPY $A4
+A3FB: 08           PHP 
+A3FC: 6D 75 76     ADC $7675
+A3FF: 77          .byte $77
+A400: 6F          .byte $6F
+A401: 00           BRK 
+A402: 00           BRK 
+A403: 66 C4        ROR $C4
+A405: B0 01        BCS $A408
+A407: 5F          .byte $5F
+A408: C4 C2        CPY $C2
+A40A: 06 5E        ASL $5E
+A40C: 00           BRK 
+A40D: 00           BRK 
+A40E: 7B          .byte $7B
+A40F: 7C          .byte $7C
+A410: 7D C4 D5     ADC $D5C4,X
+A413: 07          .byte $07
+A414: 5F          .byte $5F
+A415: 66 00        ROR $00
+A417: 00           BRK 
+A418: 00           BRK 
+A419: 68           PLA 
+A41A: 6A           ROR A
+A41B: C4 EE        CPY $EE
+A41D: 01 5E        ORA ($5E,X)
+A41F: C4 FA        CPY $FA
+A421: 0B          .byte $0B
+A422: 69 6B        ADC #$6B
+A424: 00           BRK 
+A425: 00           BRK 
+A426: 00           BRK 
+A427: 67          .byte $67
+A428: 00           BRK 
+A429: 00           BRK 
+A42A: 00           BRK 
+A42B: 67          .byte $67
+A42C: 5E C5 22     LSR $22C5,X
+A42F: 05 5F        ORA $5F
+A431: 00           BRK 
+A432: 00           BRK 
+A433: 00           BRK 
+A434: 5F          .byte $5F
+A435: C5 5D        CMP $5D
+A437: 01 6C        ORA ($6C,X)
+A439: D4          .byte $D4
+A43A: 1C          .byte $1C
+A43B: 04          .byte $04
+A43C: 70 70        BVS $A4AE
+A43E: 70 70        BVS $A4B0
+A440: D4          .byte $D4
+A441: 00           BRK 
+A442: 10 70        BPL $A4B4
+A444: 70 70        BVS $A4B6
+A446: 70 70        BVS $A4B8
+A448: 70 70        BVS $A4BA
+A44A: 7B          .byte $7B
+A44B: 7F          .byte $7F
+A44C: 7F          .byte $7F
+A44D: 76 70        ROR $70,X
+A44F: A0 A0        LDY #$A0
+A451: A6 60        LDX $60
+A453: 00           BRK 
+A454: FF          .byte $FF
+A455: FF          .byte $FF
+A456: FF          .byte $FF
+A457: FF          .byte $FF
+A458: FF          .byte $FF
+A459: FF          .byte $FF
+A45A: FF          .byte $FF
+A45B: FF          .byte $FF
+A45C: FF          .byte $FF
+A45D: FF          .byte $FF
+A45E: FF          .byte $FF
+A45F: FF          .byte $FF
+A460: FF          .byte $FF
+A461: FF          .byte $FF
+A462: FF          .byte $FF
+A463: FF          .byte $FF
+A464: FF          .byte $FF
+A465: FF          .byte $FF
+A466: FF          .byte $FF
+A467: FF          .byte $FF
+A468: FF          .byte $FF
+A469: FF          .byte $FF
+A46A: FF          .byte $FF
+A46B: FF          .byte $FF
+A46C: FF          .byte $FF
+A46D: FF          .byte $FF
+A46E: FF          .byte $FF
+A46F: FF          .byte $FF
+A470: FF          .byte $FF
+A471: FF          .byte $FF
+A472: FF          .byte $FF
+A473: FF          .byte $FF
+A474: FF          .byte $FF
+A475: FF          .byte $FF
+A476: FF          .byte $FF
+A477: FF          .byte $FF
+A478: FF          .byte $FF
+A479: FF          .byte $FF
+A47A: FF          .byte $FF
+A47B: FF          .byte $FF
+A47C: FF          .byte $FF
+A47D: FF          .byte $FF
+A47E: FF          .byte $FF
+A47F: FF          .byte $FF
+A480: FF          .byte $FF
+A481: FF          .byte $FF
+A482: FF          .byte $FF
+A483: FF          .byte $FF
+A484: FF          .byte $FF
+A485: FF          .byte $FF
+A486: FF          .byte $FF
+A487: FF          .byte $FF
+A488: FF          .byte $FF
+A489: FF          .byte $FF
+A48A: FF          .byte $FF
+A48B: FF          .byte $FF
+A48C: FF          .byte $FF
+A48D: FF          .byte $FF
+A48E: FF          .byte $FF
+A48F: FF          .byte $FF
+A490: FF          .byte $FF
+A491: FF          .byte $FF
+A492: FF          .byte $FF
+A493: FF          .byte $FF
+A494: FF          .byte $FF
+A495: FF          .byte $FF
+A496: FF          .byte $FF
+A497: FF          .byte $FF
+A498: FF          .byte $FF
+A499: FF          .byte $FF
+A49A: FF          .byte $FF
+A49B: FF          .byte $FF
+A49C: FF          .byte $FF
+A49D: FF          .byte $FF
+A49E: FF          .byte $FF
+A49F: FF          .byte $FF
+A4A0: FF          .byte $FF
+A4A1: FF          .byte $FF
+A4A2: FF          .byte $FF
+A4A3: FF          .byte $FF
+A4A4: FF          .byte $FF
+A4A5: FF          .byte $FF
+A4A6: FF          .byte $FF
+A4A7: FF          .byte $FF
+A4A8: FF          .byte $FF
+A4A9: FF          .byte $FF
+A4AA: FF          .byte $FF
+A4AB: FF          .byte $FF
+A4AC: FF          .byte $FF
+A4AD: FF          .byte $FF
+A4AE: FF          .byte $FF
+A4AF: FF          .byte $FF
+A4B0: FF          .byte $FF
+A4B1: FF          .byte $FF
+A4B2: FF          .byte $FF
+A4B3: FF          .byte $FF
+A4B4: FF          .byte $FF
+A4B5: FF          .byte $FF
+A4B6: FF          .byte $FF
+A4B7: FF          .byte $FF
+A4B8: FF          .byte $FF
+A4B9: FF          .byte $FF
+A4BA: FF          .byte $FF
+A4BB: FF          .byte $FF
+A4BC: FF          .byte $FF
+A4BD: FF          .byte $FF
+A4BE: FF          .byte $FF
+A4BF: FF          .byte $FF
+A4C0: FF          .byte $FF
+A4C1: FF          .byte $FF
+A4C2: FF          .byte $FF
+A4C3: FF          .byte $FF
+A4C4: FF          .byte $FF
+A4C5: FF          .byte $FF
+A4C6: FF          .byte $FF
+A4C7: FF          .byte $FF
+A4C8: FF          .byte $FF
+A4C9: FF          .byte $FF
+A4CA: FF          .byte $FF
+A4CB: FF          .byte $FF
+A4CC: FF          .byte $FF
+A4CD: FF          .byte $FF
+A4CE: FF          .byte $FF
+A4CF: FF          .byte $FF
+A4D0: FF          .byte $FF
+A4D1: FF          .byte $FF
+A4D2: FF          .byte $FF
+A4D3: FF          .byte $FF
+A4D4: FF          .byte $FF
+A4D5: FF          .byte $FF
+A4D6: FF          .byte $FF
+A4D7: FF          .byte $FF
+A4D8: FF          .byte $FF
+A4D9: FF          .byte $FF
+A4DA: FF          .byte $FF
+A4DB: FF          .byte $FF
+A4DC: FF          .byte $FF
+A4DD: FF          .byte $FF
+A4DE: FF          .byte $FF
+A4DF: FF          .byte $FF
+A4E0: FF          .byte $FF
+A4E1: FF          .byte $FF
+A4E2: FF          .byte $FF
+A4E3: FF          .byte $FF
+A4E4: FF          .byte $FF
+A4E5: FF          .byte $FF
+A4E6: FF          .byte $FF
+A4E7: FF          .byte $FF
+A4E8: FF          .byte $FF
+A4E9: FF          .byte $FF
+A4EA: FF          .byte $FF
+A4EB: FF          .byte $FF
+A4EC: FF          .byte $FF
+A4ED: FF          .byte $FF
+A4EE: FF          .byte $FF
+A4EF: FF          .byte $FF
+A4F0: FF          .byte $FF
+A4F1: FF          .byte $FF
+A4F2: FF          .byte $FF
+A4F3: FF          .byte $FF
+A4F4: FF          .byte $FF
+A4F5: FF          .byte $FF
+A4F6: FF          .byte $FF
+A4F7: FF          .byte $FF
+A4F8: FF          .byte $FF
+A4F9: FF          .byte $FF
+A4FA: FF          .byte $FF
+A4FB: FF          .byte $FF
+A4FC: FF          .byte $FF
+A4FD: FF          .byte $FF
+A4FE: FF          .byte $FF
+A4FF: FF          .byte $FF
+A500: FF          .byte $FF
+A501: FF          .byte $FF
+A502: FF          .byte $FF
+A503: FF          .byte $FF
+A504: FF          .byte $FF
+A505: FF          .byte $FF
+A506: FF          .byte $FF
+A507: FF          .byte $FF
+A508: FF          .byte $FF
+A509: FF          .byte $FF
+A50A: FF          .byte $FF
+A50B: FF          .byte $FF
+A50C: FF          .byte $FF
+A50D: FF          .byte $FF
+A50E: FF          .byte $FF
+A50F: FF          .byte $FF
+A510: FF          .byte $FF
+A511: FF          .byte $FF
+A512: FF          .byte $FF
+A513: FF          .byte $FF
+A514: FF          .byte $FF
+A515: FF          .byte $FF
+A516: FF          .byte $FF
+A517: FF          .byte $FF
+A518: FF          .byte $FF
+A519: FF          .byte $FF
+A51A: FF          .byte $FF
+A51B: FF          .byte $FF
+A51C: FF          .byte $FF
+A51D: FF          .byte $FF
+A51E: FF          .byte $FF
+A51F: FF          .byte $FF
+A520: FF          .byte $FF
+A521: FF          .byte $FF
+A522: FF          .byte $FF
+A523: FF          .byte $FF
+A524: FF          .byte $FF
+A525: FF          .byte $FF
+A526: FF          .byte $FF
+A527: FF          .byte $FF
+A528: FF          .byte $FF
+A529: FF          .byte $FF
+A52A: FF          .byte $FF
+A52B: FF          .byte $FF
+A52C: FF          .byte $FF
+A52D: FF          .byte $FF
+A52E: FF          .byte $FF
+A52F: FF          .byte $FF
+A530: FF          .byte $FF
+A531: FF          .byte $FF
+A532: FF          .byte $FF
+A533: FF          .byte $FF
+A534: FF          .byte $FF
+A535: FF          .byte $FF
+A536: FF          .byte $FF
+A537: FF          .byte $FF
+A538: FF          .byte $FF
+A539: FF          .byte $FF
+A53A: FF          .byte $FF
+A53B: FF          .byte $FF
+A53C: FF          .byte $FF
+A53D: FF          .byte $FF
+A53E: FF          .byte $FF
+A53F: FF          .byte $FF
+A540: FF          .byte $FF
+A541: FF          .byte $FF
+A542: FF          .byte $FF
+A543: FF          .byte $FF
+A544: FF          .byte $FF
+A545: FF          .byte $FF
+A546: FF          .byte $FF
+A547: FF          .byte $FF
+A548: FF          .byte $FF
+A549: FF          .byte $FF
+A54A: FF          .byte $FF
+A54B: FF          .byte $FF
+A54C: FF          .byte $FF
+A54D: FF          .byte $FF
+A54E: FF          .byte $FF
+A54F: FF          .byte $FF
+A550: FF          .byte $FF
+A551: FF          .byte $FF
+A552: FF          .byte $FF
+A553: FF          .byte $FF
+A554: FF          .byte $FF
+A555: FF          .byte $FF
+A556: FF          .byte $FF
+A557: FF          .byte $FF
+A558: FF          .byte $FF
+A559: FF          .byte $FF
+A55A: FF          .byte $FF
+A55B: FF          .byte $FF
+A55C: FF          .byte $FF
+A55D: FF          .byte $FF
+A55E: FF          .byte $FF
+A55F: FF          .byte $FF
+A560: FF          .byte $FF
+A561: FF          .byte $FF
+A562: FF          .byte $FF
+A563: FF          .byte $FF
+A564: FF          .byte $FF
+A565: FF          .byte $FF
+A566: FF          .byte $FF
+A567: FF          .byte $FF
+A568: FF          .byte $FF
+A569: FF          .byte $FF
+A56A: FF          .byte $FF
+A56B: FF          .byte $FF
+A56C: FF          .byte $FF
+A56D: FF          .byte $FF
+A56E: FF          .byte $FF
+A56F: FF          .byte $FF
+A570: FF          .byte $FF
+A571: FF          .byte $FF
+A572: FF          .byte $FF
+A573: FF          .byte $FF
+A574: FF          .byte $FF
+A575: FF          .byte $FF
+A576: FF          .byte $FF
+A577: FF          .byte $FF
+A578: FF          .byte $FF
+A579: FF          .byte $FF
+A57A: FF          .byte $FF
+A57B: FF          .byte $FF
+A57C: FF          .byte $FF
+A57D: FF          .byte $FF
+A57E: FF          .byte $FF
+A57F: FF          .byte $FF
+A580: FF          .byte $FF
+A581: FF          .byte $FF
+A582: FF          .byte $FF
+A583: FF          .byte $FF
+A584: FF          .byte $FF
+A585: FF          .byte $FF
+A586: FF          .byte $FF
+A587: FF          .byte $FF
+A588: FF          .byte $FF
+A589: FF          .byte $FF
+A58A: FF          .byte $FF
+A58B: FF          .byte $FF
+A58C: FF          .byte $FF
+A58D: FF          .byte $FF
+A58E: FF          .byte $FF
+A58F: FF          .byte $FF
+A590: FF          .byte $FF
+A591: FF          .byte $FF
+A592: FF          .byte $FF
+A593: FF          .byte $FF
+A594: FF          .byte $FF
+A595: FF          .byte $FF
+A596: FF          .byte $FF
+A597: FF          .byte $FF
+A598: FF          .byte $FF
+A599: FF          .byte $FF
+A59A: FF          .byte $FF
+A59B: FF          .byte $FF
+A59C: FF          .byte $FF
+A59D: FF          .byte $FF
+A59E: FF          .byte $FF
+A59F: FF          .byte $FF
+A5A0: FF          .byte $FF
+A5A1: FF          .byte $FF
+A5A2: FF          .byte $FF
+A5A3: FF          .byte $FF
+A5A4: FF          .byte $FF
+A5A5: FF          .byte $FF
+A5A6: FF          .byte $FF
+A5A7: FF          .byte $FF
+A5A8: FF          .byte $FF
+A5A9: FF          .byte $FF
+A5AA: FF          .byte $FF
+A5AB: FF          .byte $FF
+A5AC: FF          .byte $FF
+A5AD: FF          .byte $FF
+A5AE: FF          .byte $FF
+A5AF: FF          .byte $FF
+A5B0: FF          .byte $FF
+A5B1: FF          .byte $FF
+A5B2: FF          .byte $FF
+A5B3: FF          .byte $FF
+A5B4: FF          .byte $FF
+A5B5: FF          .byte $FF
+A5B6: FF          .byte $FF
+A5B7: FF          .byte $FF
+A5B8: FF          .byte $FF
+A5B9: FF          .byte $FF
+A5BA: FF          .byte $FF
+A5BB: FF          .byte $FF
+A5BC: FF          .byte $FF
+A5BD: FF          .byte $FF
+A5BE: FF          .byte $FF
+A5BF: FF          .byte $FF
+A5C0: FF          .byte $FF
+A5C1: FF          .byte $FF
+A5C2: FF          .byte $FF
+A5C3: FF          .byte $FF
+A5C4: FF          .byte $FF
+A5C5: FF          .byte $FF
+A5C6: FF          .byte $FF
+A5C7: FF          .byte $FF
+A5C8: FF          .byte $FF
+A5C9: FF          .byte $FF
+A5CA: FF          .byte $FF
+A5CB: FF          .byte $FF
+A5CC: FF          .byte $FF
+A5CD: FF          .byte $FF
+A5CE: FF          .byte $FF
+A5CF: FF          .byte $FF
+A5D0: FF          .byte $FF
+A5D1: FF          .byte $FF
+A5D2: FF          .byte $FF
+A5D3: FF          .byte $FF
+A5D4: FF          .byte $FF
+A5D5: FF          .byte $FF
+A5D6: FF          .byte $FF
+A5D7: FF          .byte $FF
+A5D8: FF          .byte $FF
+A5D9: FF          .byte $FF
+A5DA: FF          .byte $FF
+A5DB: FF          .byte $FF
+A5DC: FF          .byte $FF
+A5DD: FF          .byte $FF
+A5DE: FF          .byte $FF
+A5DF: FF          .byte $FF
+A5E0: FF          .byte $FF
+A5E1: FF          .byte $FF
+A5E2: FF          .byte $FF
+A5E3: FF          .byte $FF
+A5E4: FF          .byte $FF
+A5E5: FF          .byte $FF
+A5E6: FF          .byte $FF
+A5E7: FF          .byte $FF
+A5E8: FF          .byte $FF
+A5E9: FF          .byte $FF
+A5EA: FF          .byte $FF
+A5EB: FF          .byte $FF
+A5EC: FF          .byte $FF
+A5ED: FF          .byte $FF
+A5EE: FF          .byte $FF
+A5EF: FF          .byte $FF
+A5F0: FF          .byte $FF
+A5F1: FF          .byte $FF
+A5F2: FF          .byte $FF
+A5F3: FF          .byte $FF
+A5F4: FF          .byte $FF
+A5F5: FF          .byte $FF
+A5F6: FF          .byte $FF
+A5F7: FF          .byte $FF
+A5F8: FF          .byte $FF
+A5F9: FF          .byte $FF
+A5FA: FF          .byte $FF
+A5FB: FF          .byte $FF
+A5FC: FF          .byte $FF
+A5FD: FF          .byte $FF
+A5FE: FF          .byte $FF
+A5FF: FF          .byte $FF
+A600: FF          .byte $FF
+A601: FF          .byte $FF
+A602: FF          .byte $FF
+A603: FF          .byte $FF
+A604: FF          .byte $FF
+A605: FF          .byte $FF
+A606: FF          .byte $FF
+A607: FF          .byte $FF
+A608: FF          .byte $FF
+A609: FF          .byte $FF
+A60A: FF          .byte $FF
+A60B: FF          .byte $FF
+A60C: FF          .byte $FF
+A60D: FF          .byte $FF
+A60E: FF          .byte $FF
+A60F: FF          .byte $FF
+A610: FF          .byte $FF
+A611: FF          .byte $FF
+A612: FF          .byte $FF
+A613: FF          .byte $FF
+A614: FF          .byte $FF
+A615: FF          .byte $FF
+A616: FF          .byte $FF
+A617: FF          .byte $FF
+A618: FF          .byte $FF
+A619: FF          .byte $FF
+A61A: FF          .byte $FF
+A61B: FF          .byte $FF
+A61C: FF          .byte $FF
+A61D: FF          .byte $FF
+A61E: FF          .byte $FF
+A61F: FF          .byte $FF
+A620: FF          .byte $FF
+A621: FF          .byte $FF
+A622: FF          .byte $FF
+A623: FF          .byte $FF
+A624: FF          .byte $FF
+A625: FF          .byte $FF
+A626: FF          .byte $FF
+A627: FF          .byte $FF
+A628: FF          .byte $FF
+A629: FF          .byte $FF
+A62A: FF          .byte $FF
+A62B: FF          .byte $FF
+A62C: FF          .byte $FF
+A62D: FF          .byte $FF
+A62E: FF          .byte $FF
+A62F: FF          .byte $FF
+A630: FF          .byte $FF
+A631: FF          .byte $FF
+A632: FF          .byte $FF
+A633: FF          .byte $FF
+A634: FF          .byte $FF
+A635: FF          .byte $FF
+A636: FF          .byte $FF
+A637: FF          .byte $FF
+A638: FF          .byte $FF
+A639: FF          .byte $FF
+A63A: FF          .byte $FF
+A63B: FF          .byte $FF
+A63C: FF          .byte $FF
+A63D: FF          .byte $FF
+A63E: FF          .byte $FF
+A63F: FF          .byte $FF
+A640: FF          .byte $FF
+A641: FF          .byte $FF
+A642: FF          .byte $FF
+A643: FF          .byte $FF
+A644: FF          .byte $FF
+A645: FF          .byte $FF
+A646: FF          .byte $FF
+A647: FF          .byte $FF
+A648: FF          .byte $FF
+A649: FF          .byte $FF
+A64A: FF          .byte $FF
+A64B: FF          .byte $FF
+A64C: FF          .byte $FF
+A64D: FF          .byte $FF
+A64E: FF          .byte $FF
+A64F: FF          .byte $FF
+A650: FF          .byte $FF
+A651: FF          .byte $FF
+A652: FF          .byte $FF
+A653: FF          .byte $FF
+A654: FF          .byte $FF
+A655: FF          .byte $FF
+A656: FF          .byte $FF
+A657: FF          .byte $FF
+A658: FF          .byte $FF
+A659: FF          .byte $FF
+A65A: FF          .byte $FF
+A65B: FF          .byte $FF
+A65C: FF          .byte $FF
+A65D: FF          .byte $FF
+A65E: FF          .byte $FF
+A65F: FF          .byte $FF
+A660: FF          .byte $FF
+A661: FF          .byte $FF
+A662: FF          .byte $FF
+A663: FF          .byte $FF
+A664: FF          .byte $FF
+A665: FF          .byte $FF
+A666: FF          .byte $FF
+A667: FF          .byte $FF
+A668: FF          .byte $FF
+A669: FF          .byte $FF
+A66A: FF          .byte $FF
+A66B: FF          .byte $FF
+A66C: FF          .byte $FF
+A66D: FF          .byte $FF
+A66E: FF          .byte $FF
+A66F: FF          .byte $FF
+A670: FF          .byte $FF
+A671: FF          .byte $FF
+A672: FF          .byte $FF
+A673: FF          .byte $FF
+A674: FF          .byte $FF
+A675: FF          .byte $FF
+A676: FF          .byte $FF
+A677: FF          .byte $FF
+A678: FF          .byte $FF
+A679: FF          .byte $FF
+A67A: FF          .byte $FF
+A67B: FF          .byte $FF
+A67C: FF          .byte $FF
+A67D: FF          .byte $FF
+A67E: FF          .byte $FF
+A67F: FF          .byte $FF
+A680: FF          .byte $FF
+A681: FF          .byte $FF
+A682: FF          .byte $FF
+A683: FF          .byte $FF
+A684: FF          .byte $FF
+A685: FF          .byte $FF
+A686: FF          .byte $FF
+A687: FF          .byte $FF
+A688: FF          .byte $FF
+A689: FF          .byte $FF
+A68A: FF          .byte $FF
+A68B: FF          .byte $FF
+A68C: FF          .byte $FF
+A68D: FF          .byte $FF
+A68E: FF          .byte $FF
+A68F: FF          .byte $FF
+A690: FF          .byte $FF
+A691: FF          .byte $FF
+A692: FF          .byte $FF
+A693: FF          .byte $FF
+A694: FF          .byte $FF
+A695: FF          .byte $FF
+A696: FF          .byte $FF
+A697: FF          .byte $FF
+A698: FF          .byte $FF
+A699: FF          .byte $FF
+A69A: FF          .byte $FF
+A69B: FF          .byte $FF
+A69C: FF          .byte $FF
+A69D: FF          .byte $FF
+A69E: FF          .byte $FF
+A69F: FF          .byte $FF
+A6A0: FF          .byte $FF
+A6A1: FF          .byte $FF
+A6A2: FF          .byte $FF
+A6A3: FF          .byte $FF
+A6A4: FF          .byte $FF
+A6A5: FF          .byte $FF
+A6A6: FF          .byte $FF
+A6A7: FF          .byte $FF
+A6A8: FF          .byte $FF
+A6A9: FF          .byte $FF
+A6AA: FF          .byte $FF
+A6AB: FF          .byte $FF
+A6AC: FF          .byte $FF
+A6AD: FF          .byte $FF
+A6AE: FF          .byte $FF
+A6AF: FF          .byte $FF
+A6B0: FF          .byte $FF
+A6B1: FF          .byte $FF
+A6B2: FF          .byte $FF
+A6B3: FF          .byte $FF
+A6B4: FF          .byte $FF
+A6B5: FF          .byte $FF
+A6B6: FF          .byte $FF
+A6B7: FF          .byte $FF
+A6B8: FF          .byte $FF
+A6B9: FF          .byte $FF
+A6BA: FF          .byte $FF
+A6BB: FF          .byte $FF
+A6BC: FF          .byte $FF
+A6BD: FF          .byte $FF
+A6BE: FF          .byte $FF
+A6BF: FF          .byte $FF
+A6C0: FF          .byte $FF
+A6C1: FF          .byte $FF
+A6C2: FF          .byte $FF
+A6C3: FF          .byte $FF
+A6C4: FF          .byte $FF
+A6C5: FF          .byte $FF
+A6C6: FF          .byte $FF
+A6C7: FF          .byte $FF
+A6C8: FF          .byte $FF
+A6C9: FF          .byte $FF
+A6CA: FF          .byte $FF
+A6CB: FF          .byte $FF
+A6CC: FF          .byte $FF
+A6CD: FF          .byte $FF
+A6CE: FF          .byte $FF
+A6CF: FF          .byte $FF
+A6D0: FF          .byte $FF
+A6D1: FF          .byte $FF
+A6D2: FF          .byte $FF
+A6D3: FF          .byte $FF
+A6D4: FF          .byte $FF
+A6D5: FF          .byte $FF
+A6D6: FF          .byte $FF
+A6D7: FF          .byte $FF
+A6D8: FF          .byte $FF
+A6D9: FF          .byte $FF
+A6DA: FF          .byte $FF
+A6DB: FF          .byte $FF
+A6DC: FF          .byte $FF
+A6DD: FF          .byte $FF
+A6DE: FF          .byte $FF
+A6DF: FF          .byte $FF
+A6E0: FF          .byte $FF
+A6E1: FF          .byte $FF
+A6E2: FF          .byte $FF
+A6E3: FF          .byte $FF
+A6E4: FF          .byte $FF
+A6E5: FF          .byte $FF
+A6E6: FF          .byte $FF
+A6E7: FF          .byte $FF
+A6E8: FF          .byte $FF
+A6E9: FF          .byte $FF
+A6EA: FF          .byte $FF
+A6EB: FF          .byte $FF
+A6EC: FF          .byte $FF
+A6ED: FF          .byte $FF
+A6EE: FF          .byte $FF
+A6EF: FF          .byte $FF
+A6F0: FF          .byte $FF
+A6F1: FF          .byte $FF
+A6F2: FF          .byte $FF
+A6F3: FF          .byte $FF
+A6F4: FF          .byte $FF
+A6F5: FF          .byte $FF
+A6F6: FF          .byte $FF
+A6F7: FF          .byte $FF
+A6F8: FF          .byte $FF
+A6F9: FF          .byte $FF
+A6FA: FF          .byte $FF
+A6FB: FF          .byte $FF
+A6FC: FF          .byte $FF
+A6FD: FF          .byte $FF
+A6FE: FF          .byte $FF
+A6FF: FF          .byte $FF
+A700: FF          .byte $FF
+A701: FF          .byte $FF
+A702: FF          .byte $FF
+A703: FF          .byte $FF
+A704: FF          .byte $FF
+A705: FF          .byte $FF
+A706: FF          .byte $FF
+A707: FF          .byte $FF
+A708: FF          .byte $FF
+A709: FF          .byte $FF
+A70A: FF          .byte $FF
+A70B: FF          .byte $FF
+A70C: FF          .byte $FF
+A70D: FF          .byte $FF
+A70E: FF          .byte $FF
+A70F: FF          .byte $FF
+A710: FF          .byte $FF
+A711: FF          .byte $FF
+A712: FF          .byte $FF
+A713: FF          .byte $FF
+A714: FF          .byte $FF
+A715: FF          .byte $FF
+A716: FF          .byte $FF
+A717: FF          .byte $FF
+A718: FF          .byte $FF
+A719: FF          .byte $FF
+A71A: FF          .byte $FF
+A71B: FF          .byte $FF
+A71C: FF          .byte $FF
+A71D: FF          .byte $FF
+A71E: FF          .byte $FF
+A71F: FF          .byte $FF
+A720: FF          .byte $FF
+A721: FF          .byte $FF
+A722: FF          .byte $FF
+A723: FF          .byte $FF
+A724: FF          .byte $FF
+A725: FF          .byte $FF
+A726: FF          .byte $FF
+A727: FF          .byte $FF
+A728: FF          .byte $FF
+A729: FF          .byte $FF
+A72A: FF          .byte $FF
+A72B: FF          .byte $FF
+A72C: FF          .byte $FF
+A72D: FF          .byte $FF
+A72E: FF          .byte $FF
+A72F: FF          .byte $FF
+A730: FF          .byte $FF
+A731: FF          .byte $FF
+A732: FF          .byte $FF
+A733: FF          .byte $FF
+A734: FF          .byte $FF
+A735: FF          .byte $FF
+A736: FF          .byte $FF
+A737: FF          .byte $FF
+A738: FF          .byte $FF
+A739: FF          .byte $FF
+A73A: FF          .byte $FF
+A73B: FF          .byte $FF
+A73C: FF          .byte $FF
+A73D: FF          .byte $FF
+A73E: FF          .byte $FF
+A73F: FF          .byte $FF
+A740: FF          .byte $FF
+A741: FF          .byte $FF
+A742: FF          .byte $FF
+A743: FF          .byte $FF
+A744: FF          .byte $FF
+A745: FF          .byte $FF
+A746: FF          .byte $FF
+A747: FF          .byte $FF
+A748: FF          .byte $FF
+A749: FF          .byte $FF
+A74A: FF          .byte $FF
+A74B: FF          .byte $FF
+A74C: FF          .byte $FF
+A74D: FF          .byte $FF
+A74E: FF          .byte $FF
+A74F: FF          .byte $FF
+A750: FF          .byte $FF
+A751: FF          .byte $FF
+A752: FF          .byte $FF
+A753: FF          .byte $FF
+A754: FF          .byte $FF
+A755: FF          .byte $FF
+A756: FF          .byte $FF
+A757: FF          .byte $FF
+A758: FF          .byte $FF
+A759: FF          .byte $FF
+A75A: FF          .byte $FF
+A75B: FF          .byte $FF
+A75C: FF          .byte $FF
+A75D: FF          .byte $FF
+A75E: FF          .byte $FF
+A75F: FF          .byte $FF
+A760: FF          .byte $FF
+A761: FF          .byte $FF
+A762: FF          .byte $FF
+A763: FF          .byte $FF
+A764: FF          .byte $FF
+A765: FF          .byte $FF
+A766: FF          .byte $FF
+A767: FF          .byte $FF
+A768: FF          .byte $FF
+A769: FF          .byte $FF
+A76A: FF          .byte $FF
+A76B: FF          .byte $FF
+A76C: FF          .byte $FF
+A76D: FF          .byte $FF
+A76E: FF          .byte $FF
+A76F: FF          .byte $FF
+A770: FF          .byte $FF
+A771: FF          .byte $FF
+A772: FF          .byte $FF
+A773: FF          .byte $FF
+A774: FF          .byte $FF
+A775: FF          .byte $FF
+A776: FF          .byte $FF
+A777: FF          .byte $FF
+A778: FF          .byte $FF
+A779: FF          .byte $FF
+A77A: FF          .byte $FF
+A77B: FF          .byte $FF
+A77C: FF          .byte $FF
+A77D: FF          .byte $FF
+A77E: FF          .byte $FF
+A77F: FF          .byte $FF
+A780: FF          .byte $FF
+A781: FF          .byte $FF
+A782: FF          .byte $FF
+A783: FF          .byte $FF
+A784: FF          .byte $FF
+A785: FF          .byte $FF
+A786: FF          .byte $FF
+A787: FF          .byte $FF
+A788: FF          .byte $FF
+A789: FF          .byte $FF
+A78A: FF          .byte $FF
+A78B: FF          .byte $FF
+A78C: FF          .byte $FF
+A78D: FF          .byte $FF
+A78E: FF          .byte $FF
+A78F: FF          .byte $FF
+A790: FF          .byte $FF
+A791: FF          .byte $FF
+A792: FF          .byte $FF
+A793: FF          .byte $FF
+A794: FF          .byte $FF
+A795: FF          .byte $FF
+A796: FF          .byte $FF
+A797: FF          .byte $FF
+A798: FF          .byte $FF
+A799: FF          .byte $FF
+A79A: FF          .byte $FF
+A79B: FF          .byte $FF
+A79C: FF          .byte $FF
+A79D: FF          .byte $FF
+A79E: FF          .byte $FF
+A79F: FF          .byte $FF
+A7A0: FF          .byte $FF
+A7A1: FF          .byte $FF
+A7A2: FF          .byte $FF
+A7A3: FF          .byte $FF
+A7A4: FF          .byte $FF
+A7A5: FF          .byte $FF
+A7A6: FF          .byte $FF
+A7A7: FF          .byte $FF
+A7A8: FF          .byte $FF
+A7A9: FF          .byte $FF
+A7AA: FF          .byte $FF
+A7AB: FF          .byte $FF
+A7AC: FF          .byte $FF
+A7AD: FF          .byte $FF
+A7AE: FF          .byte $FF
+A7AF: FF          .byte $FF
+A7B0: FF          .byte $FF
+A7B1: FF          .byte $FF
+A7B2: FF          .byte $FF
+A7B3: FF          .byte $FF
+A7B4: FF          .byte $FF
+A7B5: FF          .byte $FF
+A7B6: FF          .byte $FF
+A7B7: FF          .byte $FF
+A7B8: FF          .byte $FF
+A7B9: FF          .byte $FF
+A7BA: FF          .byte $FF
+A7BB: FF          .byte $FF
+A7BC: FF          .byte $FF
+A7BD: FF          .byte $FF
+A7BE: FF          .byte $FF
+A7BF: FF          .byte $FF
+A7C0: FF          .byte $FF
+A7C1: FF          .byte $FF
+A7C2: FF          .byte $FF
+A7C3: FF          .byte $FF
+A7C4: FF          .byte $FF
+A7C5: FF          .byte $FF
+A7C6: FF          .byte $FF
+A7C7: FF          .byte $FF
+A7C8: FF          .byte $FF
+A7C9: FF          .byte $FF
+A7CA: FF          .byte $FF
+A7CB: FF          .byte $FF
+A7CC: FF          .byte $FF
+A7CD: FF          .byte $FF
+A7CE: FF          .byte $FF
+A7CF: FF          .byte $FF
+A7D0: FF          .byte $FF
+A7D1: FF          .byte $FF
+A7D2: FF          .byte $FF
+A7D3: FF          .byte $FF
+A7D4: FF          .byte $FF
+A7D5: FF          .byte $FF
+A7D6: FF          .byte $FF
+A7D7: FF          .byte $FF
+A7D8: FF          .byte $FF
+A7D9: FF          .byte $FF
+A7DA: FF          .byte $FF
+A7DB: FF          .byte $FF
+A7DC: FF          .byte $FF
+A7DD: FF          .byte $FF
+A7DE: FF          .byte $FF
+A7DF: FF          .byte $FF
+A7E0: FF          .byte $FF
+A7E1: FF          .byte $FF
+A7E2: FF          .byte $FF
+A7E3: FF          .byte $FF
+A7E4: FF          .byte $FF
+A7E5: FF          .byte $FF
+A7E6: FF          .byte $FF
+A7E7: FF          .byte $FF
+A7E8: FF          .byte $FF
+A7E9: FF          .byte $FF
+A7EA: FF          .byte $FF
+A7EB: FF          .byte $FF
+A7EC: FF          .byte $FF
+A7ED: FF          .byte $FF
+A7EE: FF          .byte $FF
+A7EF: FF          .byte $FF
+A7F0: FF          .byte $FF
+A7F1: FF          .byte $FF
+A7F2: FF          .byte $FF
+A7F3: FF          .byte $FF
+A7F4: FF          .byte $FF
+A7F5: FF          .byte $FF
+A7F6: FF          .byte $FF
+A7F7: FF          .byte $FF
+A7F8: FF          .byte $FF
+A7F9: FF          .byte $FF
+A7FA: FF          .byte $FF
+A7FB: FF          .byte $FF
+A7FC: FF          .byte $FF
+A7FD: FF          .byte $FF
+A7FE: FF          .byte $FF
+A7FF: FF          .byte $FF
+A800: 00           BRK 
+A801: 00           BRK 
+A802: 00           BRK 
+A803: 00           BRK 
+A804: 00           BRK 
+A805: 00           BRK 
+A806: 00           BRK 
+A807: 00           BRK 
+A808: 15 09        ORA $09,X
+A80A: 32          .byte $32
+A80B: 00           BRK 
+A80C: 00           BRK 
+A80D: 00           BRK 
+A80E: 00           BRK 
+A80F: 00           BRK 
+A810: 00           BRK 
+A811: 00           BRK 
+A812: 00           BRK 
+A813: 00           BRK 
+A814: 00           BRK 
+A815: 00           BRK 
+A816: 00           BRK 
+A817: 00           BRK 
+A818: 00           BRK 
+A819: 00           BRK 
+A81A: 00           BRK 
+A81B: 00           BRK 
+A81C: 00           BRK 
+A81D: 00           BRK 
+A81E: 00           BRK 
+A81F: 00           BRK 
+A820: 00           BRK 
+A821: 00           BRK 
+A822: 00           BRK 
+A823: 12          .byte $12
+A824: 36 41        ROL $41,X
+A826: 40           RTI 
+A827: 4A           LSR A
+A828: 0E 1B 1A     ASL $1A1B
+A82B: 2D 00 00     AND $0000
+A82E: 00           BRK 
+A82F: 00           BRK 
+A830: 00           BRK 
+A831: 00           BRK 
+A832: 00           BRK 
+A833: 00           BRK 
+A834: 00           BRK 
+A835: 00           BRK 
+A836: 00           BRK 
+A837: 00           BRK 
+A838: 00           BRK 
+A839: 00           BRK 
+A83A: 00           BRK 
+A83B: 00           BRK 
+A83C: 00           BRK 
+A83D: 00           BRK 
+A83E: 00           BRK 
+A83F: 00           BRK 
+A840: 00           BRK 
+A841: 00           BRK 
+A842: 00           BRK 
+A843: 00           BRK 
+A844: 00           BRK 
+A845: 00           BRK 
+A846: 00           BRK 
+A847: 00           BRK 
+A848: 16 35        ASL $35,X
+A84A: 0F          .byte $0F
+A84B: 30 00        BMI $A84D
+A84D: 00           BRK 
+A84E: 00           BRK 
+A84F: 00           BRK 
+A850: 00           BRK 
+A851: 13          .byte $13
+A852: 07          .byte $07
+A853: 06 24        ASL $24
+A855: 23          .byte $23
+A856: 2C 00 00     BIT $0000
+A859: 00           BRK 
+A85A: 13          .byte $13
+A85B: 21 14        AND ($14,X)
+A85D: 2E 00 00     ROL $0000
+A860: 00           BRK 
+A861: 00           BRK 
+A862: 00           BRK 
+A863: 16 35        ASL $35,X
+A865: 43          .byte $43
+A866: 42          .byte $42
+A867: 4B          .byte $4B
+A868: 50 55        BVC $A8BF
+A86A: 0E 0F 30     ASL $300F
+A86D: 00           BRK 
+A86E: 00           BRK 
+A86F: 00           BRK 
+A870: 00           BRK 
+A871: 00           BRK 
+A872: 00           BRK 
+A873: 00           BRK 
+A874: 00           BRK 
+A875: 00           BRK 
+A876: 00           BRK 
+A877: 00           BRK 
+A878: 00           BRK 
+A879: 00           BRK 
+A87A: 00           BRK 
+A87B: 00           BRK 
+A87C: 05 2D        ORA $2D
+A87E: 00           BRK 
+A87F: 00           BRK 
+A880: 00           BRK 
+A881: 00           BRK 
+A882: 29 28        AND #$28
+A884: 2D 00 00     AND $0000
+A887: 12          .byte $12
+A888: 36 0E        ROL $0E,X
+A88A: 0D 0B 2E     ORA $2E0B
+A88D: 00           BRK 
+A88E: 00           BRK 
+A88F: 15 09        ORA $09,X
+A891: 08           PHP 
+A892: 34          .byte $34
+A893: 50 55        BVC $A8EA
+A895: 11 2F        ORA ($2F),Y
+A897: 00           BRK 
+A898: 00           BRK 
+A899: 00           BRK 
+A89A: 22          .byte $22
+A89B: 34          .byte $34
+A89C: 0D 20 2B     ORA $2B20
+A89F: 00           BRK 
+A8A0: 00           BRK 
+A8A1: 15 1C        ORA $1C,X
+A8A3: 58           CLI 
+A8A4: 50 55        BVC $A8FB
+A8A6: 0E 0E 53     ASL $530E
+A8A9: 56 0E        LSR $0E,X
+A8AB: 0D 31 00     ORA $0031
+A8AE: 00           BRK 
+A8AF: 00           BRK 
+A8B0: 00           BRK 
+A8B1: 00           BRK 
+A8B2: 00           BRK 
+A8B3: 15 09        ORA $09,X
+A8B5: 14          .byte $14
+A8B6: 2E 00 00     ROL $0000
+A8B9: 13          .byte $13
+A8BA: 07          .byte $07
+A8BB: 06 37        ASL $37
+A8BD: 04          .byte $04
+A8BE: 2C 00 00     BIT $0000
+A8C1: 29 18        AND #$18
+A8C3: 34          .byte $34
+A8C4: 0F          .byte $0F
+A8C5: 30 05        BMI $A8CC
+A8C7: 25 35        AND $35
+A8C9: 50 55        BVC $A920
+A8CB: 0D 31 00     ORA $0031
+A8CE: 00           BRK 
+A8CF: 16 35        ASL $35,X
+A8D1: 0E 53 56     ASL $5653
+A8D4: 0E 0E 0F     ASL $0F0E
+A8D7: 19 09 08     ORA $0809,Y
+A8DA: 34          .byte $34
+A8DB: 50 55        BVC $A932
+A8DD: 11 1F        ORA ($1F),Y
+A8DF: 2B          .byte $2B
+A8E0: 13          .byte $13
+A8E1: 1D 34 50     ORA $5034,X
+A8E4: 55 0E        EOR $0E,X
+A8E6: 0E 50 55     ASL $5550
+A8E9: 0E 0E 0E     ASL $0E0E
+A8EC: 0F          .byte $0F
+A8ED: 30 00        BMI $A8EF
+A8EF: 00           BRK 
+A8F0: 00           BRK 
+A8F1: 00           BRK 
+A8F2: 00           BRK 
+A8F3: 16 35        ASL $35,X
+A8F5: 0D 0B 0A     ORA $0A0B
+A8F8: 09 08        ORA #$08
+A8FA: 34          .byte $34
+A8FB: 50 55        BVC $A952
+A8FD: 03          .byte $03
+A8FE: 10 2B        BPL $A92B
+A900: 33          .byte $33
+A901: 16 35        ASL $35,X
+A903: 0E 0D 27     ASL $270D
+A906: 37          .byte $37
+A907: 53          .byte $53
+A908: 56 39        LSR $39,X
+A90A: 38           SEC 
+A90B: 3C          .byte $3C
+A90C: 04          .byte $04
+A90D: 2C 12 36     BIT $3612
+A910: 45 44        EOR $44
+A912: 48           PHA 
+A913: 0E 0E 0E     ASL $0E0E
+A916: 0D 0C 35     ORA $350C
+A919: 0E 39 38     ASL $3839
+A91C: 3C          .byte $3C
+A91D: 0E 02 01     ASL $0102
+A920: 1E 35 53     ASL $5335,X
+A923: 56 0E        LSR $0E,X
+A925: 0E 0E 0E     ASL $0E0E
+A928: 39 38 3C     AND $3C38,Y
+A92B: 0E 11 2F     ASL $2F11
+A92E: 00           BRK 
+A92F: 13          .byte $13
+A930: 07          .byte $07
+A931: 17          .byte $17
+A932: 06 37        ASL $37
+A934: 0E 0E 0D     ASL $0D0E
+A937: 0C          .byte $0C
+A938: 35 50        AND $50,X
+A93A: 54          .byte $54
+A93B: 56 0E        LSR $0E,X
+A93D: 0E 02 01     ASL $0102
+A940: 2A           ROL A
+A941: 37          .byte $37
+A942: 0E 41 40     ASL $4041
+A945: 4A           LSR A
+A946: 50 54        BVC $A99C
+A948: 56 3B        LSR $3B,X
+A94A: 3A          .byte $3A
+A94B: 3D 03 10     AND $1003,X
+A94E: 26 35        ROL $35
+A950: 47          .byte $47
+A951: 46 49        LSR $49
+A953: 39 38 3C     AND $3C38,Y
+A956: 0E 50 51     ASL $5150
+A959: 55 3B        EOR $3B,X
+A95B: 3A          .byte $3A
+A95C: 3D 0E 53     AND $530E,X
+A95F: 56 50        LSR $50,X
+A961: 55 45        EOR $45,X
+A963: 44          .byte $44
+A964: 48           PHA 
+A965: 39 38 3C     AND $3C38,Y
+A968: 3B          .byte $3B
+A969: 3A          .byte $3A
+A96A: 3D 0E 0E     AND $0E0E,X
+A96D: 0F          .byte $0F
+A96E: 19 18 34     ORA $3418,Y
+A971: 50 55        BVC $A9C8
+A973: 50 55        BVC $A9CA
+A975: 45 44        EOR $44
+A977: 48           PHA 
+A978: 0E 50 55     ASL $5550
+A97B: 0E 0E 39     ASL $390E
+A97E: 38           SEC 
+A97F: 3C          .byte $3C
+A980: 0E 50 55     ASL $5550
+A983: 43          .byte $43
+A984: 42          .byte $42
+A985: 4B          .byte $4B
+A986: 0E 0E 39     ASL $390E
+A989: 38           SEC 
+A98A: 3C          .byte $3C
+A98B: 50 55        BVC $A9E2
+A98D: 0E 50 55     ASL $5550
+A990: 0E 0E 0E     ASL $0E0E
+A993: 3B          .byte $3B
+A994: 3A          .byte $3A
+A995: 3D 50 54     AND $5450,X
+A998: 56 0E        LSR $0E,X
+A99A: 50 55        BVC $A9F1
+A99C: 39 38 3C     AND $3C38,Y
+A99F: 0E 0E 0E     ASL $0E0E
+A9A2: 47          .byte $47
+A9A3: 46 49        LSR $49
+A9A5: 3B          .byte $3B
+A9A6: 3A          .byte $3A
+A9A7: 3D 0E 0E     AND $0E0E,X
+A9AA: 0E 50 55     ASL $5550
+A9AD: 0D 0C 35     ORA $350C
+A9B0: 53          .byte $53
+A9B1: 56 50        LSR $50,X
+A9B3: 55 0E        EOR $0E,X
+A9B5: 47          .byte $47
+A9B6: 46 49        LSR $49
+A9B8: 50 54        BVC $AA0E
+A9BA: 56 0E        LSR $0E,X
+A9BC: 0E 3B 3A     ASL $3A3B
+A9BF: 3D 53 56     AND $5653,X
+A9C2: 0E 0E 0E     ASL $0E0E
+A9C5: 53          .byte $53
+A9C6: 56 0E        LSR $0E,X
+A9C8: 3B          .byte $3B
+A9C9: 3A          .byte $3A
+A9CA: 3D 0E 53     AND $530E,X
+A9CD: 52          .byte $52
+A9CE: 55 0E        EOR $0E,X
+A9D0: 0E 0E 0E     ASL $0E0E
+A9D3: 0E 0E 53     ASL $530E
+A9D6: 56 0E        LSR $0E,X
+A9D8: 0E 53 56     ASL $5653
+A9DB: 0E 3B 3A     ASL $3A3B
+A9DE: 3D 0E 50     AND $500E,X
+A9E1: 51 55        EOR ($55),Y
+A9E3: 0E 0E 0E     ASL $0E0E
+A9E6: 0E 0E 0E     ASL $0E0E
+A9E9: 0E 53 56     ASL $5653
+A9EC: 0E 0E 0E     ASL $0E0E
+A9EF: 53          .byte $53
+A9F0: 52          .byte $52
+A9F1: 54          .byte $54
+A9F2: 56 39        LSR $39,X
+A9F4: 38           SEC 
+A9F5: 3C          .byte $3C
+A9F6: 0E 53 56     ASL $5653
+A9F9: 0E 0E 39     ASL $390E
+A9FC: 38           SEC 
+A9FD: 3C          .byte $3C
+A9FE: 0E 0E 00     ASL $000E
+AA01: 15 09        ORA $09,X
+AA03: 14          .byte $14
+AA04: 2E 00 00     ROL $0000
+AA07: 16 35        ASL $35,X
+AA09: 11 2F        ORA ($2F),Y
+AA0B: 00           BRK 
+AA0C: 12          .byte $12
+AA0D: 36 0E        ROL $0E,X
+AA0F: 0E 0F 30     ASL $300F
+AA12: 16 35        ASL $35,X
+AA14: 0E 0E 11     ASL $110E
+AA17: 2F          .byte $2F
+AA18: E4 42        CPX $42
+AA1A: 0C          .byte $0C
+AA1B: 0E 1D 3B     ASL $3B1D
+AA1E: 3F          .byte $3F
+AA1F: 3F          .byte $3F
+AA20: 23          .byte $23
+AA21: 31 3F        AND ($3F),Y
+AA23: 3C          .byte $3C
+AA24: 18           CLC 
+AA25: 0C          .byte $0C
+AA26: 06 E4        ASL $E4
+AA28: 52          .byte $52
+AA29: 0C          .byte $0C
+AA2A: 70 B8        BVS $A9E4
+AA2C: DC          .byte $DC
+AA2D: FC          .byte $FC
+AA2E: FC          .byte $FC
+AA2F: C4 8C        CPY $8C
+AA31: FC          .byte $FC
+AA32: 3C          .byte $3C
+AA33: 18           CLC 
+AA34: 30 60        BMI $AA96
+AA36: E4 22        CPX $22
+AA38: 0C          .byte $0C
+AA39: 38           SEC 
+AA3A: 39 3B 3F     AND $3F3B,Y
+AA3D: 3F          .byte $3F
+AA3E: 23          .byte $23
+AA3F: 31 3F        AND ($3F),Y
+AA41: 3C          .byte $3C
+AA42: 18           CLC 
+AA43: 0E 07 E4     ASL $E407
+AA46: 32          .byte $32
+AA47: 0C          .byte $0C
+AA48: 1C          .byte $1C
+AA49: 9C          .byte $9C
+AA4A: DC          .byte $DC
+AA4B: FC          .byte $FC
+AA4C: FC          .byte $FC
+AA4D: C4 8C        CPY $8C
+AA4F: FC          .byte $FC
+AA50: 3C          .byte $3C
+AA51: 18           CLC 
+AA52: 70 E0        BVS $AA34
+AA54: E4 02        CPX $02
+AA56: 0C          .byte $0C
+AA57: E0 70        CPX #$70
+AA59: 38           SEC 
+AA5A: 3F          .byte $3F
+AA5B: 3F          .byte $3F
+AA5C: 23          .byte $23
+AA5D: 31 3F        AND ($3F),Y
+AA5F: 3C          .byte $3C
+AA60: 1B          .byte $1B
+AA61: 0F          .byte $0F
+AA62: 07          .byte $07
+AA63: E4 12        CPX $12
+AA65: 0C          .byte $0C
+AA66: 07          .byte $07
+AA67: 0E 1C FC     ASL $FC1C
+AA6A: FC          .byte $FC
+AA6B: C4 8C        CPY $8C
+AA6D: FC          .byte $FC
+AA6E: 3C          .byte $3C
+AA6F: D8           CLD 
+AA70: F0 E0        BEQ $AA52
+AA72: E4 64        CPX $64
+AA74: 07          .byte $07
+AA75: 1C          .byte $1C
+AA76: 22          .byte $22
+AA77: 22          .byte $22
+AA78: 04          .byte $04
+AA79: 08           PHP 
+AA7A: 10 3E        BPL $AABA
+AA7C: E4 74        CPX $74
+AA7E: 07          .byte $07
+AA7F: 38           SEC 
+AA80: 44          .byte $44
+AA81: 44          .byte $44
+AA82: 44          .byte $44
+AA83: 44          .byte $44
+AA84: 44          .byte $44
+AA85: 38           SEC 
+AA86: E4 C3        CPX $C3
+AA88: 0A           ASL A
+AA89: 01 19        ORA ($19,X)
+AA8B: 3C          .byte $3C
+AA8C: 7F          .byte $7F
+AA8D: 7F          .byte $7F
+AA8E: 7B          .byte $7B
+AA8F: 72          .byte $72
+AA90: 62          .byte $62
+AA91: 44          .byte $44
+AA92: 24 E4        BIT $E4
+AA94: D3          .byte $D3
+AA95: 0A           ASL A
+AA96: 80          .byte $80
+AA97: 98           TYA 
+AA98: 3C          .byte $3C
+AA99: FE FE DE     INC $DEFE,X
+AA9C: 4E 46 22     LSR $2246
+AA9F: 24 E4        BIT $E4
+AAA1: A3          .byte $A3
+AAA2: 0A           ASL A
+AAA3: 01 09        ORA ($09,X)
+AAA5: 1C          .byte $1C
+AAA6: 3F          .byte $3F
+AAA7: 3F          .byte $3F
+AAA8: 3B          .byte $3B
+AAA9: 32          .byte $32
+AAAA: 22          .byte $22
+AAAB: 14          .byte $14
+AAAC: 04          .byte $04
+AAAD: E4 B3        CPX $B3
+AAAF: 0A           ASL A
+AAB0: 80          .byte $80
+AAB1: 90 38        BCC $AAEB
+AAB3: FC          .byte $FC
+AAB4: FC          .byte $FC
+AAB5: DC          .byte $DC
+AAB6: 4C 44 28     JMP $2844
+AAB9: 20 E4 83     JSR $83E4
+AABC: 0A           ASL A
+AABD: 01 09        ORA ($09,X)
+AABF: 1C          .byte $1C
+AAC0: 1F          .byte $1F
+AAC1: 1F          .byte $1F
+AAC2: 1B          .byte $1B
+AAC3: 12          .byte $12
+AAC4: 12          .byte $12
+AAC5: 04          .byte $04
+AAC6: 04          .byte $04
+AAC7: E4 93        CPX $93
+AAC9: 0A           ASL A
+AACA: 80          .byte $80
+AACB: 90 38        BCC $AB05
+AACD: F8           SED 
+AACE: F8           SED 
+AACF: D8           CLD 
+AAD0: 48           PHA 
+AAD1: 48           PHA 
+AAD2: 20 20 E4     JSR $E420
+AAD5: E4 07        CPX $07
+AAD7: 1C          .byte $1C
+AAD8: 22          .byte $22
+AAD9: 02          .byte $02
+AADA: 0C          .byte $0C
+AADB: 02          .byte $02
+AADC: 22          .byte $22
+AADD: 1C          .byte $1C
+AADE: E4 F4        CPX $F4
+AAE0: 07          .byte $07
+AAE1: 38           SEC 
+AAE2: 44          .byte $44
+AAE3: 44          .byte $44
+AAE4: 44          .byte $44
+AAE5: 44          .byte $44
+AAE6: 44          .byte $44
+AAE7: 38           SEC 
+AAE8: E5 45        SBC $45
+AAEA: 07          .byte $07
+AAEB: 18           CLC 
+AAEC: 7D FF C6     ADC $C6FF,X
+AAEF: 83          .byte $83
+AAF0: 01 02        ORA ($02,X)
+AAF2: E5 55        SBC $55
+AAF4: 07          .byte $07
+AAF5: 18           CLC 
+AAF6: BE FF 63     LDX $63FF,Y
+AAF9: C1 80        CMP ($80,X)
+AAFB: 40           RTI 
+AAFC: E5 25        SBC $25
+AAFE: 07          .byte $07
+AAFF: 18           CLC 
+AB00: 3D 7F 66     AND $667F,X
+AB03: 43          .byte $43
+AB04: 21 02        AND ($02,X)
+AB06: E5 35        SBC $35
+AB08: 07          .byte $07
+AB09: 18           CLC 
+AB0A: BC FE 66     LDY $66FE,X
+AB0D: C2          .byte $C2
+AB0E: 84 40        STY $40
+AB10: E5 05        SBC $05
+AB12: 07          .byte $07
+AB13: 0C          .byte $0C
+AB14: 1D 3F 36     ORA $363F,X
+AB17: 23          .byte $23
+AB18: 11 02        ORA ($02),Y
+AB1A: E5 15        SBC $15
+AB1C: 07          .byte $07
+AB1D: 30 B8        BMI $AAD7
+AB1F: FC          .byte $FC
+AB20: 6C C4 88     JMP ($88C4)
+AB23: 40           RTI 
+AB24: E5 64        SBC $64
+AB26: 07          .byte $07
+AB27: 3E 20 3C     ROL $3C20,X
+AB2A: 02          .byte $02
+AB2B: 02          .byte $02
+AB2C: 22          .byte $22
+AB2D: 1C          .byte $1C
+AB2E: E5 74        SBC $74
+AB30: 07          .byte $07
+AB31: 38           SEC 
+AB32: 44          .byte $44
+AB33: 44          .byte $44
+AB34: 44          .byte $44
+AB35: 44          .byte $44
+AB36: 44          .byte $44
+AB37: 38           SEC 
+AB38: E5 E7        SBC $E7
+AB3A: 03          .byte $03
+AB3B: 02          .byte $02
+AB3C: 05 02        ORA $02
+AB3E: E6 05        INC $05
+AB40: 06 02        ASL $02
+AB42: 10 04        BPL $AB48
+AB44: 00           BRK 
+AB45: 01 08        ORA ($08,X)
+AB47: E6 12        INC $12
+AB49: 09 78        ORA #$78
+AB4B: 3C          .byte $3C
+AB4C: 1E 1F 8F     ASL $8F1F,X
+AB4F: 2C 4C 0F     BIT $0F4C
+AB52: 1E E6 25     ASL $25E6,X
+AB55: 06 0A        ASL $0A
+AB57: 25 8B        AND $8B
+AB59: 03          .byte $03
+AB5A: 24 0A        BIT $0A
+AB5C: E6 32        INC $32
+AB5E: 09 78        ORA #$78
+AB60: 3C          .byte $3C
+AB61: 1E 1F 4F     ASL $4F1F,X
+AB64: AC 6C 8F     LDY $8F6C
+AB67: 1E E6 42     ASL $42E6,X
+AB6A: 09 1E        ORA #$1E
+AB6C: 3C          .byte $3C
+AB6D: 78           SEI 
+AB6E: F8           SED 
+AB6F: F1 34        SBC ($34),Y
+AB71: 32          .byte $32
+AB72: F0 78        BEQ $ABEC
+AB74: E6 55        INC $55
+AB76: 06 40        ASL $40
+AB78: 08           PHP 
+AB79: 20 00 80     JSR $8000
+AB7C: 10 E6        BPL $AB64
+AB7E: 62          .byte $62
+AB7F: 09 1E        ORA #$1E
+AB81: 3C          .byte $3C
+AB82: 78           SEI 
+AB83: F8           SED 
+AB84: F2          .byte $F2
+AB85: 35 36        AND $36,X
+AB87: F1 78        SBC ($78),Y
+AB89: E6 75        INC $75
+AB8B: 06 50        ASL $50
+AB8D: A2 D1        LDX #$D1
+AB8F: C0 24        CPY #$24
+AB91: 50 E6        BVC $AB79
+AB93: 85 05        STA $05
+AB95: 0F          .byte $0F
+AB96: 3F          .byte $3F
+AB97: FF          .byte $FF
+AB98: FF          .byte $FF
+AB99: 1F          .byte $1F
+AB9A: E6 95        INC $95
+AB9C: 05 F0        ORA $F0
+AB9E: FC          .byte $FC
+AB9F: FF          .byte $FF
+ABA0: FF          .byte $FF
+ABA1: F8           SED 
+ABA2: E6 AF        INC $AF
+ABA4: 01 FF        ORA ($FF,X)
+ABA6: E6 BF        INC $BF
+ABA8: 01 FF        ORA ($FF,X)
+ABAA: E6 C0        INC $C0
+ABAC: 04          .byte $04
+ABAD: 05 02        ORA $02
+ABAF: 02          .byte $02
+ABB0: 02          .byte $02
+ABB1: E6 EC        INC $EC
+ABB3: 01 80        ORA ($80,X)
+ABB5: C4 29        CPY $29
+ABB7: 0F          .byte $0F
+ABB8: 5B          .byte $5B
+ABB9: 00           BRK 
+ABBA: 00           BRK 
+ABBB: 00           BRK 
+ABBC: 00           BRK 
+ABBD: 00           BRK 
+ABBE: 5B          .byte $5B
+ABBF: 00           BRK 
+ABC0: 5B          .byte $5B
+ABC1: 00           BRK 
+ABC2: 00           BRK 
+ABC3: 00           BRK 
+ABC4: 00           BRK 
+ABC5: 00           BRK 
+ABC6: 5B          .byte $5B
+ABC7: C4 49        CPY $49
+ABC9: 0F          .byte $0F
+ABCA: 5C          .byte $5C
+ABCB: 00           BRK 
+ABCC: 00           BRK 
+ABCD: 00           BRK 
+ABCE: 00           BRK 
+ABCF: 00           BRK 
+ABD0: 5C          .byte $5C
+ABD1: 00           BRK 
+ABD2: 5C          .byte $5C
+ABD3: 00           BRK 
+ABD4: 00           BRK 
+ABD5: 00           BRK 
+ABD6: 00           BRK 
+ABD7: 00           BRK 
+ABD8: 5C          .byte $5C
+ABD9: C4 69        CPY $69
+ABDB: 0E 5D 5D     ASL $5D5D
+ABDE: 5D 5D 5D     EOR $5D5D,X
+ABE1: 5D 5D 5D     EOR $5D5D,X
+ABE4: 5D 5D 5D     EOR $5D5D,X
+ABE7: 5D 5D 5D     EOR $5D5D,X
+ABEA: C4 85        CPY $85
+ABEC: 04          .byte $04
+ABED: 78           SEI 
+ABEE: 79 7A 6E     ADC $6E7A,Y
+ABF1: C4 93        CPY $93
+ABF3: 01 5E        ORA ($5E,X)
+ABF5: C4 9D        CPY $9D
+ABF7: 01 67        ORA ($67,X)
+ABF9: C4 A4        CPY $A4
+ABFB: 08           PHP 
+ABFC: 6D 75 76     ADC $7675
+ABFF: 77          .byte $77
+AC00: 6F          .byte $6F
+AC01: 00           BRK 
+AC02: 00           BRK 
+AC03: 66 C4        ROR $C4
+AC05: B0 01        BCS $AC08
+AC07: 5F          .byte $5F
+AC08: C4 C2        CPY $C2
+AC0A: 06 5E        ASL $5E
+AC0C: 00           BRK 
+AC0D: 00           BRK 
+AC0E: 7B          .byte $7B
+AC0F: 7C          .byte $7C
+AC10: 7D C4 D5     ADC $D5C4,X
+AC13: 07          .byte $07
+AC14: 5F          .byte $5F
+AC15: 66 00        ROR $00
+AC17: 00           BRK 
+AC18: 00           BRK 
+AC19: 68           PLA 
+AC1A: 6A           ROR A
+AC1B: C4 EE        CPY $EE
+AC1D: 01 5E        ORA ($5E,X)
+AC1F: C4 FA        CPY $FA
+AC21: 0B          .byte $0B
+AC22: 69 6B        ADC #$6B
+AC24: 00           BRK 
+AC25: 00           BRK 
+AC26: 00           BRK 
+AC27: 67          .byte $67
+AC28: 00           BRK 
+AC29: 00           BRK 
+AC2A: 00           BRK 
+AC2B: 67          .byte $67
+AC2C: 5E C5 22     LSR $22C5,X
+AC2F: 05 5F        ORA $5F
+AC31: 00           BRK 
+AC32: 00           BRK 
+AC33: 00           BRK 
+AC34: 5F          .byte $5F
+AC35: C5 5D        CMP $5D
+AC37: 01 6C        ORA ($6C,X)
+AC39: D4          .byte $D4
+AC3A: 1C          .byte $1C
+AC3B: 04          .byte $04
+AC3C: 70 70        BVS $ACAE
+AC3E: 70 70        BVS $ACB0
+AC40: D4          .byte $D4
+AC41: 00           BRK 
+AC42: 10 70        BPL $ACB4
+AC44: 70 70        BVS $ACB6
+AC46: 70 70        BVS $ACB8
+AC48: 70 70        BVS $ACBA
+AC4A: 7B          .byte $7B
+AC4B: 7F          .byte $7F
+AC4C: 7F          .byte $7F
+AC4D: 76 70        ROR $70,X
+AC4F: A0 A0        LDY #$A0
+AC51: A6 60        LDX $60
+AC53: 00           BRK 
+AC54: FF          .byte $FF
+AC55: FF          .byte $FF
+AC56: FF          .byte $FF
+AC57: FF          .byte $FF
+AC58: FF          .byte $FF
+AC59: FF          .byte $FF
+AC5A: FF          .byte $FF
+AC5B: FF          .byte $FF
+AC5C: FF          .byte $FF
+AC5D: FF          .byte $FF
+AC5E: FF          .byte $FF
+AC5F: FF          .byte $FF
+AC60: FF          .byte $FF
+AC61: FF          .byte $FF
+AC62: FF          .byte $FF
+AC63: FF          .byte $FF
+AC64: FF          .byte $FF
+AC65: FF          .byte $FF
+AC66: FF          .byte $FF
+AC67: FF          .byte $FF
+AC68: FF          .byte $FF
+AC69: FF          .byte $FF
+AC6A: FF          .byte $FF
+AC6B: FF          .byte $FF
+AC6C: FF          .byte $FF
+AC6D: FF          .byte $FF
+AC6E: FF          .byte $FF
+AC6F: FF          .byte $FF
+AC70: FF          .byte $FF
+AC71: FF          .byte $FF
+AC72: FF          .byte $FF
+AC73: FF          .byte $FF
+AC74: FF          .byte $FF
+AC75: FF          .byte $FF
+AC76: FF          .byte $FF
+AC77: FF          .byte $FF
+AC78: FF          .byte $FF
+AC79: FF          .byte $FF
+AC7A: FF          .byte $FF
+AC7B: FF          .byte $FF
+AC7C: FF          .byte $FF
+AC7D: FF          .byte $FF
+AC7E: FF          .byte $FF
+AC7F: FF          .byte $FF
+AC80: FF          .byte $FF
+AC81: FF          .byte $FF
+AC82: FF          .byte $FF
+AC83: FF          .byte $FF
+AC84: FF          .byte $FF
+AC85: FF          .byte $FF
+AC86: FF          .byte $FF
+AC87: FF          .byte $FF
+AC88: FF          .byte $FF
+AC89: FF          .byte $FF
+AC8A: FF          .byte $FF
+AC8B: FF          .byte $FF
+AC8C: FF          .byte $FF
+AC8D: FF          .byte $FF
+AC8E: FF          .byte $FF
+AC8F: FF          .byte $FF
+AC90: FF          .byte $FF
+AC91: FF          .byte $FF
+AC92: FF          .byte $FF
+AC93: FF          .byte $FF
+AC94: FF          .byte $FF
+AC95: FF          .byte $FF
+AC96: FF          .byte $FF
+AC97: FF          .byte $FF
+AC98: FF          .byte $FF
+AC99: FF          .byte $FF
+AC9A: FF          .byte $FF
+AC9B: FF          .byte $FF
+AC9C: FF          .byte $FF
+AC9D: FF          .byte $FF
+AC9E: FF          .byte $FF
+AC9F: FF          .byte $FF
+ACA0: FF          .byte $FF
+ACA1: FF          .byte $FF
+ACA2: FF          .byte $FF
+ACA3: FF          .byte $FF
+ACA4: FF          .byte $FF
+ACA5: FF          .byte $FF
+ACA6: FF          .byte $FF
+ACA7: FF          .byte $FF
+ACA8: FF          .byte $FF
+ACA9: FF          .byte $FF
+ACAA: FF          .byte $FF
+ACAB: FF          .byte $FF
+ACAC: FF          .byte $FF
+ACAD: FF          .byte $FF
+ACAE: FF          .byte $FF
+ACAF: FF          .byte $FF
+ACB0: FF          .byte $FF
+ACB1: FF          .byte $FF
+ACB2: FF          .byte $FF
+ACB3: FF          .byte $FF
+ACB4: FF          .byte $FF
+ACB5: FF          .byte $FF
+ACB6: FF          .byte $FF
+ACB7: FF          .byte $FF
+ACB8: FF          .byte $FF
+ACB9: FF          .byte $FF
+ACBA: FF          .byte $FF
+ACBB: FF          .byte $FF
+ACBC: FF          .byte $FF
+ACBD: FF          .byte $FF
+ACBE: FF          .byte $FF
+ACBF: FF          .byte $FF
+ACC0: FF          .byte $FF
+ACC1: FF          .byte $FF
+ACC2: FF          .byte $FF
+ACC3: FF          .byte $FF
+ACC4: FF          .byte $FF
+ACC5: FF          .byte $FF
+ACC6: FF          .byte $FF
+ACC7: FF          .byte $FF
+ACC8: FF          .byte $FF
+ACC9: FF          .byte $FF
+ACCA: FF          .byte $FF
+ACCB: FF          .byte $FF
+ACCC: FF          .byte $FF
+ACCD: FF          .byte $FF
+ACCE: FF          .byte $FF
+ACCF: FF          .byte $FF
+ACD0: FF          .byte $FF
+ACD1: FF          .byte $FF
+ACD2: FF          .byte $FF
+ACD3: FF          .byte $FF
+ACD4: FF          .byte $FF
+ACD5: FF          .byte $FF
+ACD6: FF          .byte $FF
+ACD7: FF          .byte $FF
+ACD8: FF          .byte $FF
+ACD9: FF          .byte $FF
+ACDA: FF          .byte $FF
+ACDB: FF          .byte $FF
+ACDC: FF          .byte $FF
+ACDD: FF          .byte $FF
+ACDE: FF          .byte $FF
+ACDF: FF          .byte $FF
+ACE0: FF          .byte $FF
+ACE1: FF          .byte $FF
+ACE2: FF          .byte $FF
+ACE3: FF          .byte $FF
+ACE4: FF          .byte $FF
+ACE5: FF          .byte $FF
+ACE6: FF          .byte $FF
+ACE7: FF          .byte $FF
+ACE8: FF          .byte $FF
+ACE9: FF          .byte $FF
+ACEA: FF          .byte $FF
+ACEB: FF          .byte $FF
+ACEC: FF          .byte $FF
+ACED: FF          .byte $FF
+ACEE: FF          .byte $FF
+ACEF: FF          .byte $FF
+ACF0: FF          .byte $FF
+ACF1: FF          .byte $FF
+ACF2: FF          .byte $FF
+ACF3: FF          .byte $FF
+ACF4: FF          .byte $FF
+ACF5: FF          .byte $FF
+ACF6: FF          .byte $FF
+ACF7: FF          .byte $FF
+ACF8: FF          .byte $FF
+ACF9: FF          .byte $FF
+ACFA: FF          .byte $FF
+ACFB: FF          .byte $FF
+ACFC: FF          .byte $FF
+ACFD: FF          .byte $FF
+ACFE: FF          .byte $FF
+ACFF: FF          .byte $FF
+AD00: FF          .byte $FF
+AD01: FF          .byte $FF
+AD02: FF          .byte $FF
+AD03: FF          .byte $FF
+AD04: FF          .byte $FF
+AD05: FF          .byte $FF
+AD06: FF          .byte $FF
+AD07: FF          .byte $FF
+AD08: FF          .byte $FF
+AD09: FF          .byte $FF
+AD0A: FF          .byte $FF
+AD0B: FF          .byte $FF
+AD0C: FF          .byte $FF
+AD0D: FF          .byte $FF
+AD0E: FF          .byte $FF
+AD0F: FF          .byte $FF
+AD10: FF          .byte $FF
+AD11: FF          .byte $FF
+AD12: FF          .byte $FF
+AD13: FF          .byte $FF
+AD14: FF          .byte $FF
+AD15: FF          .byte $FF
+AD16: FF          .byte $FF
+AD17: FF          .byte $FF
+AD18: FF          .byte $FF
+AD19: FF          .byte $FF
+AD1A: FF          .byte $FF
+AD1B: FF          .byte $FF
+AD1C: FF          .byte $FF
+AD1D: FF          .byte $FF
+AD1E: FF          .byte $FF
+AD1F: FF          .byte $FF
+AD20: FF          .byte $FF
+AD21: FF          .byte $FF
+AD22: FF          .byte $FF
+AD23: FF          .byte $FF
+AD24: FF          .byte $FF
+AD25: FF          .byte $FF
+AD26: FF          .byte $FF
+AD27: FF          .byte $FF
+AD28: FF          .byte $FF
+AD29: FF          .byte $FF
+AD2A: FF          .byte $FF
+AD2B: FF          .byte $FF
+AD2C: FF          .byte $FF
+AD2D: FF          .byte $FF
+AD2E: FF          .byte $FF
+AD2F: FF          .byte $FF
+AD30: FF          .byte $FF
+AD31: FF          .byte $FF
+AD32: FF          .byte $FF
+AD33: FF          .byte $FF
+AD34: FF          .byte $FF
+AD35: FF          .byte $FF
+AD36: FF          .byte $FF
+AD37: FF          .byte $FF
+AD38: FF          .byte $FF
+AD39: FF          .byte $FF
+AD3A: FF          .byte $FF
+AD3B: FF          .byte $FF
+AD3C: FF          .byte $FF
+AD3D: FF          .byte $FF
+AD3E: FF          .byte $FF
+AD3F: FF          .byte $FF
+AD40: FF          .byte $FF
+AD41: FF          .byte $FF
+AD42: FF          .byte $FF
+AD43: FF          .byte $FF
+AD44: FF          .byte $FF
+AD45: FF          .byte $FF
+AD46: FF          .byte $FF
+AD47: FF          .byte $FF
+AD48: FF          .byte $FF
+AD49: FF          .byte $FF
+AD4A: FF          .byte $FF
+AD4B: FF          .byte $FF
+AD4C: FF          .byte $FF
+AD4D: FF          .byte $FF
+AD4E: FF          .byte $FF
+AD4F: FF          .byte $FF
+AD50: FF          .byte $FF
+AD51: FF          .byte $FF
+AD52: FF          .byte $FF
+AD53: FF          .byte $FF
+AD54: FF          .byte $FF
+AD55: FF          .byte $FF
+AD56: FF          .byte $FF
+AD57: FF          .byte $FF
+AD58: FF          .byte $FF
+AD59: FF          .byte $FF
+AD5A: FF          .byte $FF
+AD5B: FF          .byte $FF
+AD5C: FF          .byte $FF
+AD5D: FF          .byte $FF
+AD5E: FF          .byte $FF
+AD5F: FF          .byte $FF
+AD60: FF          .byte $FF
+AD61: FF          .byte $FF
+AD62: FF          .byte $FF
+AD63: FF          .byte $FF
+AD64: FF          .byte $FF
+AD65: FF          .byte $FF
+AD66: FF          .byte $FF
+AD67: FF          .byte $FF
+AD68: FF          .byte $FF
+AD69: FF          .byte $FF
+AD6A: FF          .byte $FF
+AD6B: FF          .byte $FF
+AD6C: FF          .byte $FF
+AD6D: FF          .byte $FF
+AD6E: FF          .byte $FF
+AD6F: FF          .byte $FF
+AD70: FF          .byte $FF
+AD71: FF          .byte $FF
+AD72: FF          .byte $FF
+AD73: FF          .byte $FF
+AD74: FF          .byte $FF
+AD75: FF          .byte $FF
+AD76: FF          .byte $FF
+AD77: FF          .byte $FF
+AD78: FF          .byte $FF
+AD79: FF          .byte $FF
+AD7A: FF          .byte $FF
+AD7B: FF          .byte $FF
+AD7C: FF          .byte $FF
+AD7D: FF          .byte $FF
+AD7E: FF          .byte $FF
+AD7F: FF          .byte $FF
+AD80: FF          .byte $FF
+AD81: FF          .byte $FF
+AD82: FF          .byte $FF
+AD83: FF          .byte $FF
+AD84: FF          .byte $FF
+AD85: FF          .byte $FF
+AD86: FF          .byte $FF
+AD87: FF          .byte $FF
+AD88: FF          .byte $FF
+AD89: FF          .byte $FF
+AD8A: FF          .byte $FF
+AD8B: FF          .byte $FF
+AD8C: FF          .byte $FF
+AD8D: FF          .byte $FF
+AD8E: FF          .byte $FF
+AD8F: FF          .byte $FF
+AD90: FF          .byte $FF
+AD91: FF          .byte $FF
+AD92: FF          .byte $FF
+AD93: FF          .byte $FF
+AD94: FF          .byte $FF
+AD95: FF          .byte $FF
+AD96: FF          .byte $FF
+AD97: FF          .byte $FF
+AD98: FF          .byte $FF
+AD99: FF          .byte $FF
+AD9A: FF          .byte $FF
+AD9B: FF          .byte $FF
+AD9C: FF          .byte $FF
+AD9D: FF          .byte $FF
+AD9E: FF          .byte $FF
+AD9F: FF          .byte $FF
+ADA0: FF          .byte $FF
+ADA1: FF          .byte $FF
+ADA2: FF          .byte $FF
+ADA3: FF          .byte $FF
+ADA4: FF          .byte $FF
+ADA5: FF          .byte $FF
+ADA6: FF          .byte $FF
+ADA7: FF          .byte $FF
+ADA8: FF          .byte $FF
+ADA9: FF          .byte $FF
+ADAA: FF          .byte $FF
+ADAB: FF          .byte $FF
+ADAC: FF          .byte $FF
+ADAD: FF          .byte $FF
+ADAE: FF          .byte $FF
+ADAF: FF          .byte $FF
+ADB0: FF          .byte $FF
+ADB1: FF          .byte $FF
+ADB2: FF          .byte $FF
+ADB3: FF          .byte $FF
+ADB4: FF          .byte $FF
+ADB5: FF          .byte $FF
+ADB6: FF          .byte $FF
+ADB7: FF          .byte $FF
+ADB8: FF          .byte $FF
+ADB9: FF          .byte $FF
+ADBA: FF          .byte $FF
+ADBB: FF          .byte $FF
+ADBC: FF          .byte $FF
+ADBD: FF          .byte $FF
+ADBE: FF          .byte $FF
+ADBF: FF          .byte $FF
+ADC0: FF          .byte $FF
+ADC1: FF          .byte $FF
+ADC2: FF          .byte $FF
+ADC3: FF          .byte $FF
+ADC4: FF          .byte $FF
+ADC5: FF          .byte $FF
+ADC6: FF          .byte $FF
+ADC7: FF          .byte $FF
+ADC8: FF          .byte $FF
+ADC9: FF          .byte $FF
+ADCA: FF          .byte $FF
+ADCB: FF          .byte $FF
+ADCC: FF          .byte $FF
+ADCD: FF          .byte $FF
+ADCE: FF          .byte $FF
+ADCF: FF          .byte $FF
+ADD0: FF          .byte $FF
+ADD1: FF          .byte $FF
+ADD2: FF          .byte $FF
+ADD3: FF          .byte $FF
+ADD4: FF          .byte $FF
+ADD5: FF          .byte $FF
+ADD6: FF          .byte $FF
+ADD7: FF          .byte $FF
+ADD8: FF          .byte $FF
+ADD9: FF          .byte $FF
+ADDA: FF          .byte $FF
+ADDB: FF          .byte $FF
+ADDC: FF          .byte $FF
+ADDD: FF          .byte $FF
+ADDE: FF          .byte $FF
+ADDF: FF          .byte $FF
+ADE0: FF          .byte $FF
+ADE1: FF          .byte $FF
+ADE2: FF          .byte $FF
+ADE3: FF          .byte $FF
+ADE4: FF          .byte $FF
+ADE5: FF          .byte $FF
+ADE6: FF          .byte $FF
+ADE7: FF          .byte $FF
+ADE8: FF          .byte $FF
+ADE9: FF          .byte $FF
+ADEA: FF          .byte $FF
+ADEB: FF          .byte $FF
+ADEC: FF          .byte $FF
+ADED: FF          .byte $FF
+ADEE: FF          .byte $FF
+ADEF: FF          .byte $FF
+ADF0: FF          .byte $FF
+ADF1: FF          .byte $FF
+ADF2: FF          .byte $FF
+ADF3: FF          .byte $FF
+ADF4: FF          .byte $FF
+ADF5: FF          .byte $FF
+ADF6: FF          .byte $FF
+ADF7: FF          .byte $FF
+ADF8: FF          .byte $FF
+ADF9: FF          .byte $FF
+ADFA: FF          .byte $FF
+ADFB: FF          .byte $FF
+ADFC: FF          .byte $FF
+ADFD: FF          .byte $FF
+ADFE: FF          .byte $FF
+ADFF: FF          .byte $FF
+AE00: FF          .byte $FF
+AE01: FF          .byte $FF
+AE02: FF          .byte $FF
+AE03: FF          .byte $FF
+AE04: FF          .byte $FF
+AE05: FF          .byte $FF
+AE06: FF          .byte $FF
+AE07: FF          .byte $FF
+AE08: FF          .byte $FF
+AE09: FF          .byte $FF
+AE0A: FF          .byte $FF
+AE0B: FF          .byte $FF
+AE0C: FF          .byte $FF
+AE0D: FF          .byte $FF
+AE0E: FF          .byte $FF
+AE0F: FF          .byte $FF
+AE10: FF          .byte $FF
+AE11: FF          .byte $FF
+AE12: FF          .byte $FF
+AE13: FF          .byte $FF
+AE14: FF          .byte $FF
+AE15: FF          .byte $FF
+AE16: FF          .byte $FF
+AE17: FF          .byte $FF
+AE18: FF          .byte $FF
+AE19: FF          .byte $FF
+AE1A: FF          .byte $FF
+AE1B: FF          .byte $FF
+AE1C: FF          .byte $FF
+AE1D: FF          .byte $FF
+AE1E: FF          .byte $FF
+AE1F: FF          .byte $FF
+AE20: FF          .byte $FF
+AE21: FF          .byte $FF
+AE22: FF          .byte $FF
+AE23: FF          .byte $FF
+AE24: FF          .byte $FF
+AE25: FF          .byte $FF
+AE26: FF          .byte $FF
+AE27: FF          .byte $FF
+AE28: FF          .byte $FF
+AE29: FF          .byte $FF
+AE2A: FF          .byte $FF
+AE2B: FF          .byte $FF
+AE2C: FF          .byte $FF
+AE2D: FF          .byte $FF
+AE2E: FF          .byte $FF
+AE2F: FF          .byte $FF
+AE30: FF          .byte $FF
+AE31: FF          .byte $FF
+AE32: FF          .byte $FF
+AE33: FF          .byte $FF
+AE34: FF          .byte $FF
+AE35: FF          .byte $FF
+AE36: FF          .byte $FF
+AE37: FF          .byte $FF
+AE38: FF          .byte $FF
+AE39: FF          .byte $FF
+AE3A: FF          .byte $FF
+AE3B: FF          .byte $FF
+AE3C: FF          .byte $FF
+AE3D: FF          .byte $FF
+AE3E: FF          .byte $FF
+AE3F: FF          .byte $FF
+AE40: FF          .byte $FF
+AE41: FF          .byte $FF
+AE42: FF          .byte $FF
+AE43: FF          .byte $FF
+AE44: FF          .byte $FF
+AE45: FF          .byte $FF
+AE46: FF          .byte $FF
+AE47: FF          .byte $FF
+AE48: FF          .byte $FF
+AE49: FF          .byte $FF
+AE4A: FF          .byte $FF
+AE4B: FF          .byte $FF
+AE4C: FF          .byte $FF
+AE4D: FF          .byte $FF
+AE4E: FF          .byte $FF
+AE4F: FF          .byte $FF
+AE50: FF          .byte $FF
+AE51: FF          .byte $FF
+AE52: FF          .byte $FF
+AE53: FF          .byte $FF
+AE54: FF          .byte $FF
+AE55: FF          .byte $FF
+AE56: FF          .byte $FF
+AE57: FF          .byte $FF
+AE58: FF          .byte $FF
+AE59: FF          .byte $FF
+AE5A: FF          .byte $FF
+AE5B: FF          .byte $FF
+AE5C: FF          .byte $FF
+AE5D: FF          .byte $FF
+AE5E: FF          .byte $FF
+AE5F: FF          .byte $FF
+AE60: FF          .byte $FF
+AE61: FF          .byte $FF
+AE62: FF          .byte $FF
+AE63: FF          .byte $FF
+AE64: FF          .byte $FF
+AE65: FF          .byte $FF
+AE66: FF          .byte $FF
+AE67: FF          .byte $FF
+AE68: FF          .byte $FF
+AE69: FF          .byte $FF
+AE6A: FF          .byte $FF
+AE6B: FF          .byte $FF
+AE6C: FF          .byte $FF
+AE6D: FF          .byte $FF
+AE6E: FF          .byte $FF
+AE6F: FF          .byte $FF
+AE70: FF          .byte $FF
+AE71: FF          .byte $FF
+AE72: FF          .byte $FF
+AE73: FF          .byte $FF
+AE74: FF          .byte $FF
+AE75: FF          .byte $FF
+AE76: FF          .byte $FF
+AE77: FF          .byte $FF
+AE78: FF          .byte $FF
+AE79: FF          .byte $FF
+AE7A: FF          .byte $FF
+AE7B: FF          .byte $FF
+AE7C: FF          .byte $FF
+AE7D: FF          .byte $FF
+AE7E: FF          .byte $FF
+AE7F: FF          .byte $FF
+AE80: FF          .byte $FF
+AE81: FF          .byte $FF
+AE82: FF          .byte $FF
+AE83: FF          .byte $FF
+AE84: FF          .byte $FF
+AE85: FF          .byte $FF
+AE86: FF          .byte $FF
+AE87: FF          .byte $FF
+AE88: FF          .byte $FF
+AE89: FF          .byte $FF
+AE8A: FF          .byte $FF
+AE8B: FF          .byte $FF
+AE8C: FF          .byte $FF
+AE8D: FF          .byte $FF
+AE8E: FF          .byte $FF
+AE8F: FF          .byte $FF
+AE90: FF          .byte $FF
+AE91: FF          .byte $FF
+AE92: FF          .byte $FF
+AE93: FF          .byte $FF
+AE94: FF          .byte $FF
+AE95: FF          .byte $FF
+AE96: FF          .byte $FF
+AE97: FF          .byte $FF
+AE98: FF          .byte $FF
+AE99: FF          .byte $FF
+AE9A: FF          .byte $FF
+AE9B: FF          .byte $FF
+AE9C: FF          .byte $FF
+AE9D: FF          .byte $FF
+AE9E: FF          .byte $FF
+AE9F: FF          .byte $FF
+AEA0: FF          .byte $FF
+AEA1: FF          .byte $FF
+AEA2: FF          .byte $FF
+AEA3: FF          .byte $FF
+AEA4: FF          .byte $FF
+AEA5: FF          .byte $FF
+AEA6: FF          .byte $FF
+AEA7: FF          .byte $FF
+AEA8: FF          .byte $FF
+AEA9: FF          .byte $FF
+AEAA: FF          .byte $FF
+AEAB: FF          .byte $FF
+AEAC: FF          .byte $FF
+AEAD: FF          .byte $FF
+AEAE: FF          .byte $FF
+AEAF: FF          .byte $FF
+AEB0: FF          .byte $FF
+AEB1: FF          .byte $FF
+AEB2: FF          .byte $FF
+AEB3: FF          .byte $FF
+AEB4: FF          .byte $FF
+AEB5: FF          .byte $FF
+AEB6: FF          .byte $FF
+AEB7: FF          .byte $FF
+AEB8: FF          .byte $FF
+AEB9: FF          .byte $FF
+AEBA: FF          .byte $FF
+AEBB: FF          .byte $FF
+AEBC: FF          .byte $FF
+AEBD: FF          .byte $FF
+AEBE: FF          .byte $FF
+AEBF: FF          .byte $FF
+AEC0: FF          .byte $FF
+AEC1: FF          .byte $FF
+AEC2: FF          .byte $FF
+AEC3: FF          .byte $FF
+AEC4: FF          .byte $FF
+AEC5: FF          .byte $FF
+AEC6: FF          .byte $FF
+AEC7: FF          .byte $FF
+AEC8: FF          .byte $FF
+AEC9: FF          .byte $FF
+AECA: FF          .byte $FF
+AECB: FF          .byte $FF
+AECC: FF          .byte $FF
+AECD: FF          .byte $FF
+AECE: FF          .byte $FF
+AECF: FF          .byte $FF
+AED0: FF          .byte $FF
+AED1: FF          .byte $FF
+AED2: FF          .byte $FF
+AED3: FF          .byte $FF
+AED4: FF          .byte $FF
+AED5: FF          .byte $FF
+AED6: FF          .byte $FF
+AED7: FF          .byte $FF
+AED8: FF          .byte $FF
+AED9: FF          .byte $FF
+AEDA: FF          .byte $FF
+AEDB: FF          .byte $FF
+AEDC: FF          .byte $FF
+AEDD: FF          .byte $FF
+AEDE: FF          .byte $FF
+AEDF: FF          .byte $FF
+AEE0: FF          .byte $FF
+AEE1: FF          .byte $FF
+AEE2: FF          .byte $FF
+AEE3: FF          .byte $FF
+AEE4: FF          .byte $FF
+AEE5: FF          .byte $FF
+AEE6: FF          .byte $FF
+AEE7: FF          .byte $FF
+AEE8: FF          .byte $FF
+AEE9: FF          .byte $FF
+AEEA: FF          .byte $FF
+AEEB: FF          .byte $FF
+AEEC: FF          .byte $FF
+AEED: FF          .byte $FF
+AEEE: FF          .byte $FF
+AEEF: FF          .byte $FF
+AEF0: FF          .byte $FF
+AEF1: FF          .byte $FF
+AEF2: FF          .byte $FF
+AEF3: FF          .byte $FF
+AEF4: FF          .byte $FF
+AEF5: FF          .byte $FF
+AEF6: FF          .byte $FF
+AEF7: FF          .byte $FF
+AEF8: FF          .byte $FF
+AEF9: FF          .byte $FF
+AEFA: FF          .byte $FF
+AEFB: FF          .byte $FF
+AEFC: FF          .byte $FF
+AEFD: FF          .byte $FF
+AEFE: FF          .byte $FF
+AEFF: FF          .byte $FF
+AF00: FF          .byte $FF
+AF01: FF          .byte $FF
+AF02: FF          .byte $FF
+AF03: FF          .byte $FF
+AF04: FF          .byte $FF
+AF05: FF          .byte $FF
+AF06: FF          .byte $FF
+AF07: FF          .byte $FF
+AF08: FF          .byte $FF
+AF09: FF          .byte $FF
+AF0A: FF          .byte $FF
+AF0B: FF          .byte $FF
+AF0C: FF          .byte $FF
+AF0D: FF          .byte $FF
+AF0E: FF          .byte $FF
+AF0F: FF          .byte $FF
+AF10: FF          .byte $FF
+AF11: FF          .byte $FF
+AF12: FF          .byte $FF
+AF13: FF          .byte $FF
+AF14: FF          .byte $FF
+AF15: FF          .byte $FF
+AF16: FF          .byte $FF
+AF17: FF          .byte $FF
+AF18: FF          .byte $FF
+AF19: FF          .byte $FF
+AF1A: FF          .byte $FF
+AF1B: FF          .byte $FF
+AF1C: FF          .byte $FF
+AF1D: FF          .byte $FF
+AF1E: FF          .byte $FF
+AF1F: FF          .byte $FF
+AF20: FF          .byte $FF
+AF21: FF          .byte $FF
+AF22: FF          .byte $FF
+AF23: FF          .byte $FF
+AF24: FF          .byte $FF
+AF25: FF          .byte $FF
+AF26: FF          .byte $FF
+AF27: FF          .byte $FF
+AF28: FF          .byte $FF
+AF29: FF          .byte $FF
+AF2A: FF          .byte $FF
+AF2B: FF          .byte $FF
+AF2C: FF          .byte $FF
+AF2D: FF          .byte $FF
+AF2E: FF          .byte $FF
+AF2F: FF          .byte $FF
+AF30: FF          .byte $FF
+AF31: FF          .byte $FF
+AF32: FF          .byte $FF
+AF33: FF          .byte $FF
+AF34: FF          .byte $FF
+AF35: FF          .byte $FF
+AF36: FF          .byte $FF
+AF37: FF          .byte $FF
+AF38: FF          .byte $FF
+AF39: FF          .byte $FF
+AF3A: FF          .byte $FF
+AF3B: FF          .byte $FF
+AF3C: FF          .byte $FF
+AF3D: FF          .byte $FF
+AF3E: FF          .byte $FF
+AF3F: FF          .byte $FF
+AF40: FF          .byte $FF
+AF41: FF          .byte $FF
+AF42: FF          .byte $FF
+AF43: FF          .byte $FF
+AF44: FF          .byte $FF
+AF45: FF          .byte $FF
+AF46: FF          .byte $FF
+AF47: FF          .byte $FF
+AF48: FF          .byte $FF
+AF49: FF          .byte $FF
+AF4A: FF          .byte $FF
+AF4B: FF          .byte $FF
+AF4C: FF          .byte $FF
+AF4D: FF          .byte $FF
+AF4E: FF          .byte $FF
+AF4F: FF          .byte $FF
+AF50: FF          .byte $FF
+AF51: FF          .byte $FF
+AF52: FF          .byte $FF
+AF53: FF          .byte $FF
+AF54: FF          .byte $FF
+AF55: FF          .byte $FF
+AF56: FF          .byte $FF
+AF57: FF          .byte $FF
+AF58: FF          .byte $FF
+AF59: FF          .byte $FF
+AF5A: FF          .byte $FF
+AF5B: FF          .byte $FF
+AF5C: FF          .byte $FF
+AF5D: FF          .byte $FF
+AF5E: FF          .byte $FF
+AF5F: FF          .byte $FF
+AF60: FF          .byte $FF
+AF61: FF          .byte $FF
+AF62: FF          .byte $FF
+AF63: FF          .byte $FF
+AF64: FF          .byte $FF
+AF65: FF          .byte $FF
+AF66: FF          .byte $FF
+AF67: FF          .byte $FF
+AF68: FF          .byte $FF
+AF69: FF          .byte $FF
+AF6A: FF          .byte $FF
+AF6B: FF          .byte $FF
+AF6C: FF          .byte $FF
+AF6D: FF          .byte $FF
+AF6E: FF          .byte $FF
+AF6F: FF          .byte $FF
+AF70: FF          .byte $FF
+AF71: FF          .byte $FF
+AF72: FF          .byte $FF
+AF73: FF          .byte $FF
+AF74: FF          .byte $FF
+AF75: FF          .byte $FF
+AF76: FF          .byte $FF
+AF77: FF          .byte $FF
+AF78: FF          .byte $FF
+AF79: FF          .byte $FF
+AF7A: FF          .byte $FF
+AF7B: FF          .byte $FF
+AF7C: FF          .byte $FF
+AF7D: FF          .byte $FF
+AF7E: FF          .byte $FF
+AF7F: FF          .byte $FF
+AF80: FF          .byte $FF
+AF81: FF          .byte $FF
+AF82: FF          .byte $FF
+AF83: FF          .byte $FF
+AF84: FF          .byte $FF
+AF85: FF          .byte $FF
+AF86: FF          .byte $FF
+AF87: FF          .byte $FF
+AF88: FF          .byte $FF
+AF89: FF          .byte $FF
+AF8A: FF          .byte $FF
+AF8B: FF          .byte $FF
+AF8C: FF          .byte $FF
+AF8D: FF          .byte $FF
+AF8E: FF          .byte $FF
+AF8F: FF          .byte $FF
+AF90: FF          .byte $FF
+AF91: FF          .byte $FF
+AF92: FF          .byte $FF
+AF93: FF          .byte $FF
+AF94: FF          .byte $FF
+AF95: FF          .byte $FF
+AF96: FF          .byte $FF
+AF97: FF          .byte $FF
+AF98: FF          .byte $FF
+AF99: FF          .byte $FF
+AF9A: FF          .byte $FF
+AF9B: FF          .byte $FF
+AF9C: FF          .byte $FF
+AF9D: FF          .byte $FF
+AF9E: FF          .byte $FF
+AF9F: FF          .byte $FF
+AFA0: FF          .byte $FF
+AFA1: FF          .byte $FF
+AFA2: FF          .byte $FF
+AFA3: FF          .byte $FF
+AFA4: FF          .byte $FF
+AFA5: FF          .byte $FF
+AFA6: FF          .byte $FF
+AFA7: FF          .byte $FF
+AFA8: FF          .byte $FF
+AFA9: FF          .byte $FF
+AFAA: FF          .byte $FF
+AFAB: FF          .byte $FF
+AFAC: FF          .byte $FF
+AFAD: FF          .byte $FF
+AFAE: FF          .byte $FF
+AFAF: FF          .byte $FF
+AFB0: FF          .byte $FF
+AFB1: FF          .byte $FF
+AFB2: FF          .byte $FF
+AFB3: FF          .byte $FF
+AFB4: FF          .byte $FF
+AFB5: FF          .byte $FF
+AFB6: FF          .byte $FF
+AFB7: FF          .byte $FF
+AFB8: FF          .byte $FF
+AFB9: FF          .byte $FF
+AFBA: FF          .byte $FF
+AFBB: FF          .byte $FF
+AFBC: FF          .byte $FF
+AFBD: FF          .byte $FF
+AFBE: FF          .byte $FF
+AFBF: FF          .byte $FF
+AFC0: FF          .byte $FF
+AFC1: FF          .byte $FF
+AFC2: FF          .byte $FF
+AFC3: FF          .byte $FF
+AFC4: FF          .byte $FF
+AFC5: FF          .byte $FF
+AFC6: FF          .byte $FF
+AFC7: FF          .byte $FF
+AFC8: FF          .byte $FF
+AFC9: FF          .byte $FF
+AFCA: FF          .byte $FF
+AFCB: FF          .byte $FF
+AFCC: FF          .byte $FF
+AFCD: FF          .byte $FF
+AFCE: FF          .byte $FF
+AFCF: FF          .byte $FF
+AFD0: FF          .byte $FF
+AFD1: FF          .byte $FF
+AFD2: FF          .byte $FF
+AFD3: FF          .byte $FF
+AFD4: FF          .byte $FF
+AFD5: FF          .byte $FF
+AFD6: FF          .byte $FF
+AFD7: FF          .byte $FF
+AFD8: FF          .byte $FF
+AFD9: FF          .byte $FF
+AFDA: FF          .byte $FF
+AFDB: FF          .byte $FF
+AFDC: FF          .byte $FF
+AFDD: FF          .byte $FF
+AFDE: FF          .byte $FF
+AFDF: FF          .byte $FF
+AFE0: FF          .byte $FF
+AFE1: FF          .byte $FF
+AFE2: FF          .byte $FF
+AFE3: FF          .byte $FF
+AFE4: FF          .byte $FF
+AFE5: FF          .byte $FF
+AFE6: FF          .byte $FF
+AFE7: FF          .byte $FF
+AFE8: FF          .byte $FF
+AFE9: FF          .byte $FF
+AFEA: FF          .byte $FF
+AFEB: FF          .byte $FF
+AFEC: FF          .byte $FF
+AFED: FF          .byte $FF
+AFEE: FF          .byte $FF
+AFEF: FF          .byte $FF
+AFF0: FF          .byte $FF
+AFF1: FF          .byte $FF
+AFF2: FF          .byte $FF
+AFF3: FF          .byte $FF
+AFF4: FF          .byte $FF
+AFF5: FF          .byte $FF
+AFF6: FF          .byte $FF
+AFF7: FF          .byte $FF
+AFF8: FF          .byte $FF
+AFF9: FF          .byte $FF
+AFFA: FF          .byte $FF
+AFFB: FF          .byte $FF
+AFFC: FF          .byte $FF
+AFFD: FF          .byte $FF
+AFFE: FF          .byte $FF
+AFFF: FF          .byte $FF
+B000: 00           BRK 
+B001: 00           BRK 
+B002: 00           BRK 
+B003: 00           BRK 
+B004: 00           BRK 
+B005: 00           BRK 
+B006: 00           BRK 
+B007: 00           BRK 
+B008: 00           BRK 
+B009: 00           BRK 
+B00A: 00           BRK 
+B00B: 01 07        ORA ($07,X)
+B00D: 0F          .byte $0F
+B00E: 3F          .byte $3F
+B00F: 3F          .byte $3F
+B010: 1F          .byte $1F
+B011: 3F          .byte $3F
+B012: FF          .byte $FF
+B013: FF          .byte $FF
+B014: FF          .byte $FF
+B015: FF          .byte $FF
+B016: FF          .byte $FF
+B017: FF          .byte $FF
+B018: 1F          .byte $1F
+B019: 3F          .byte $3F
+B01A: 7F          .byte $7F
+B01B: 7F          .byte $7F
+B01C: FF          .byte $FF
+B01D: FF          .byte $FF
+B01E: FF          .byte $FF
+B01F: FF          .byte $FF
+B020: 00           BRK 
+B021: 01 03        ORA ($03,X)
+B023: 03          .byte $03
+B024: 07          .byte $07
+B025: 0F          .byte $0F
+B026: 0F          .byte $0F
+B027: 0F          .byte $0F
+B028: 00           BRK 
+B029: 00           BRK 
+B02A: 10 10        BPL $B03C
+B02C: 38           SEC 
+B02D: 38           SEC 
+B02E: 78           SEI 
+B02F: 7E 00 80     ROR $8000,X
+B032: E0 E1        CPX #$E1
+B034: F1 FB        SBC ($FB),Y
+B036: FF          .byte $FF
+B037: FF          .byte $FF
+B038: 00           BRK 
+B039: 40           RTI 
+B03A: E0 E0        CPX #$E0
+B03C: F2          .byte $F2
+B03D: F7          .byte $F7
+B03E: FF          .byte $FF
+B03F: FF          .byte $FF
+B040: E0 E0        CPX #$E0
+B042: F0 F0        BEQ $B034
+B044: F8           SED 
+B045: F8           SED 
+B046: FD FF 00     SBC $00FF,X
+B049: 00           BRK 
+B04A: 10 30        BPL $B07C
+B04C: 78           SEI 
+B04D: F8           SED 
+B04E: FD FF 00     SBC $00FF,X
+B051: 00           BRK 
+B052: 00           BRK 
+B053: 00           BRK 
+B054: 00           BRK 
+B055: 40           RTI 
+B056: E0 E0        CPX #$E0
+B058: 00           BRK 
+B059: 00           BRK 
+B05A: 00           BRK 
+B05B: 00           BRK 
+B05C: 00           BRK 
+B05D: 00           BRK 
+B05E: 03          .byte $03
+B05F: 07          .byte $07
+B060: F0 F0        BEQ $B052
+B062: F8           SED 
+B063: FC          .byte $FC
+B064: FC          .byte $FC
+B065: FE FE FF     INC $FFFE,X
+B068: 07          .byte $07
+B069: 0F          .byte $0F
+B06A: 1F          .byte $1F
+B06B: 3F          .byte $3F
+B06C: 7F          .byte $7F
+B06D: FF          .byte $FF
+B06E: FF          .byte $FF
+B06F: FF          .byte $FF
+B070: FF          .byte $FF
+B071: FF          .byte $FF
+B072: FF          .byte $FF
+B073: FF          .byte $FF
+B074: FF          .byte $FF
+B075: FF          .byte $FF
+B076: FF          .byte $FF
+B077: FF          .byte $FF
+B078: 00           BRK 
+B079: 01 01        ORA ($01,X)
+B07B: 01 03        ORA ($03,X)
+B07D: 03          .byte $03
+B07E: 03          .byte $03
+B07F: 07          .byte $07
+B080: 00           BRK 
+B081: 00           BRK 
+B082: 00           BRK 
+B083: 00           BRK 
+B084: 00           BRK 
+B085: 01 03        ORA ($03,X)
+B087: 0F          .byte $0F
+B088: 1F          .byte $1F
+B089: 3F          .byte $3F
+B08A: 3F          .byte $3F
+B08B: 7F          .byte $7F
+B08C: 7F          .byte $7F
+B08D: 7F          .byte $7F
+B08E: FF          .byte $FF
+B08F: FF          .byte $FF
+B090: 80          .byte $80
+B091: 80          .byte $80
+B092: 80          .byte $80
+B093: C0 C0        CPY #$C0
+B095: C0 E0        CPY #$E0
+B097: E0 00        CPX #$00
+B099: 00           BRK 
+B09A: 00           BRK 
+B09B: 00           BRK 
+B09C: 00           BRK 
+B09D: 00           BRK 
+B09E: 80          .byte $80
+B09F: C0 FC        CPY #$FC
+B0A1: F0 E0        BEQ $B083
+B0A3: C0 80        CPY #$80
+B0A5: 80          .byte $80
+B0A6: 00           BRK 
+B0A7: 00           BRK 
+B0A8: 3F          .byte $3F
+B0A9: 0F          .byte $0F
+B0AA: 27          .byte $27
+B0AB: 13          .byte $13
+B0AC: 19 19 1C     ORA $1C19,Y
+B0AF: 0C          .byte $0C
+B0B0: 00           BRK 
+B0B1: C0 F0        CPY #$F0
+B0B3: FF          .byte $FF
+B0B4: FF          .byte $FF
+B0B5: FF          .byte $FF
+B0B6: FF          .byte $FF
+B0B7: FF          .byte $FF
+B0B8: 18           CLC 
+B0B9: 03          .byte $03
+B0BA: 0F          .byte $0F
+B0BB: FF          .byte $FF
+B0BC: FF          .byte $FF
+B0BD: FF          .byte $FF
+B0BE: FF          .byte $FF
+B0BF: FF          .byte $FF
+B0C0: F0 EF        BEQ $B0B1
+B0C2: EF          .byte $EF
+B0C3: EF          .byte $EF
+B0C4: F7          .byte $F7
+B0C5: F3          .byte $F3
+B0C6: F1 F0        SBC ($F0),Y
+B0C8: FF          .byte $FF
+B0C9: 3F          .byte $3F
+B0CA: CF          .byte $CF
+B0CB: F7          .byte $F7
+B0CC: FB          .byte $FB
+B0CD: BD DD FE     LDA $FEDD,X
+B0D0: F8           SED 
+B0D1: F0 E4        BEQ $B0B7
+B0D3: CD FD FD     CMP $FDFD
+B0D6: FB          .byte $FB
+B0D7: FF          .byte $FF
+B0D8: 7E 3E 0E     ROR $0E3E,X
+B0DB: 01 BF        ORA ($BF,X)
+B0DD: BF          .byte $BF
+B0DE: DF          .byte $DF
+B0DF: DF          .byte $DF
+B0E0: FF          .byte $FF
+B0E1: FC          .byte $FC
+B0E2: F3          .byte $F3
+B0E3: EF          .byte $EF
+B0E4: DF          .byte $DF
+B0E5: BD BB 7F     LDA $7FBB,X
+B0E8: 0F          .byte $0F
+B0E9: F7          .byte $F7
+B0EA: F7          .byte $F7
+B0EB: F7          .byte $F7
+B0EC: EF          .byte $EF
+B0ED: CF          .byte $CF
+B0EE: 8F          .byte $8F
+B0EF: 0F          .byte $0F
+B0F0: 7E 7C 70     ROR $707C,X
+B0F3: 80          .byte $80
+B0F4: FD FD FB     SBC $FBFD,X
+B0F7: FB          .byte $FB
+B0F8: 1F          .byte $1F
+B0F9: 0F          .byte $0F
+B0FA: 27          .byte $27
+B0FB: B3          .byte $B3
+B0FC: BF          .byte $BF
+B0FD: BF          .byte $BF
+B0FE: DF          .byte $DF
+B0FF: FF          .byte $FF
+B100: 7F          .byte $7F
+B101: BD DB E3     LDA $E3DB,X
+B104: E7          .byte $E7
+B105: F7          .byte $F7
+B106: FB          .byte $FB
+B107: FB          .byte $FB
+B108: 1F          .byte $1F
+B109: CF          .byte $CF
+B10A: EF          .byte $EF
+B10B: 87          .byte $87
+B10C: 33          .byte $33
+B10D: 7B          .byte $7B
+B10E: FC          .byte $FC
+B10F: FE 00 00     INC $0000,X
+B112: 00           BRK 
+B113: 00           BRK 
+B114: 00           BRK 
+B115: 80          .byte $80
+B116: 80          .byte $80
+B117: 80          .byte $80
+B118: 80          .byte $80
+B119: 80          .byte $80
+B11A: 80          .byte $80
+B11B: 80          .byte $80
+B11C: 80          .byte $80
+B11D: 80          .byte $80
+B11E: 80          .byte $80
+B11F: 80          .byte $80
+B120: 7F          .byte $7F
+B121: 00           BRK 
+B122: 00           BRK 
+B123: 00           BRK 
+B124: 00           BRK 
+B125: 00           BRK 
+B126: 00           BRK 
+B127: 00           BRK 
+B128: 02          .byte $02
+B129: 00           BRK 
+B12A: 40           RTI 
+B12B: 00           BRK 
+B12C: 00           BRK 
+B12D: 00           BRK 
+B12E: 04          .byte $04
+B12F: 00           BRK 
+B130: 00           BRK 
+B131: 08           PHP 
+B132: 00           BRK 
+B133: 00           BRK 
+B134: 00           BRK 
+B135: 04          .byte $04
+B136: 00           BRK 
+B137: 40           RTI 
+B138: 03          .byte $03
+B139: 0F          .byte $0F
+B13A: 1F          .byte $1F
+B13B: 3F          .byte $3F
+B13C: 7F          .byte $7F
+B13D: 7F          .byte $7F
+B13E: FF          .byte $FF
+B13F: FF          .byte $FF
+B140: FF          .byte $FF
+B141: FF          .byte $FF
+B142: 7F          .byte $7F
+B143: 7F          .byte $7F
+B144: 3F          .byte $3F
+B145: 1F          .byte $1F
+B146: 0F          .byte $0F
+B147: 03          .byte $03
+B148: C0 F0        CPY #$F0
+B14A: D8           CLD 
+B14B: FC          .byte $FC
+B14C: EE F6 EB     INC $EBF6
+B14F: F3          .byte $F3
+B150: F1 E3        SBC ($E3),Y
+B152: EA           NOP 
+B153: F6 DC        DEC $DC,X
+B155: B8           CLV 
+B156: F0 C0        BEQ $B118
+B158: 3C          .byte $3C
+B159: 76 FB        ROR $FB,X
+B15B: FD F9 FB     SBC $FBF9,X
+B15E: 76 3C        ROR $3C,X
+B160: 07          .byte $07
+B161: 3C          .byte $3C
+B162: 70 E0        BVS $B144
+B164: E0 F8        CPX #$F8
+B166: 7F          .byte $7F
+B167: 1F          .byte $1F
+B168: 00           BRK 
+B169: 00           BRK 
+B16A: 00           BRK 
+B16B: 00           BRK 
+B16C: 00           BRK 
+B16D: 00           BRK 
+B16E: F0 3C        BEQ $B1AC
+B170: 0F          .byte $0F
+B171: 0F          .byte $0F
+B172: 7E FC E0     ROR $E0FC,X
+B175: 00           BRK 
+B176: 00           BRK 
+B177: 00           BRK 
+B178: 00           BRK 
+B179: 00           BRK 
+B17A: 00           BRK 
+B17B: 00           BRK 
+B17C: 00           BRK 
+B17D: 00           BRK 
+B17E: FF          .byte $FF
+B17F: FF          .byte $FF
+B180: 00           BRK 
+B181: 00           BRK 
+B182: 00           BRK 
+B183: 00           BRK 
+B184: 00           BRK 
+B185: 0F          .byte $0F
+B186: FF          .byte $FF
+B187: F8           SED 
+B188: 00           BRK 
+B189: 00           BRK 
+B18A: 03          .byte $03
+B18B: 03          .byte $03
+B18C: 3E FE C0     ROL $C0FE,X
+B18F: 00           BRK 
+B190: 00           BRK 
+B191: 03          .byte $03
+B192: 0F          .byte $0F
+B193: 1F          .byte $1F
+B194: 3F          .byte $3F
+B195: 3F          .byte $3F
+B196: 7F          .byte $7F
+B197: 7F          .byte $7F
+B198: 7E FF FF     ROR $FFFF,X
+B19B: FF          .byte $FF
+B19C: FF          .byte $FF
+B19D: FF          .byte $FF
+B19E: FF          .byte $FF
+B19F: FF          .byte $FF
+B1A0: 00           BRK 
+B1A1: C0 F0        CPY #$F0
+B1A3: 78           SEI 
+B1A4: FC          .byte $FC
+B1A5: DC          .byte $DC
+B1A6: EE D6 7F     INC $7FD6
+B1A9: 7F          .byte $7F
+B1AA: 3F          .byte $3F
+B1AB: 3F          .byte $3F
+B1AC: 1F          .byte $1F
+B1AD: 0F          .byte $0F
+B1AE: 03          .byte $03
+B1AF: 00           BRK 
+B1B0: FF          .byte $FF
+B1B1: FF          .byte $FF
+B1B2: FF          .byte $FF
+B1B3: FF          .byte $FF
+B1B4: FF          .byte $FF
+B1B5: FF          .byte $FF
+B1B6: FF          .byte $FF
+B1B7: 7E D6 EE     ROR $EED6,X
+B1BA: DC          .byte $DC
+B1BB: EC B8 70     CPX $70B8
+B1BE: C0 00        CPY #$00
+B1C0: 00           BRK 
+B1C1: 00           BRK 
+B1C2: 60           RTS 
+B1C3: 7E 7E 00     ROR $007E,X
+B1C6: 00           BRK 
+B1C7: 00           BRK 
+B1C8: 00           BRK 
+B1C9: 01 02        ORA ($02,X)
+B1CB: 03          .byte $03
+B1CC: 04          .byte $04
+B1CD: 05 06        ORA $06
+B1CF: 07          .byte $07
+B1D0: 08           PHP 
+B1D1: 09 0A        ORA #$0A
+B1D3: 0B          .byte $0B
+B1D4: 0C          .byte $0C
+B1D5: 0D 0E 0F     ORA $0F0E
+B1D8: 10 11        BPL $B1EB
+B1DA: 12          .byte $12
+B1DB: 13          .byte $13
+B1DC: 0B          .byte $0B
+B1DD: 0A           ASL A
+B1DE: 0C          .byte $0C
+B1DF: 07          .byte $07
+B1E0: 08           PHP 
+B1E1: 0A           ASL A
+B1E2: 05 01        ORA $01
+B1E4: 07          .byte $07
+B1E5: 08           PHP 
+B1E6: 0C          .byte $0C
+B1E7: 10 10        BPL $B1F9
+B1E9: 09 08        ORA #$08
+B1EB: 04          .byte $04
+B1EC: 06 0C        ASL $0C
+B1EE: 0C          .byte $0C
+B1EF: 06 05        ASL $05
+B1F1: 0A           ASL A
+B1F2: 06 00        ASL $00
+B1F4: 00           BRK 
+B1F5: 00           BRK 
+B1F6: 00           BRK 
+B1F7: 00           BRK 
+B1F8: 00           BRK 
+B1F9: 00           BRK 
+B1FA: 00           BRK 
+B1FB: 00           BRK 
+B1FC: 0E 0E 0E     ASL $0E0E
+B1FF: 0E 14 15     ASL $1514
+B202: 16 17        ASL $17,X
+B204: 0E 0E 0E     ASL $0E0E
+B207: 0E 18 19     ASL $1918
+B20A: 1A          .byte $1A
+B20B: 1B          .byte $1B
+B20C: 1C          .byte $1C
+B20D: 1D 1E 1F     ORA $1F1E,X
+B210: 0E 0E 0E     ASL $0E0E
+B213: 0E 0E 0E     ASL $0E0E
+B216: 0E 0E 20     ASL $200E
+B219: 20 20 21     JSR $2120
+B21C: 21 0E        AND ($0E,X)
+B21E: 0E 0E 0E     ASL $0E0E
+B221: 00           BRK 
+B222: 02          .byte $02
+B223: 0E 0E 0E     ASL $0E0E
+B226: 00           BRK 
+B227: 07          .byte $07
+B228: 13          .byte $13
+B229: 09 0A        ORA #$0A
+B22B: 0B          .byte $0B
+B22C: 0D 0D 0E     ORA $0E0D
+B22F: 0E 0E 03     ASL $030E
+B232: 0E 00 00     ASL $0000
+B235: 09 00        ORA #$00
+B237: 00           BRK 
+B238: 07          .byte $07
+B239: 19 0F 1B     ORA $1B0F,Y
+B23C: 0E 15 13     ASL $1315
+B23F: 01 11        ORA ($11,X)
+B241: 0D 13 00     ORA $0013
+B244: 24 06        BIT $06
+B246: 05 10        ORA $10
+B248: 0D 29 00     ORA $0029
+B24B: 0E 10 04     ASL $0410
+B24E: 05 0B        ORA $0B
+B250: 11 0F        ORA ($0F),Y
+B252: 0D 09 01     ORA $0109
+B255: 08           PHP 
+B256: 0C          .byte $0C
+B257: 12          .byte $12
+B258: 06 39        ASL $39
+B25A: 0E 3B 0E     ASL $0E3B
+B25D: 38           SEC 
+B25E: 3A          .byte $3A
+B25F: 00           BRK 
+B260: 00           BRK 
+B261: 41 0E        EOR ($0E,X)
+B263: 43          .byte $43
+B264: 0E 45 0E     ASL $0E45
+B267: 47          .byte $47
+B268: 0E 44 46     ASL $4644
+B26B: 40           RTI 
+B26C: 42          .byte $42
+B26D: 00           BRK 
+B26E: 00           BRK 
+B26F: 00           BRK 
+B270: 00           BRK 
+B271: 0E 50 53     ASL $5350
+B274: 0E 50 50     ASL $5050
+B277: 53          .byte $53
+B278: 00           BRK 
+B279: 1C          .byte $1C
+B27A: 02          .byte $02
+B27B: D8           CLD 
+B27C: B0 38        BCS $B2B6
+B27E: D8           CLD 
+B27F: 03          .byte $03
+B280: 30 B0        BMI $B232
+B282: 78           SEI 
+B283: B0 03        BCS $B288
+B285: A8           TAY 
+B286: B0 C8        BCS $B250
+B288: B0 07        BCS $B291
+B28A: 00           BRK 
+B28B: F7          .byte $F7
+B28C: D0 B0        BNE $B23E
+B28E: 07          .byte $07
+B28F: 50 F8        BVC $B289
+B291: A0 D8        LDY #$D8
+B293: 07          .byte $07
+B294: 78           SEI 
+B295: F8           SED 
+B296: B8           CLV 
+B297: F0 07        BEQ $B2A0
+B299: 88           DEY 
+B29A: F8           SED 
+B29B: 50 B8        BVC $B255
+B29D: 07          .byte $07
+B29E: D0 F8        BNE $B298
+B2A0: 70 F8        BVS $B29A
+B2A2: FF          .byte $FF
+B2A3: FF          .byte $FF
+B2A4: FF          .byte $FF
+B2A5: FF          .byte $FF
+B2A6: FF          .byte $FF
+B2A7: FF          .byte $FF
+B2A8: FF          .byte $FF
+B2A9: FF          .byte $FF
+B2AA: FF          .byte $FF
+B2AB: FF          .byte $FF
+B2AC: FF          .byte $FF
+B2AD: FF          .byte $FF
+B2AE: FF          .byte $FF
+B2AF: FF          .byte $FF
+B2B0: FF          .byte $FF
+B2B1: FF          .byte $FF
+B2B2: FF          .byte $FF
+B2B3: FF          .byte $FF
+B2B4: FF          .byte $FF
+B2B5: FF          .byte $FF
+B2B6: FF          .byte $FF
+B2B7: FF          .byte $FF
+B2B8: FF          .byte $FF
+B2B9: FF          .byte $FF
+B2BA: FF          .byte $FF
+B2BB: FF          .byte $FF
+B2BC: FF          .byte $FF
+B2BD: FF          .byte $FF
+B2BE: FF          .byte $FF
+B2BF: FF          .byte $FF
+B2C0: FF          .byte $FF
+B2C1: FF          .byte $FF
+B2C2: FF          .byte $FF
+B2C3: FF          .byte $FF
+B2C4: FF          .byte $FF
+B2C5: FF          .byte $FF
+B2C6: FF          .byte $FF
+B2C7: FF          .byte $FF
+B2C8: FF          .byte $FF
+B2C9: FF          .byte $FF
+B2CA: FF          .byte $FF
+B2CB: FF          .byte $FF
+B2CC: FF          .byte $FF
+B2CD: FF          .byte $FF
+B2CE: FF          .byte $FF
+B2CF: FF          .byte $FF
+B2D0: FF          .byte $FF
+B2D1: FF          .byte $FF
+B2D2: FF          .byte $FF
+B2D3: FF          .byte $FF
+B2D4: FF          .byte $FF
+B2D5: FF          .byte $FF
+B2D6: FF          .byte $FF
+B2D7: FF          .byte $FF
+B2D8: FF          .byte $FF
+B2D9: FF          .byte $FF
+B2DA: FF          .byte $FF
+B2DB: FF          .byte $FF
+B2DC: FF          .byte $FF
+B2DD: FF          .byte $FF
+B2DE: FF          .byte $FF
+B2DF: FF          .byte $FF
+B2E0: FF          .byte $FF
+B2E1: FF          .byte $FF
+B2E2: FF          .byte $FF
+B2E3: FF          .byte $FF
+B2E4: FF          .byte $FF
+B2E5: FF          .byte $FF
+B2E6: FF          .byte $FF
+B2E7: FF          .byte $FF
+B2E8: FF          .byte $FF
+B2E9: FF          .byte $FF
+B2EA: FF          .byte $FF
+B2EB: FF          .byte $FF
+B2EC: FF          .byte $FF
+B2ED: FF          .byte $FF
+B2EE: FF          .byte $FF
+B2EF: FF          .byte $FF
+B2F0: FF          .byte $FF
+B2F1: FF          .byte $FF
+B2F2: FF          .byte $FF
+B2F3: FF          .byte $FF
+B2F4: FF          .byte $FF
+B2F5: FF          .byte $FF
+B2F6: FF          .byte $FF
+B2F7: FF          .byte $FF
+B2F8: FF          .byte $FF
+B2F9: FF          .byte $FF
+B2FA: FF          .byte $FF
+B2FB: FF          .byte $FF
+B2FC: FF          .byte $FF
+B2FD: FF          .byte $FF
+B2FE: FF          .byte $FF
+B2FF: FF          .byte $FF
+B300: FF          .byte $FF
+B301: FF          .byte $FF
+B302: FF          .byte $FF
+B303: FF          .byte $FF
+B304: FF          .byte $FF
+B305: FF          .byte $FF
+B306: FF          .byte $FF
+B307: FF          .byte $FF
+B308: FF          .byte $FF
+B309: FF          .byte $FF
+B30A: FF          .byte $FF
+B30B: FF          .byte $FF
+B30C: FF          .byte $FF
+B30D: FF          .byte $FF
+B30E: FF          .byte $FF
+B30F: FF          .byte $FF
+B310: FF          .byte $FF
+B311: FF          .byte $FF
+B312: FF          .byte $FF
+B313: FF          .byte $FF
+B314: FF          .byte $FF
+B315: FF          .byte $FF
+B316: FF          .byte $FF
+B317: FF          .byte $FF
+B318: FF          .byte $FF
+B319: FF          .byte $FF
+B31A: FF          .byte $FF
+B31B: FF          .byte $FF
+B31C: FF          .byte $FF
+B31D: FF          .byte $FF
+B31E: FF          .byte $FF
+B31F: FF          .byte $FF
+B320: FF          .byte $FF
+B321: FF          .byte $FF
+B322: FF          .byte $FF
+B323: FF          .byte $FF
+B324: FF          .byte $FF
+B325: FF          .byte $FF
+B326: FF          .byte $FF
+B327: FF          .byte $FF
+B328: FF          .byte $FF
+B329: FF          .byte $FF
+B32A: FF          .byte $FF
+B32B: FF          .byte $FF
+B32C: FF          .byte $FF
+B32D: FF          .byte $FF
+B32E: FF          .byte $FF
+B32F: FF          .byte $FF
+B330: FF          .byte $FF
+B331: FF          .byte $FF
+B332: FF          .byte $FF
+B333: FF          .byte $FF
+B334: FF          .byte $FF
+B335: FF          .byte $FF
+B336: FF          .byte $FF
+B337: FF          .byte $FF
+B338: FF          .byte $FF
+B339: FF          .byte $FF
+B33A: FF          .byte $FF
+B33B: FF          .byte $FF
+B33C: FF          .byte $FF
+B33D: FF          .byte $FF
+B33E: FF          .byte $FF
+B33F: FF          .byte $FF
+B340: FF          .byte $FF
+B341: FF          .byte $FF
+B342: FF          .byte $FF
+B343: FF          .byte $FF
+B344: FF          .byte $FF
+B345: FF          .byte $FF
+B346: FF          .byte $FF
+B347: FF          .byte $FF
+B348: FF          .byte $FF
+B349: FF          .byte $FF
+B34A: FF          .byte $FF
+B34B: FF          .byte $FF
+B34C: FF          .byte $FF
+B34D: FF          .byte $FF
+B34E: FF          .byte $FF
+B34F: FF          .byte $FF
+B350: FF          .byte $FF
+B351: FF          .byte $FF
+B352: FF          .byte $FF
+B353: FF          .byte $FF
+B354: FF          .byte $FF
+B355: FF          .byte $FF
+B356: FF          .byte $FF
+B357: FF          .byte $FF
+B358: FF          .byte $FF
+B359: FF          .byte $FF
+B35A: FF          .byte $FF
+B35B: FF          .byte $FF
+B35C: FF          .byte $FF
+B35D: FF          .byte $FF
+B35E: FF          .byte $FF
+B35F: FF          .byte $FF
+B360: FF          .byte $FF
+B361: FF          .byte $FF
+B362: FF          .byte $FF
+B363: FF          .byte $FF
+B364: FF          .byte $FF
+B365: FF          .byte $FF
+B366: FF          .byte $FF
+B367: FF          .byte $FF
+B368: FF          .byte $FF
+B369: FF          .byte $FF
+B36A: FF          .byte $FF
+B36B: FF          .byte $FF
+B36C: FF          .byte $FF
+B36D: FF          .byte $FF
+B36E: FF          .byte $FF
+B36F: FF          .byte $FF
+B370: FF          .byte $FF
+B371: FF          .byte $FF
+B372: FF          .byte $FF
+B373: FF          .byte $FF
+B374: FF          .byte $FF
+B375: FF          .byte $FF
+B376: FF          .byte $FF
+B377: FF          .byte $FF
+B378: FF          .byte $FF
+B379: FF          .byte $FF
+B37A: FF          .byte $FF
+B37B: FF          .byte $FF
+B37C: FF          .byte $FF
+B37D: FF          .byte $FF
+B37E: FF          .byte $FF
+B37F: FF          .byte $FF
+B380: FF          .byte $FF
+B381: FF          .byte $FF
+B382: FF          .byte $FF
+B383: FF          .byte $FF
+B384: FF          .byte $FF
+B385: FF          .byte $FF
+B386: FF          .byte $FF
+B387: FF          .byte $FF
+B388: FF          .byte $FF
+B389: FF          .byte $FF
+B38A: FF          .byte $FF
+B38B: FF          .byte $FF
+B38C: FF          .byte $FF
+B38D: FF          .byte $FF
+B38E: FF          .byte $FF
+B38F: FF          .byte $FF
+B390: FF          .byte $FF
+B391: FF          .byte $FF
+B392: FF          .byte $FF
+B393: FF          .byte $FF
+B394: FF          .byte $FF
+B395: FF          .byte $FF
+B396: FF          .byte $FF
+B397: FF          .byte $FF
+B398: FF          .byte $FF
+B399: FF          .byte $FF
+B39A: FF          .byte $FF
+B39B: FF          .byte $FF
+B39C: FF          .byte $FF
+B39D: FF          .byte $FF
+B39E: FF          .byte $FF
+B39F: FF          .byte $FF
+B3A0: FF          .byte $FF
+B3A1: FF          .byte $FF
+B3A2: FF          .byte $FF
+B3A3: FF          .byte $FF
+B3A4: FF          .byte $FF
+B3A5: FF          .byte $FF
+B3A6: FF          .byte $FF
+B3A7: FF          .byte $FF
+B3A8: FF          .byte $FF
+B3A9: FF          .byte $FF
+B3AA: FF          .byte $FF
+B3AB: FF          .byte $FF
+B3AC: FF          .byte $FF
+B3AD: FF          .byte $FF
+B3AE: FF          .byte $FF
+B3AF: FF          .byte $FF
+B3B0: FF          .byte $FF
+B3B1: FF          .byte $FF
+B3B2: FF          .byte $FF
+B3B3: FF          .byte $FF
+B3B4: FF          .byte $FF
+B3B5: FF          .byte $FF
+B3B6: FF          .byte $FF
+B3B7: FF          .byte $FF
+B3B8: FF          .byte $FF
+B3B9: FF          .byte $FF
+B3BA: FF          .byte $FF
+B3BB: FF          .byte $FF
+B3BC: FF          .byte $FF
+B3BD: FF          .byte $FF
+B3BE: FF          .byte $FF
+B3BF: FF          .byte $FF
+B3C0: FF          .byte $FF
+B3C1: FF          .byte $FF
+B3C2: FF          .byte $FF
+B3C3: FF          .byte $FF
+B3C4: FF          .byte $FF
+B3C5: FF          .byte $FF
+B3C6: FF          .byte $FF
+B3C7: FF          .byte $FF
+B3C8: FF          .byte $FF
+B3C9: FF          .byte $FF
+B3CA: FF          .byte $FF
+B3CB: FF          .byte $FF
+B3CC: FF          .byte $FF
+B3CD: FF          .byte $FF
+B3CE: FF          .byte $FF
+B3CF: FF          .byte $FF
+B3D0: FF          .byte $FF
+B3D1: FF          .byte $FF
+B3D2: FF          .byte $FF
+B3D3: FF          .byte $FF
+B3D4: FF          .byte $FF
+B3D5: FF          .byte $FF
+B3D6: FF          .byte $FF
+B3D7: FF          .byte $FF
+B3D8: FF          .byte $FF
+B3D9: FF          .byte $FF
+B3DA: FF          .byte $FF
+B3DB: FF          .byte $FF
+B3DC: FF          .byte $FF
+B3DD: FF          .byte $FF
+B3DE: FF          .byte $FF
+B3DF: FF          .byte $FF
+B3E0: FF          .byte $FF
+B3E1: FF          .byte $FF
+B3E2: FF          .byte $FF
+B3E3: FF          .byte $FF
+B3E4: FF          .byte $FF
+B3E5: FF          .byte $FF
+B3E6: FF          .byte $FF
+B3E7: FF          .byte $FF
+B3E8: FF          .byte $FF
+B3E9: FF          .byte $FF
+B3EA: FF          .byte $FF
+B3EB: FF          .byte $FF
+B3EC: FF          .byte $FF
+B3ED: FF          .byte $FF
+B3EE: FF          .byte $FF
+B3EF: FF          .byte $FF
+B3F0: FF          .byte $FF
+B3F1: FF          .byte $FF
+B3F2: FF          .byte $FF
+B3F3: FF          .byte $FF
+B3F4: FF          .byte $FF
+B3F5: FF          .byte $FF
+B3F6: FF          .byte $FF
+B3F7: FF          .byte $FF
+B3F8: FF          .byte $FF
+B3F9: FF          .byte $FF
+B3FA: FF          .byte $FF
+B3FB: FF          .byte $FF
+B3FC: FF          .byte $FF
+B3FD: FF          .byte $FF
+B3FE: FF          .byte $FF
+B3FF: FF          .byte $FF
+B400: E6 49        INC $49
+B402: A5 44        LDA $44
+B404: A4 43        LDY $43
+B406: 10 0C        BPL $B414
+B408: 38           SEC 
+B409: E5 42        SBC $42
+B40B: 85 44        STA $44
+B40D: A5 45        LDA $45
+B40F: E9 00        SBC #$00
+B411: 4C 1D B4     JMP $B41D
+B414: 18           CLC 
+B415: 65 42        ADC $42
+B417: 85 44        STA $44
+B419: A5 45        LDA $45
+B41B: 69 00        ADC #$00
+B41D: 85 45        STA $45
+B41F: 29 60        AND #$60
+B421: 49 60        EOR #$60
+B423: D0 0C        BNE $B431
+B425: A9 1F        LDA #$1F
+B427: A4 43        LDY $43
+B429: 10 02        BPL $B42D
+B42B: A9 5F        LDA #$5F
+B42D: 25 45        AND $45
+B42F: 85 45        STA $45
+B431: A9 3F        LDA #$3F
+B433: 25 45        AND $45
+B435: 85 40        STA $40
+B437: A9 40        LDA #$40
+B439: 25 45        AND $45
+B43B: 4A           LSR A
+B43C: 09 1F        ORA #$1F
+B43E: 85 41        STA $41
+B440: A9 80        LDA #$80
+B442: A2 C5        LDX #$C5
+B444: 20 1F FE     JSR $FE1F
+B447: A9 00        LDA #$00
+B449: 85 06        STA $06
+B44B: A9 A2        LDA #$A2
+B44D: 85 07        STA $07
+B44F: A9 03        LDA #$03
+B451: 85 08        STA $08
+B453: A9 1F        LDA #$1F
+B455: 85 0A        STA $0A
+B457: A6 40        LDX $40
+B459: A9 00        LDA #$00
+B45B: E0 2A        CPX #$2A
+B45D: B0 0A        BCS $B469
+B45F: E0 24        CPX #$24
+B461: 90 06        BCC $B469
+B463: 8A           TXA 
+B464: E9 24        SBC #$24
+B466: A8           TAY 
+B467: B1 06        LDA ($06),Y
+B469: 20 82 FD     JSR $FD82
+B46C: CA           DEX 
+B46D: 10 02        BPL $B471
+B46F: A6 41        LDX $41
+B471: C6 0A        DEC $0A
+B473: 10 E4        BPL $B459
+B475: 18           CLC 
+B476: A5 06        LDA $06
+B478: 69 06        ADC #$06
+B47A: 85 06        STA $06
+B47C: C6 08        DEC $08
+B47E: 10 D3        BPL $B453
+B480: A9 00        LDA #$00
+B482: 85 06        STA $06
+B484: A9 A0        LDA #$A0
+B486: 85 07        STA $07
+B488: A9 07        LDA #$07
+B48A: 85 0A        STA $0A
+B48C: A4 40        LDY $40
+B48E: A2 1F        LDX #$1F
+B490: B1 06        LDA ($06),Y
+B492: 20 82 FD     JSR $FD82
+B495: 88           DEY 
+B496: 10 02        BPL $B49A
+B498: A4 41        LDY $41
+B49A: CA           DEX 
+B49B: 10 F3        BPL $B490
+B49D: 18           CLC 
+B49E: A9 40        LDA #$40
+B4A0: 65 06        ADC $06
+B4A2: 85 06        STA $06
+B4A4: A9 00        LDA #$00
+B4A6: 65 07        ADC $07
+B4A8: 85 07        STA $07
+B4AA: C6 0A        DEC $0A
+B4AC: 10 DE        BPL $B48C
+B4AE: A5 44        LDA $44
+B4B0: 20 46 FD     JSR $FD46
+B4B3: 29 07        AND #$07
+B4B5: 49 07        EOR #$07
+B4B7: A2 04        LDX #$04
+B4B9: 20 1F FE     JSR $FE1F
+B4BC: A9 08        LDA #$08
+B4BE: 25 43        AND $43
+B4C0: 49 C8        EOR #$C8
+B4C2: 85 DD        STA $DD
+B4C4: A9 04        LDA #$04
+B4C6: 25 49        AND $49
+B4C8: 05 DD        ORA $DD
+B4CA: 85 DD        STA $DD
+B4CC: A9 00        LDA #$00
+B4CE: A2 DC        LDX #$DC
+B4D0: 20 1F FE     JSR $FE1F
+B4D3: A2 5F        LDX #$5F
+B4D5: B5 80        LDA $80,X
+B4D7: 20 82 FD     JSR $FD82
+B4DA: CA           DEX 
+B4DB: 10 F8        BPL $B4D5
+B4DD: A9 D0        LDA #$D0
+B4DF: 20 82 FD     JSR $FD82
+B4E2: 20 BF BB     JSR $BBBF
+B4E5: 60           RTS 
+B4E6: F0 11        BEQ $B4F9
+B4E8: A2 07        LDX #$07
+B4EA: A9 00        LDA #$00
+B4EC: 9D C0 03     STA $03C0,X
+B4EF: 9D D0 03     STA $03D0,X
+B4F2: CA           DEX 
+B4F3: 10 F7        BPL $B4EC
+B4F5: A9 00        LDA #$00
+B4F7: F0 02        BEQ $B4FB
+B4F9: A9 80        LDA #$80
+B4FB: 85 4C        STA $4C
+B4FD: A2 1C        LDX #$1C
+B4FF: A9 17        LDA #$17
+B501: 9D 42 03     STA $0342,X
+B504: 20 30 FD     JSR $FD30
+B507: 10 F8        BPL $B501
+B509: A9 F4        LDA #$F4
+B50B: A2 FF        LDX #$FF
+B50D: 20 9E FD     JSR $FD9E
+B510: A9 40        LDA #$40
+B512: 85 05        STA $05
+B514: A2 23        LDX #$23
+B516: BD 7D B2     LDA $B27D,X
+B519: 85 06        STA $06
+B51B: BD 7C B2     LDA $B27C,X
+B51E: 85 07        STA $07
+B520: BD 7B B2     LDA $B27B,X
+B523: 20 D3 FD     JSR $FDD3
+B526: BD 7A B2     LDA $B27A,X
+B529: 05 05        ORA $05
+B52B: 20 D3 FD     JSR $FDD3
+B52E: BC 7E B2     LDY $B27E,X
+B531: B1 06        LDA ($06),Y
+B533: 20 82 FD     JSR $FD82
+B536: C8           INY 
+B537: D0 F8        BNE $B531
+B539: 20 2F FD     JSR $FD2F
+B53C: 10 D8        BPL $B516
+B53E: 18           CLC 
+B53F: A5 05        LDA $05
+B541: 69 08        ADC #$08
+B543: 85 05        STA $05
+B545: 10 CD        BPL $B514
+B547: 20 4D FD     JSR $FD4D
+B54A: A2 58        LDX #$58
+B54C: 86 08        STX $08
+B54E: A9 30        LDA #$30
+B550: 85 05        STA $05
+B552: A5 08        LDA $08
+B554: AA           TAX 
+B555: 0A           ASL A
+B556: 0A           ASL A
+B557: 26 05        ROL $05
+B559: 0A           ASL A
+B55A: 26 05        ROL $05
+B55C: 85 04        STA $04
+B55E: 20 5D BC     JSR $BC5D
+B561: A2 00        LDX #$00
+B563: 20 78 BC     JSR $BC78
+B566: A6 08        LDX $08
+B568: BD 21 B2     LDA $B221,X
+B56B: AA           TAX 
+B56C: 20 5D BC     JSR $BC5D
+B56F: A2 08        LDX #$08
+B571: 20 78 BC     JSR $BC78
+B574: A9 07        LDA #$07
+B576: 85 0A        STA $0A
+B578: A5 04        LDA $04
+B57A: A6 05        LDX $05
+B57C: 20 1F FE     JSR $FE1F
+B57F: A2 07        LDX #$07
+B581: B5 E0        LDA $E0,X
+B583: 20 82 FD     JSR $FD82
+B586: CA           DEX 
+B587: 10 F8        BPL $B581
+B589: 18           CLC 
+B58A: A9 08        LDA #$08
+B58C: 65 05        ADC $05
+B58E: 85 05        STA $05
+B590: A2 07        LDX #$07
+B592: 16 E8        ASL $E8,X
+B594: 36 E0        ROL $E0,X
+B596: CA           DEX 
+B597: 10 F9        BPL $B592
+B599: C6 0A        DEC $0A
+B59B: 10 DB        BPL $B578
+B59D: C6 08        DEC $08
+B59F: 10 AD        BPL $B54E
+B5A1: 20 60 BD     JSR $BD60
+B5A4: 20 83 BD     JSR $BD83
+B5A7: A9 E2        LDA #$E2
+B5A9: A2 01        LDX #$01
+B5AB: 20 1F FE     JSR $FE1F
+B5AE: A9 04        LDA #$04
+B5B0: 85 4D        STA $4D
+B5B2: 20 31 B4     JSR $B431
+B5B5: 58           CLI 
+B5B6: A5 0C        LDA $0C
+B5B8: 10 FC        BPL $B5B6
+B5BA: 78           SEI 
+B5BB: 06 0C        ASL $0C
+B5BD: 46 0C        LSR $0C
+B5BF: A9 80        LDA #$80
+B5C1: 25 4C        AND $4C
+B5C3: D0 03        BNE $B5C8
+B5C5: 20 F2 BC     JSR $BCF2
+B5C8: 20 FA BB     JSR $BBFA
+B5CB: A9 40        LDA #$40
+B5CD: 25 4C        AND $4C
+B5CF: D0 20        BNE $B5F1
+B5D1: 20 23 BD     JSR $BD23
+B5D4: 20 83 FE     JSR $FE83
+B5D7: A5 12        LDA $12
+B5D9: 05 14        ORA $14
+B5DB: F0 D8        BEQ $B5B5
+B5DD: A9 40        LDA #$40
+B5DF: 05 4C        ORA $4C
+B5E1: 85 4C        STA $4C
+B5E3: 20 83 BD     JSR $BD83
+B5E6: 20 31 B4     JSR $B431
+B5E9: A2 00        LDX #$00
+B5EB: 20 D6 FB     JSR $FBD6
+B5EE: 4C B5 B5     JMP $B5B5
+B5F1: A9 01        LDA #$01
+B5F3: 25 4C        AND $4C
+B5F5: F0 12        BEQ $B609
+B5F7: A5 12        LDA $12
+B5F9: 05 14        ORA $14
+B5FB: F0 B8        BEQ $B5B5
+B5FD: A9 FE        LDA #$FE
+B5FF: 25 4C        AND $4C
+B601: 85 4C        STA $4C
+B603: 20 60 BD     JSR $BD60
+B606: 4C B5 B5     JMP $B5B5
+B609: A5 56        LDA $56
+B60B: 05 5E        ORA $5E
+B60D: D0 18        BNE $B627
+B60F: 20 FA BB     JSR $BBFA
+B612: A9 B1        LDA #$B1
+B614: A2 BF        LDX #$BF
+B616: 20 53 FD     JSR $FD53
+B619: A2 06        LDX #$06
+B61B: 20 D6 FB     JSR $FBD6
+B61E: A9 BE        LDA #$BE
+B620: 25 4C        AND $4C
+B622: 85 4C        STA $4C
+B624: 4C B5 B5     JMP $B5B5
+B627: 20 00 B4     JSR $B400
+B62A: 20 83 BC     JSR $BC83
+B62D: A5 68        LDA $68
+B62F: 30 2A        BMI $B65B
+B631: D0 25        BNE $B658
+B633: A9 04        LDA #$04
+B635: 25 4C        AND $4C
+B637: F0 1F        BEQ $B658
+B639: A2 03        LDX #$03
+B63B: 20 D6 FB     JSR $FBD6
+B63E: 20 60 BD     JSR $BD60
+B641: A9 FB        LDA #$FB
+B643: 25 4C        AND $4C
+B645: 85 4C        STA $4C
+B647: A6 4E        LDX $4E
+B649: D6 56        DEC $56,X
+B64B: 8A           TXA 
+B64C: 49 08        EOR #$08
+B64E: AA           TAX 
+B64F: B5 56        LDA $56,X
+B651: F0 02        BEQ $B655
+B653: 86 4E        STX $4E
+B655: 4C FF B6     JMP $B6FF
+B658: 4C BC BA     JMP $BABC
+B65B: A5 4E        LDA $4E
+B65D: 4A           LSR A
+B65E: 4A           LSR A
+B65F: AA           TAX 
+B660: B5 11        LDA $11,X
+B662: F0 47        BEQ $B6AB
+B664: AA           TAX 
+B665: 29 03        AND #$03
+B667: 49 03        EOR #$03
+B669: F0 40        BEQ $B6AB
+B66B: 8A           TXA 
+B66C: 29 04        AND #$04
+B66E: D0 1E        BNE $B68E
+B670: 8A           TXA 
+B671: 29 08        AND #$08
+B673: D0 0A        BNE $B67F
+B675: A5 DB        LDA $DB
+B677: C9 AC        CMP #$AC
+B679: B0 10        BCS $B68B
+B67B: 69 01        ADC #$01
+B67D: D0 08        BNE $B687
+B67F: A5 DB        LDA $DB
+B681: C9 1C        CMP #$1C
+B683: 90 06        BCC $B68B
+B685: E9 01        SBC #$01
+B687: 85 DB        STA $DB
+B689: 85 DF        STA $DF
+B68B: 4C DD B6     JMP $B6DD
+B68E: A5 4F        LDA $4F
+B690: 30 19        BMI $B6AB
+B692: C6 48        DEC $48
+B694: 10 47        BPL $B6DD
+B696: 8A           TXA 
+B697: 29 08        AND #$08
+B699: D0 08        BNE $B6A3
+B69B: A5 42        LDA $42
+B69D: A6 43        LDX $43
+B69F: 10 1B        BPL $B6BC
+B6A1: 30 2D        BMI $B6D0
+B6A3: A5 42        LDA $42
+B6A5: A6 43        LDX $43
+B6A7: 10 27        BPL $B6D0
+B6A9: 30 11        BMI $B6BC
+B6AB: C6 48        DEC $48
+B6AD: 10 2E        BPL $B6DD
+B6AF: A2 00        LDX #$00
+B6B1: A5 42        LDA $42
+B6B3: A4 4E        LDY $4E
+B6B5: D9 54 00     CMP $0054,Y
+B6B8: 90 16        BCC $B6D0
+B6BA: F0 0F        BEQ $B6CB
+B6BC: 38           SEC 
+B6BD: E9 20        SBC #$20
+B6BF: C9 00        CMP #$00
+B6C1: D0 14        BNE $B6D7
+B6C3: A9 FE        LDA #$FE
+B6C5: 45 43        EOR $43
+B6C7: 85 43        STA $43
+B6C9: A2 FF        LDX #$FF
+B6CB: 86 4F        STX $4F
+B6CD: 4C D9 B6     JMP $B6D9
+B6D0: 18           CLC 
+B6D1: 69 20        ADC #$20
+B6D3: C9 A0        CMP #$A0
+B6D5: F0 02        BEQ $B6D9
+B6D7: 85 42        STA $42
+B6D9: A5 4D        LDA $4D
+B6DB: 85 48        STA $48
+B6DD: A5 DA        LDA $DA
+B6DF: A6 43        LDX $43
+B6E1: 10 0F        BPL $B6F2
+B6E3: 38           SEC 
+B6E4: E9 01        SBC #$01
+B6E6: C9 30        CMP #$30
+B6E8: 90 15        BCC $B6FF
+B6EA: 85 DA        STA $DA
+B6EC: E9 0B        SBC #$0B
+B6EE: 85 DE        STA $DE
+B6F0: D0 0D        BNE $B6FF
+B6F2: 18           CLC 
+B6F3: 69 01        ADC #$01
+B6F5: C9 C0        CMP #$C0
+B6F7: B0 06        BCS $B6FF
+B6F9: 85 DA        STA $DA
+B6FB: 69 0B        ADC #$0B
+B6FD: 85 DE        STA $DE
+B6FF: A6 4E        LDX $4E
+B701: B4 52        LDY $52,X
+B703: D0 06        BNE $B70B
+B705: D6 53        DEC $53,X
+B707: F0 1D        BEQ $B726
+B709: D0 25        BNE $B730
+B70B: B5 50        LDA $50,X
+B70D: 29 F0        AND #$F0
+B70F: D0 1D        BNE $B72E
+B711: B5 53        LDA $53,X
+B713: F0 1B        BEQ $B730
+B715: C0 06        CPY #$06
+B717: D0 0D        BNE $B726
+B719: B5 54        LDA $54,X
+B71B: 18           CLC 
+B71C: 69 20        ADC #$20
+B71E: C9 A0        CMP #$A0
+B720: B0 02        BCS $B724
+B722: 95 54        STA $54,X
+B724: A0 00        LDY #$00
+B726: C8           INY 
+B727: C8           INY 
+B728: 94 52        STY $52,X
+B72A: 56 55        LSR $55,X
+B72C: A9 00        LDA #$00
+B72E: 95 53        STA $53,X
+B730: B4 52        LDY $52,X
+B732: B5 55        LDA $55,X
+B734: 25 49        AND $49
+B736: D0 54        BNE $B78C
+B738: A9 1A        LDA #$1A
+B73A: 25 03        AND $03
+B73C: D0 4E        BNE $B78C
+B73E: A2 1C        LDX #$1C
+B740: BD 20 03     LDA $0320,X
+B743: F0 07        BEQ $B74C
+B745: 20 30 FD     JSR $FD30
+B748: 10 F6        BPL $B740
+B74A: 30 40        BMI $B78C
+B74C: A5 02        LDA $02
+B74E: 29 1F        AND #$1F
+B750: 18           CLC 
+B751: 69 20        ADC #$20
+B753: 9D 40 03     STA $0340,X
+B756: A9 07        LDA #$07
+B758: 25 02        AND $02
+B75A: 9D 41 03     STA $0341,X
+B75D: A5 02        LDA $02
+B75F: 4A           LSR A
+B760: 69 40        ADC #$40
+B762: 95 E3        STA $E3,X
+B764: 29 07        AND #$07
+B766: 69 10        ADC #$10
+B768: 9D 00 03     STA $0300,X
+B76B: A9 00        LDA #$00
+B76D: 9D 03 03     STA $0303,X
+B770: 9D 02 03     STA $0302,X
+B773: A9 80        LDA #$80
+B775: 25 02        AND $02
+B777: F0 06        BEQ $B77F
+B779: A9 C0        LDA #$C0
+B77B: 05 02        ORA $02
+B77D: D0 04        BNE $B783
+B77F: A9 1F        LDA #$1F
+B781: 25 02        AND $02
+B783: 09 20        ORA #$20
+B785: 95 E1        STA $E1,X
+B787: A9 FF        LDA #$FF
+B789: 9D 20 03     STA $0320,X
+B78C: 38           SEC 
+B78D: A5 42        LDA $42
+B78F: A6 4E        LDX $4E
+B791: F5 54        SBC $54,X
+B793: B0 02        BCS $B797
+B795: A9 00        LDA #$00
+B797: 85 04        STA $04
+B799: A5 43        LDA $43
+B79B: 30 2D        BMI $B7CA
+B79D: A2 1C        LDX #$1C
+B79F: B5 E1        LDA $E1,X
+B7A1: 29 E0        AND #$E0
+B7A3: 30 08        BMI $B7AD
+B7A5: D0 0C        BNE $B7B3
+B7A7: B5 82        LDA $82,X
+B7A9: C5 DA        CMP $DA
+B7AB: B0 06        BCS $B7B3
+B7AD: 20 73 BB     JSR $BB73
+B7B0: 4C B6 B7     JMP $B7B6
+B7B3: 20 82 BB     JSR $BB82
+B7B6: 18           CLC 
+B7B7: B5 E0        LDA $E0,X
+B7B9: 65 06        ADC $06
+B7BB: 95 E0        STA $E0,X
+B7BD: B5 E1        LDA $E1,X
+B7BF: 65 07        ADC $07
+B7C1: 95 E1        STA $E1,X
+B7C3: 20 30 FD     JSR $FD30
+B7C6: 10 D7        BPL $B79F
+B7C8: 30 2B        BMI $B7F5
+B7CA: A2 1C        LDX #$1C
+B7CC: B5 E1        LDA $E1,X
+B7CE: 29 E0        AND #$E0
+B7D0: 30 0E        BMI $B7E0
+B7D2: D0 06        BNE $B7DA
+B7D4: B5 82        LDA $82,X
+B7D6: C5 DA        CMP $DA
+B7D8: 90 06        BCC $B7E0
+B7DA: 20 73 BB     JSR $BB73
+B7DD: 4C E3 B7     JMP $B7E3
+B7E0: 20 82 BB     JSR $BB82
+B7E3: 38           SEC 
+B7E4: B5 E0        LDA $E0,X
+B7E6: E5 06        SBC $06
+B7E8: 95 E0        STA $E0,X
+B7EA: B5 E1        LDA $E1,X
+B7EC: E5 07        SBC $07
+B7EE: 95 E1        STA $E1,X
+B7F0: 20 30 FD     JSR $FD30
+B7F3: 10 D7        BPL $B7CC
+B7F5: A2 1C        LDX #$1C
+B7F7: DE 40 03     DEC $0340,X
+B7FA: D0 11        BNE $B80D
+B7FC: A9 1F        LDA #$1F
+B7FE: 25 03        AND $03
+B800: 18           CLC 
+B801: 69 20        ADC #$20
+B803: 9D 40 03     STA $0340,X
+B806: A9 07        LDA #$07
+B808: 25 02        AND $02
+B80A: 9D 41 03     STA $0341,X
+B80D: BC 41 03     LDY $0341,X
+B810: 18           CLC 
+B811: B5 E0        LDA $E0,X
+B813: 79 E2 BD     ADC $BDE2,Y
+B816: 95 E0        STA $E0,X
+B818: B5 E1        LDA $E1,X
+B81A: 79 EC BD     ADC $BDEC,Y
+B81D: 95 E1        STA $E1,X
+B81F: 18           CLC 
+B820: B5 E2        LDA $E2,X
+B822: 79 E4 BD     ADC $BDE4,Y
+B825: 95 E2        STA $E2,X
+B827: B5 E3        LDA $E3,X
+B829: 79 EE BD     ADC $BDEE,Y
+B82C: 29 1F        AND #$1F
+B82E: C9 03        CMP #$03
+B830: B0 08        BCS $B83A
+B832: A9 00        LDA #$00
+B834: 95 E2        STA $E2,X
+B836: A9 03        LDA #$03
+B838: D0 0A        BNE $B844
+B83A: C9 16        CMP #$16
+B83C: 90 06        BCC $B844
+B83E: A9 FF        LDA #$FF
+B840: 95 E2        STA $E2,X
+B842: A9 15        LDA #$15
+B844: 95 E3        STA $E3,X
+B846: 20 30 FD     JSR $FD30
+B849: 10 AC        BPL $B7F7
+B84B: A5 DB        LDA $DB
+B84D: 18           CLC 
+B84E: 69 0C        ADC #$0C
+B850: 85 6C        STA $6C
+B852: A5 DB        LDA $DB
+B854: 38           SEC 
+B855: E9 0C        SBC #$0C
+B857: 85 6D        STA $6D
+B859: A9 01        LDA #$01
+B85B: 85 08        STA $08
+B85D: A2 1C        LDX #$1C
+B85F: DE 42 03     DEC $0342,X
+B862: D0 05        BNE $B869
+B864: A9 17        LDA #$17
+B866: 9D 42 03     STA $0342,X
+B869: BD 20 03     LDA $0320,X
+B86C: F0 46        BEQ $B8B4
+B86E: 10 48        BPL $B8B8
+B870: A9 E0        LDA #$E0
+B872: 35 E1        AND $E1,X
+B874: D0 3E        BNE $B8B4
+B876: B5 E0        LDA $E0,X
+B878: 85 06        STA $06
+B87A: B5 E1        LDA $E1,X
+B87C: 85 07        STA $07
+B87E: 20 6D BC     JSR $BC6D
+B881: A5 07        LDA $07
+B883: 95 82        STA $82,X
+B885: 8A           TXA 
+B886: 38           SEC 
+B887: E9 0C        SBC #$0C
+B889: B0 FC        BCS $B887
+B88B: 69 0C        ADC #$0C
+B88D: A8           TAY 
+B88E: 0A           ASL A
+B88F: 0A           ASL A
+B890: 09 80        ORA #$80
+B892: 85 04        STA $04
+B894: BD 42 03     LDA $0342,X
+B897: 4A           LSR A
+B898: 29 0C        AND #$0C
+B89A: 05 04        ORA $04
+B89C: 95 81        STA $81,X
+B89E: B9 00 BE     LDA $BE00,Y
+B8A1: 95 80        STA $80,X
+B8A3: B5 E2        LDA $E2,X
+B8A5: 85 06        STA $06
+B8A7: B5 E3        LDA $E3,X
+B8A9: 85 07        STA $07
+B8AB: 20 6D BC     JSR $BC6D
+B8AE: A5 07        LDA $07
+B8B0: C9 C0        CMP #$C0
+B8B2: 90 02        BCC $B8B6
+B8B4: A9 E0        LDA #$E0
+B8B6: 95 83        STA $83,X
+B8B8: 20 30 FD     JSR $FD30
+B8BB: 10 A2        BPL $B85F
+B8BD: A9 FF        LDA #$FF
+B8BF: 45 4A        EOR $4A
+B8C1: 85 4A        STA $4A
+B8C3: 85 08        STA $08
+B8C5: A2 1C        LDX #$1C
+B8C7: BD 20 03     LDA $0320,X
+B8CA: F0 3E        BEQ $B90A
+B8CC: 30 05        BMI $B8D3
+B8CE: DE 20 03     DEC $0320,X
+B8D1: 10 40        BPL $B913
+B8D3: B5 E2        LDA $E2,X
+B8D5: 85 06        STA $06
+B8D7: B5 E3        LDA $E3,X
+B8D9: 85 07        STA $07
+B8DB: 20 6D BC     JSR $BC6D
+B8DE: A5 07        LDA $07
+B8E0: C9 C0        CMP #$C0
+B8E2: B0 26        BCS $B90A
+B8E4: 20 47 FD     JSR $FD47
+B8E7: 46 08        LSR $08
+B8E9: B0 02        BCS $B8ED
+B8EB: A9 E0        LDA #$E0
+B8ED: 95 A3        STA $A3,X
+B8EF: B5 E1        LDA $E1,X
+B8F1: 18           CLC 
+B8F2: 69 80        ADC #$80
+B8F4: A8           TAY 
+B8F5: 29 E0        AND #$E0
+B8F7: F0 11        BEQ $B90A
+B8F9: 98           TYA 
+B8FA: 4A           LSR A
+B8FB: 18           CLC 
+B8FC: 69 38        ADC #$38
+B8FE: 95 A2        STA $A2,X
+B900: A9 0F        LDA #$0F
+B902: 95 A0        STA $A0,X
+B904: A9 DC        LDA #$DC
+B906: 95 A1        STA $A1,X
+B908: D0 09        BNE $B913
+B90A: A9 E0        LDA #$E0
+B90C: 95 A3        STA $A3,X
+B90E: A9 00        LDA #$00
+B910: 9D 20 03     STA $0320,X
+B913: 20 30 FD     JSR $FD30
+B916: 10 AF        BPL $B8C7
+B918: A5 4E        LDA $4E
+B91A: 4A           LSR A
+B91B: 4A           LSR A
+B91C: 4A           LSR A
+B91D: AA           TAX 
+B91E: B5 16        LDA $16,X
+B920: 29 0C        AND #$0C
+B922: F0 60        BEQ $B984
+B924: A9 0E        LDA #$0E
+B926: 85 20        STA $20
+B928: A5 DA        LDA $DA
+B92A: A6 43        LDX $43
+B92C: 10 05        BPL $B933
+B92E: 38           SEC 
+B92F: E9 10        SBC #$10
+B931: D0 03        BNE $B936
+B933: 18           CLC 
+B934: 69 20        ADC #$20
+B936: 85 D6        STA $D6
+B938: 86 6A        STX $6A
+B93A: A5 DB        LDA $DB
+B93C: 38           SEC 
+B93D: E9 08        SBC #$08
+B93F: 85 D7        STA $D7
+B941: A9 D4        LDA #$D4
+B943: 85 D5        STA $D5
+B945: A9 80        LDA #$80
+B947: 25 43        AND $43
+B949: 49 8F        EOR #$8F
+B94B: 85 D4        STA $D4
+B94D: A6 4E        LDX $4E
+B94F: 4C 84 B9     JMP $B984
+B952: B4 52        LDY $52,X
+B954: 98           TYA 
+B955: 29 02        AND #$02
+B957: D0 2B        BNE $B984
+B959: A2 04        LDX #$04
+B95B: B5 C3        LDA $C3,X
+B95D: C9 C0        CMP #$C0
+B95F: B0 07        BCS $B968
+B961: 20 30 FD     JSR $FD30
+B964: 10 F5        BPL $B95B
+B966: 30 1C        BMI $B984
+B968: A5 DA        LDA $DA
+B96A: 95 C2        STA $C2,X
+B96C: A5 43        LDA $43
+B96E: 95 62        STA $62,X
+B970: A5 DB        LDA $DB
+B972: 69 0A        ADC #$0A
+B974: 95 60        STA $60,X
+B976: 95 C3        STA $C3,X
+B978: A9 00        LDA #$00
+B97A: 95 61        STA $61,X
+B97C: A9 0F        LDA #$0F
+B97E: 95 C0        STA $C0,X
+B980: A9 D8        LDA #$D8
+B982: 95 C1        STA $C1,X
+B984: A2 04        LDX #$04
+B986: B5 C3        LDA $C3,X
+B988: C9 C0        CMP #$C0
+B98A: B0 20        BCS $B9AC
+B98C: F6 61        DEC $61,X
+B98E: B5 61        LDA $61,X
+B990: 20 0A FD     JSR $FD0A
+B993: 20 6A BC     JSR $BC6A
+B996: A5 07        LDA $07
+B998: 18           CLC 
+B999: 75 60        ADC $60,X
+B99B: C9 C0        CMP #$C0
+B99D: 90 02        BCC $B9A1
+B99F: A9 E0        LDA #$E0
+B9A1: 95 C3        STA $C3,X
+B9A3: 18           CLC 
+B9A4: B5 62        LDA $62,X
+B9A6: 49 FE        EOR #$FE
+B9A8: 75 C2        ADC $C2,X
+B9AA: 95 C2        STA $C2,X
+B9AC: 20 30 FD     JSR $FD30
+B9AF: 10 D5        BPL $B986
+B9B1: A5 D7        LDA $D7
+B9B3: C9 C0        CMP #$C0
+B9B5: B0 78        BCS $BA2F
+B9B7: A5 D6        LDA $D6
+B9B9: A6 6A        LDX $6A
+B9BB: 30 07        BMI $B9C4
+B9BD: 38           SEC 
+B9BE: E9 10        SBC #$10
+B9C0: 90 07        BCC $B9C9
+B9C2: B0 0B        BCS $B9CF
+B9C4: 18           CLC 
+B9C5: 69 10        ADC #$10
+B9C7: 90 06        BCC $B9CF
+B9C9: A9 E0        LDA #$E0
+B9CB: 85 D7        STA $D7
+B9CD: D0 60        BNE $BA2F
+B9CF: 85 D6        STA $D6
+B9D1: A2 1C        LDX #$1C
+B9D3: BD 20 03     LDA $0320,X
+B9D6: 10 2E        BPL $BA06
+B9D8: A9 30        LDA #$30
+B9DA: 35 81        AND $81,X
+B9DC: 4A           LSR A
+B9DD: 4A           LSR A
+B9DE: A8           TAY 
+B9DF: B5 83        LDA $83,X
+B9E1: 38           SEC 
+B9E2: E5 D7        SBC $D7
+B9E4: 90 20        BCC $BA06
+B9E6: D9 FD BD     CMP $BDFD,Y
+B9E9: B0 1B        BCS $BA06
+B9EB: D9 FE BD     CMP $BDFE,Y
+B9EE: 90 16        BCC $BA06
+B9F0: 38           SEC 
+B9F1: A5 43        LDA $43
+B9F3: 30 07        BMI $B9FC
+B9F5: A5 D6        LDA $D6
+B9F7: F5 82        SBC $82,X
+B9F9: 4C 00 BA     JMP $BA00
+B9FC: B5 82        LDA $82,X
+B9FE: E5 D6        SBC $D6
+BA00: 90 04        BCC $BA06
+BA02: C9 10        CMP #$10
+BA04: 90 07        BCC $BA0D
+BA06: 20 30 FD     JSR $FD30
+BA09: 10 C8        BPL $B9D3
+BA0B: 30 22        BMI $BA2F
+BA0D: B5 81        LDA $81,X
+BA0F: 09 0C        ORA #$0C
+BA11: 95 81        STA $81,X
+BA13: A9 00        LDA #$00
+BA15: 85 20        STA $20
+BA17: A9 1F        LDA #$1F
+BA19: 85 25        STA $25
+BA1B: A9 E4        LDA #$E4
+BA1D: 20 77 FE     JSR $FE77
+BA20: A9 7F        LDA #$7F
+BA22: 9D 20 03     STA $0320,X
+BA25: B9 FF BD     LDA $BDFF,Y
+BA28: 20 93 BB     JSR $BB93
+BA2B: A9 E0        LDA #$E0
+BA2D: 85 D7        STA $D7
+BA2F: A2 04        LDX #$04
+BA31: B5 C3        LDA $C3,X
+BA33: C9 C0        CMP #$C0
+BA35: B0 2B        BCS $BA62
+BA37: 85 05        STA $05
+BA39: B5 C2        LDA $C2,X
+BA3B: 85 04        STA $04
+BA3D: 20 EC FD     JSR $FDEC
+BA40: A9 01        LDA #$01
+BA42: 25 45        AND $45
+BA44: 38           SEC 
+BA45: 2A           ROL A
+BA46: 0A           ASL A
+BA47: 0A           ASL A
+BA48: 05 05        ORA $05
+BA4A: 85 05        STA $05
+BA4C: 20 0C FE     JSR $FE0C
+BA4F: C9 38        CMP #$38
+BA51: 90 0F        BCC $BA62
+BA53: C9 4F        CMP #$4F
+BA55: B0 0B        BCS $BA62
+BA57: A9 1F        LDA #$1F
+BA59: 85 22        STA $22
+BA5B: A9 E0        LDA #$E0
+BA5D: 95 C3        STA $C3,X
+BA5F: 20 91 BB     JSR $BB91
+BA62: 20 30 FD     JSR $FD30
+BA65: 10 CA        BPL $BA31
+BA67: A2 1C        LDX #$1C
+BA69: BD 20 03     LDA $0320,X
+BA6C: 10 25        BPL $BA93
+BA6E: B5 83        LDA $83,X
+BA70: C9 C0        CMP #$C0
+BA72: B0 1F        BCS $BA93
+BA74: E5 DB        SBC $DB
+BA76: 90 06        BCC $BA7E
+BA78: C9 05        CMP #$05
+BA7A: B0 17        BCS $BA93
+BA7C: 90 04        BCC $BA82
+BA7E: C9 FA        CMP #$FA
+BA80: 90 11        BCC $BA93
+BA82: 38           SEC 
+BA83: B5 82        LDA $82,X
+BA85: E5 DA        SBC $DA
+BA87: 90 06        BCC $BA8F
+BA89: C9 0C        CMP #$0C
+BA8B: B0 06        BCS $BA93
+BA8D: 90 0C        BCC $BA9B
+BA8F: C9 F3        CMP #$F3
+BA91: B0 08        BCS $BA9B
+BA93: 20 30 FD     JSR $FD30
+BA96: 10 D1        BPL $BA69
+BA98: 4C 70 BB     JMP $BB70
+BA9B: A9 E4        LDA #$E4
+BA9D: 20 77 FE     JSR $FE77
+BAA0: A9 0A        LDA #$0A
+BAA2: 85 23        STA $23
+BAA4: A9 01        LDA #$01
+BAA6: 85 24        STA $24
+BAA8: 85 69        STA $69
+BAAA: A9 03        LDA #$03
+BAAC: 85 68        STA $68
+BAAE: A5 DB        LDA $DB
+BAB0: 85 47        STA $47
+BAB2: A5 DA        LDA $DA
+BAB4: 85 46        STA $46
+BAB6: 20 83 BD     JSR $BD83
+BAB9: 20 8F BD     JSR $BD8F
+BABC: A6 68        LDX $68
+BABE: D0 0B        BNE $BACB
+BAC0: C6 69        DEC $69
+BAC2: A5 69        LDA $69
+BAC4: D0 1F        BNE $BAE5
+BAC6: C6 68        DEC $68
+BAC8: 4C 63 BB     JMP $BB63
+BACB: E6 69        INC $69
+BACD: A5 69        LDA $69
+BACF: DD F5 BD     CMP $BDF5,X
+BAD2: 90 11        BCC $BAE5
+BAD4: CA           DEX 
+BAD5: 86 68        STX $68
+BAD7: D0 0A        BNE $BAE3
+BAD9: A9 04        LDA #$04
+BADB: 05 4C        ORA $4C
+BADD: 85 4C        STA $4C
+BADF: A5 69        LDA $69
+BAE1: D0 02        BNE $BAE5
+BAE3: A9 00        LDA #$00
+BAE5: 85 69        STA $69
+BAE7: 8D 80 03     STA $0380
+BAEA: 8D 83 03     STA $0383
+BAED: 8D 88 03     STA $0388
+BAF0: 0A           ASL A
+BAF1: 8D 81 03     STA $0381
+BAF4: 8D 82 03     STA $0382
+BAF7: 8D 89 03     STA $0389
+BAFA: A5 69        LDA $69
+BAFC: 49 FF        EOR #$FF
+BAFE: 18           CLC 
+BAFF: 69 01        ADC #$01
+BB01: 8D 84 03     STA $0384
+BB04: 8D 87 03     STA $0387
+BB07: 0A           ASL A
+BB08: 8D 85 03     STA $0385
+BB0B: 8D 86 03     STA $0386
+BB0E: A0 07        LDY #$07
+BB10: A2 1C        LDX #$1C
+BB12: 86 08        STX $08
+BB14: 18           CLC 
+BB15: A5 47        LDA $47
+BB17: 79 80 03     ADC $0380,Y
+BB1A: 95 83        STA $83,X
+BB1C: C9 C0        CMP #$C0
+BB1E: B0 2A        BCS $BB4A
+BB20: C5 47        CMP $47
+BB22: B0 06        BCS $BB2A
+BB24: C0 04        CPY #$04
+BB26: B0 06        BCS $BB2E
+BB28: 90 20        BCC $BB4A
+BB2A: C0 04        CPY #$04
+BB2C: B0 1C        BCS $BB4A
+BB2E: 18           CLC 
+BB2F: A5 46        LDA $46
+BB31: 79 82 03     ADC $0382,Y
+BB34: 95 82        STA $82,X
+BB36: B0 0A        BCS $BB42
+BB38: C0 02        CPY #$02
+BB3A: 90 12        BCC $BB4E
+BB3C: C0 06        CPY #$06
+BB3E: B0 0E        BCS $BB4E
+BB40: 90 08        BCC $BB4A
+BB42: C0 02        CPY #$02
+BB44: 90 04        BCC $BB4A
+BB46: C0 06        CPY #$06
+BB48: 90 04        BCC $BB4E
+BB4A: A9 E0        LDA #$E0
+BB4C: 95 83        STA $83,X
+BB4E: A6 68        LDX $68
+BB50: BD F9 BD     LDA $BDF9,X
+BB53: A6 08        LDX $08
+BB55: 95 80        STA $80,X
+BB57: A9 BC        LDA #$BC
+BB59: 95 81        STA $81,X
+BB5B: 88           DEY 
+BB5C: 20 30 FD     JSR $FD30
+BB5F: 10 B1        BPL $BB12
+BB61: 30 0D        BMI $BB70
+BB63: A2 07        LDX #$07
+BB65: BD 09 BE     LDA $BE09,X
+BB68: 95 D8        STA $D8,X
+BB6A: CA           DEX 
+BB6B: 10 F8        BPL $BB65
+BB6D: 20 8F BD     JSR $BD8F
+BB70: 4C B5 B5     JMP $B5B5
+BB73: 18           CLC 
+BB74: A5 04        LDA $04
+BB76: 7D 00 03     ADC $0300,X
+BB79: 85 06        STA $06
+BB7B: A9 00        LDA #$00
+BB7D: 69 00        ADC #$00
+BB7F: 85 07        STA $07
+BB81: 60           RTS 
+BB82: 38           SEC 
+BB83: A5 04        LDA $04
+BB85: FD 00 03     SBC $0300,X
+BB88: 85 06        STA $06
+BB8A: A9 00        LDA #$00
+BB8C: E9 00        SBC #$00
+BB8E: 85 07        STA $07
+BB90: 60           RTS 
+BB91: A9 01        LDA #$01
+BB93: F8           SED 
+BB94: 18           CLC 
+BB95: A6 4E        LDX $4E
+BB97: 75 50        ADC $50,X
+BB99: 95 50        STA $50,X
+BB9B: B5 51        LDA $51,X
+BB9D: 69 00        ADC #$00
+BB9F: 95 51        STA $51,X
+BBA1: D8           CLD 
+BBA2: A4 0D        LDY $0D
+BBA4: B5 51        LDA $51,X
+BBA6: D9 C0 03     CMP $03C0,Y
+BBA9: 90 13        BCC $BBBE
+BBAB: D0 07        BNE $BBB4
+BBAD: B5 50        LDA $50,X
+BBAF: D9 D0 03     CMP $03D0,Y
+BBB2: 90 0A        BCC $BBBE
+BBB4: B5 51        LDA $51,X
+BBB6: 99 C0 03     STA $03C0,Y
+BBB9: B5 50        LDA $50,X
+BBBB: 99 D0 03     STA $03D0,Y
+BBBE: 60           RTS 
+BBBF: A2 43        LDX #$43
+BBC1: A0 00        LDY #$00
+BBC3: 20 CF BB     JSR $BBCF
+BBC6: A2 58        LDX #$58
+BBC8: A0 08        LDY #$08
+BBCA: A5 0D        LDA $0D
+BBCC: 4A           LSR A
+BBCD: 90 17        BCC $BBE6
+BBCF: 8A           TXA 
+BBD0: A2 C4        LDX #$C4
+BBD2: 20 1F FE     JSR $FE1F
+BBD5: B9 51 00     LDA $0051,Y
+BBD8: 20 AD FE     JSR $FEAD
+BBDB: B9 50 00     LDA $0050,Y
+BBDE: 20 AD FE     JSR $FEAD
+BBE1: A9 00        LDA #$00
+BBE3: 4C B8 FE     JMP $FEB8
+BBE6: A4 0D        LDY $0D
+BBE8: 8A           TXA 
+BBE9: A2 C4        LDX #$C4
+BBEB: 20 1F FE     JSR $FE1F
+BBEE: B9 C0 03     LDA $03C0,Y
+BBF1: 20 AD FE     JSR $FEAD
+BBF4: B9 D0 03     LDA $03D0,Y
+BBF7: 4C DE BB     JMP $BBDE
+BBFA: A6 4E        LDX $4E
+BBFC: B4 52        LDY $52,X
+BBFE: B9 11 BE     LDA $BE11,Y
+BC01: BE 12 BE     LDX $BE12,Y
+BC04: 20 53 FD     JSR $FD53
+BC07: A2 BF        LDX #$BF
+BC09: A0 C0        LDY #$C0
+BC0B: A5 0D        LDA $0D
+BC0D: 4A           LSR A
+BC0E: 90 0C        BCC $BC1C
+BC10: A5 4E        LDA $4E
+BC12: D0 06        BNE $BC1A
+BC14: A9 10        LDA #$10
+BC16: 25 49        AND $49
+BC18: D0 02        BNE $BC1C
+BC1A: A0 CF        LDY #$CF
+BC1C: 98           TYA 
+BC1D: 20 53 FD     JSR $FD53
+BC20: A2 BF        LDX #$BF
+BC22: A0 DE        LDY #$DE
+BC24: A5 0D        LDA $0D
+BC26: 4A           LSR A
+BC27: 90 0E        BCC $BC37
+BC29: A0 D6        LDY #$D6
+BC2B: A5 4E        LDA $4E
+BC2D: F0 08        BEQ $BC37
+BC2F: A9 10        LDA #$10
+BC31: 25 49        AND $49
+BC33: F0 02        BEQ $BC37
+BC35: A0 C7        LDY #$C7
+BC37: 98           TYA 
+BC38: 20 53 FD     JSR $FD53
+BC3B: A9 23        LDA #$23
+BC3D: A0 00        LDY #$00
+BC3F: 20 46 BC     JSR $BC46
+BC42: A9 38        LDA #$38
+BC44: A0 08        LDY #$08
+BC46: A2 C4        LDX #$C4
+BC48: 20 1F FE     JSR $FE1F
+BC4B: B6 56        LDX $56,Y
+BC4D: A0 03        LDY #$03
+BC4F: A9 7E        LDA #$7E
+BC51: CA           DEX 
+BC52: 10 02        BPL $BC56
+BC54: A9 00        LDA #$00
+BC56: 20 82 FD     JSR $FD82
+BC59: 88           DEY 
+BC5A: 10 F5        BPL $BC51
+BC5C: 60           RTS 
+BC5D: A9 16        LDA #$16
+BC5F: 85 07        STA $07
+BC61: BD C8 B1     LDA $B1C8,X
+BC64: 85 06        STA $06
+BC66: 20 6D BC     JSR $BC6D
+BC69: 60           RTS 
+BC6A: 20 73 BC     JSR $BC73
+BC6D: 20 73 BC     JSR $BC73
+BC70: 20 73 BC     JSR $BC73
+BC73: 06 06        ASL $06
+BC75: 26 07        ROL $07
+BC77: 60           RTS 
+BC78: A0 07        LDY #$07
+BC7A: B1 06        LDA ($06),Y
+BC7C: 95 E0        STA $E0,X
+BC7E: E8           INX 
+BC7F: 88           DEY 
+BC80: 10 F8        BPL $BC7A
+BC82: 60           RTS 
+BC83: A5 20        LDA $20
+BC85: 30 18        BMI $BC9F
+BC87: F0 0F        BEQ $BC98
+BC89: A9 80        LDA #$80
+BC8B: 20 77 FE     JSR $FE77
+BC8E: A6 20        LDX $20
+BC90: BD BE BD     LDA $BDBE,X
+BC93: 20 77 FE     JSR $FE77
+BC96: A9 0F        LDA #$0F
+BC98: 49 9F        EOR #$9F
+BC9A: 20 77 FE     JSR $FE77
+BC9D: C6 20        DEC $20
+BC9F: A6 23        LDX $23
+BCA1: F0 11        BEQ $BCB4
+BCA3: C6 24        DEC $24
+BCA5: D0 0D        BNE $BCB4
+BCA7: BD CD BD     LDA $BDCD,X
+BCAA: 85 24        STA $24
+BCAC: BD D7 BD     LDA $BDD7,X
+BCAF: 20 77 FE     JSR $FE77
+BCB2: C6 23        DEC $23
+BCB4: A5 68        LDA $68
+BCB6: D0 29        BNE $BCE1
+BCB8: A5 69        LDA $69
+BCBA: 49 7F        EOR #$7F
+BCBC: 48           PHA 
+BCBD: 29 0F        AND #$0F
+BCBF: 09 80        ORA #$80
+BCC1: 20 77 FE     JSR $FE77
+BCC4: 68           PLA 
+BCC5: 4A           LSR A
+BCC6: 4A           LSR A
+BCC7: 4A           LSR A
+BCC8: 4A           LSR A
+BCC9: 20 77 FE     JSR $FE77
+BCCC: A5 69        LDA $69
+BCCE: 38           SEC 
+BCCF: E9 01        SBC #$01
+BCD1: F0 07        BEQ $BCDA
+BCD3: 4A           LSR A
+BCD4: 4A           LSR A
+BCD5: 4A           LSR A
+BCD6: 4A           LSR A
+BCD7: 18           CLC 
+BCD8: 69 01        ADC #$01
+BCDA: AA           TAX 
+BCDB: BD 9C BD     LDA $BD9C,X
+BCDE: 20 77 FE     JSR $FE77
+BCE1: A5 25        LDA $25
+BCE3: 30 0C        BMI $BCF1
+BCE5: 4A           LSR A
+BCE6: 29 0F        AND #$0F
+BCE8: AA           TAX 
+BCE9: BD AE BD     LDA $BDAE,X
+BCEC: 20 77 FE     JSR $FE77
+BCEF: C6 25        DEC $25
+BCF1: 60           RTS 
+BCF2: A2 07        LDX #$07
+BCF4: 95 10        STA $10,X
+BCF6: CA           DEX 
+BCF7: 10 FB        BPL $BCF4
+BCF9: A9 40        LDA #$40
+BCFB: 25 4C        AND $4C
+BCFD: D0 0B        BNE $BD0A
+BCFF: C6 4B        DEC $4B
+BD01: D0 1F        BNE $BD22
+BD03: A9 D3        LDA #$D3
+BD05: 85 12        STA $12
+BD07: 4C 22 BD     JMP $BD22
+BD0A: A9 1F        LDA #$1F
+BD0C: 25 03        AND $03
+BD0E: D0 0E        BNE $BD1E
+BD10: A9 0C        LDA #$0C
+BD12: 25 02        AND $02
+BD14: 85 16        STA $16
+BD16: A9 0F        LDA #$0F
+BD18: 25 02        AND $02
+BD1A: 09 40        ORA #$40
+BD1C: 85 6B        STA $6B
+BD1E: A5 6B        LDA $6B
+BD20: 85 11        STA $11
+BD22: 60           RTS 
+BD23: A2 08        LDX #$08
+BD25: A9 00        LDA #$00
+BD27: 95 50        STA $50,X
+BD29: 95 51        STA $51,X
+BD2B: 95 52        STA $52,X
+BD2D: 95 53        STA $53,X
+BD2F: 85 4E        STA $4E
+BD31: A9 07        LDA #$07
+BD33: 95 55        STA $55,X
+BD35: A0 40        LDY #$40
+BD37: A9 02        LDA #$02
+BD39: 25 0D        AND $0D
+BD3B: F0 02        BEQ $BD3F
+BD3D: A0 80        LDY #$80
+BD3F: 94 54        STY $54,X
+BD41: A9 03        LDA #$03
+BD43: 95 56        STA $56,X
+BD45: 20 2C FD     JSR $FD2C
+BD48: 10 DB        BPL $BD25
+BD4A: A0 04        LDY #$04
+BD4C: A9 04        LDA #$04
+BD4E: 25 0D        AND $0D
+BD50: F0 02        BEQ $BD54
+BD52: A0 02        LDY #$02
+BD54: 84 4D        STY $4D
+BD56: A5 0D        LDA $0D
+BD58: 4A           LSR A
+BD59: B0 04        BCS $BD5F
+BD5B: A9 00        LDA #$00
+BD5D: 85 5E        STA $5E
+BD5F: 60           RTS 
+BD60: A9 01        LDA #$01
+BD62: 85 43        STA $43
+BD64: A9 00        LDA #$00
+BD66: 85 49        STA $49
+BD68: 85 44        STA $44
+BD6A: 85 68        STA $68
+BD6C: A9 20        LDA #$20
+BD6E: 85 42        STA $42
+BD70: A9 5F        LDA #$5F
+BD72: 85 45        STA $45
+BD74: A9 80        LDA #$80
+BD76: 85 46        STA $46
+BD78: 85 47        STA $47
+BD7A: A9 0F        LDA #$0F
+BD7C: 85 4A        STA $4A
+BD7E: A9 7F        LDA #$7F
+BD80: 85 69        STA $69
+BD82: 60           RTS 
+BD83: A9 E0        LDA #$E0
+BD85: A2 5C        LDX #$5C
+BD87: 95 83        STA $83,X
+BD89: 20 30 FD     JSR $FD30
+BD8C: 10 F9        BPL $BD87
+BD8E: 60           RTS 
+BD8F: A9 00        LDA #$00
+BD91: A2 1C        LDX #$1C
+BD93: 9D 20 03     STA $0320,X
+BD96: 20 30 FD     JSR $FD30
+BD99: 10 F8        BPL $BD93
+BD9B: 60           RTS 
+BD9C: 9F          .byte $9F
+BD9D: 90 90        BCC $BD2F
+BD9F: 90 90        BCC $BD31
+BDA1: 94 98        STY $98,X
+BDA3: 9C          .byte $9C
+BDA4: 9E          .byte $9E
+BDA5: BF          .byte $BF
+BDA6: BD BB B9     LDA $B9BB,X
+BDA9: B7          .byte $B7
+BDAA: B5 B3        LDA $B3,X
+BDAC: B1 B0        LDA ($B0),Y
+BDAE: FF          .byte $FF
+BDAF: FD FB F9     SBC $F9FB,X
+BDB2: F7          .byte $F7
+BDB3: F4          .byte $F4
+BDB4: F2          .byte $F2
+BDB5: F0 F0        BEQ $BDA7
+BDB7: F0 F0        BEQ $BDA9
+BDB9: F0 F0        BEQ $BDAB
+BDBB: F0 F0        BEQ $BDAD
+BDBD: F0 20        BEQ $BDDF
+BDBF: 1C          .byte $1C
+BDC0: 18           CLC 
+BDC1: 14          .byte $14
+BDC2: 10 0E        BPL $BDD2
+BDC4: 0C          .byte $0C
+BDC5: 0A           ASL A
+BDC6: 08           PHP 
+BDC7: 07          .byte $07
+BDC8: 06 05        ASL $05
+BDCA: 04          .byte $04
+BDCB: 03          .byte $03
+BDCC: 02          .byte $02
+BDCD: 01 01        ORA ($01,X)
+BDCF: 04          .byte $04
+BDD0: 08           PHP 
+BDD1: 10 10        BPL $BDE3
+BDD3: 30 10        BMI $BDE5
+BDD5: 10 08        BPL $BDDF
+BDD7: 08           PHP 
+BDD8: FF          .byte $FF
+BDD9: FC          .byte $FC
+BDDA: F8           SED 
+BDDB: F6 F4        DEC $F4,X
+BDDD: F0 FF        BEQ $BDDE
+BDDF: F2          .byte $F2
+BDE0: FF          .byte $FF
+BDE1: F2          .byte $F2
+BDE2: 00           BRK 
+BDE3: 10 10        BPL $BDF5
+BDE5: 10 00        BPL $BDE7
+BDE7: F0 F0        BEQ $BDD9
+BDE9: F0 00        BEQ $BDEB
+BDEB: 10 00        BPL $BDED
+BDED: 00           BRK 
+BDEE: 00           BRK 
+BDEF: 00           BRK 
+BDF0: 00           BRK 
+BDF1: FF          .byte $FF
+BDF2: FF          .byte $FF
+BDF3: FF          .byte $FF
+BDF4: 00           BRK 
+BDF5: 00           BRK 
+BDF6: 70 20        BVS $BE18
+BDF8: 10 0F        BPL $BE09
+BDFA: 02          .byte $02
+BDFB: 04          .byte $04
+BDFC: 06 0E        ASL $0E
+BDFE: 01 02        ORA ($02,X)
+BE00: 02          .byte $02
+BE01: 0D 02 03     ORA $0302
+BE04: 04          .byte $04
+BE05: 0B          .byte $0B
+BE06: 03          .byte $03
+BE07: 05 06        ORA $06
+BE09: 02          .byte $02
+BE0A: D0 78        BNE $BE84
+BE0C: 80          .byte $80
+BE0D: 06 C0        ASL $C0
+BE0F: 81 80        STA ($80,X)
+BE11: 40           RTI 
+BE12: A4 19        LDY $19
+BE14: BE 40 A4     LDX $A440,Y
+BE17: 29 BE        AND #$BE
+BE19: D4          .byte $D4
+BE1A: 00           BRK 
+BE1B: 0C          .byte $0C
+BE1C: 70 70        BVS $BE8E
+BE1E: 70 70        BVS $BE90
+BE20: 70 70        BVS $BE92
+BE22: 70 77        BVS $BE9B
+BE24: 77          .byte $77
+BE25: 77          .byte $77
+BE26: 77          .byte $77
+BE27: 70 00        BVS $BE29
+BE29: D4          .byte $D4
+BE2A: 00           BRK 
+BE2B: 0C          .byte $0C
+BE2C: 80          .byte $80
+BE2D: 80          .byte $80
+BE2E: 80          .byte $80
+BE2F: 80          .byte $80
+BE30: 80          .byte $80
+BE31: 80          .byte $80
+BE32: 80          .byte $80
+BE33: 88           DEY 
+BE34: 88           DEY 
+BE35: 88           DEY 
+BE36: 88           DEY 
+BE37: 80          .byte $80
+BE38: 00           BRK 
+BE39: FF          .byte $FF
+BE3A: FF          .byte $FF
+BE3B: FF          .byte $FF
+BE3C: FF          .byte $FF
+BE3D: FF          .byte $FF
+BE3E: FF          .byte $FF
+BE3F: FF          .byte $FF
+BE40: FF          .byte $FF
+BE41: FF          .byte $FF
+BE42: FF          .byte $FF
+BE43: FF          .byte $FF
+BE44: FF          .byte $FF
+BE45: FF          .byte $FF
+BE46: FF          .byte $FF
+BE47: FF          .byte $FF
+BE48: FF          .byte $FF
+BE49: FF          .byte $FF
+BE4A: FF          .byte $FF
+BE4B: FF          .byte $FF
+BE4C: FF          .byte $FF
+BE4D: FF          .byte $FF
+BE4E: FF          .byte $FF
+BE4F: FF          .byte $FF
+BE50: FF          .byte $FF
+BE51: FF          .byte $FF
+BE52: FF          .byte $FF
+BE53: FF          .byte $FF
+BE54: FF          .byte $FF
+BE55: FF          .byte $FF
+BE56: FF          .byte $FF
+BE57: FF          .byte $FF
+BE58: FF          .byte $FF
+BE59: FF          .byte $FF
+BE5A: FF          .byte $FF
+BE5B: FF          .byte $FF
+BE5C: FF          .byte $FF
+BE5D: FF          .byte $FF
+BE5E: FF          .byte $FF
+BE5F: FF          .byte $FF
+BE60: FF          .byte $FF
+BE61: FF          .byte $FF
+BE62: FF          .byte $FF
+BE63: FF          .byte $FF
+BE64: FF          .byte $FF
+BE65: FF          .byte $FF
+BE66: FF          .byte $FF
+BE67: FF          .byte $FF
+BE68: FF          .byte $FF
+BE69: FF          .byte $FF
+BE6A: FF          .byte $FF
+BE6B: FF          .byte $FF
+BE6C: FF          .byte $FF
+BE6D: FF          .byte $FF
+BE6E: FF          .byte $FF
+BE6F: FF          .byte $FF
+BE70: FF          .byte $FF
+BE71: FF          .byte $FF
+BE72: FF          .byte $FF
+BE73: FF          .byte $FF
+BE74: FF          .byte $FF
+BE75: FF          .byte $FF
+BE76: FF          .byte $FF
+BE77: FF          .byte $FF
+BE78: FF          .byte $FF
+BE79: FF          .byte $FF
+BE7A: FF          .byte $FF
+BE7B: FF          .byte $FF
+BE7C: FF          .byte $FF
+BE7D: FF          .byte $FF
+BE7E: FF          .byte $FF
+BE7F: FF          .byte $FF
+BE80: FF          .byte $FF
+BE81: FF          .byte $FF
+BE82: FF          .byte $FF
+BE83: FF          .byte $FF
+BE84: FF          .byte $FF
+BE85: FF          .byte $FF
+BE86: FF          .byte $FF
+BE87: FF          .byte $FF
+BE88: FF          .byte $FF
+BE89: FF          .byte $FF
+BE8A: FF          .byte $FF
+BE8B: FF          .byte $FF
+BE8C: FF          .byte $FF
+BE8D: FF          .byte $FF
+BE8E: FF          .byte $FF
+BE8F: FF          .byte $FF
+BE90: FF          .byte $FF
+BE91: FF          .byte $FF
+BE92: FF          .byte $FF
+BE93: FF          .byte $FF
+BE94: FF          .byte $FF
+BE95: FF          .byte $FF
+BE96: FF          .byte $FF
+BE97: FF          .byte $FF
+BE98: FF          .byte $FF
+BE99: FF          .byte $FF
+BE9A: FF          .byte $FF
+BE9B: FF          .byte $FF
+BE9C: FF          .byte $FF
+BE9D: FF          .byte $FF
+BE9E: FF          .byte $FF
+BE9F: FF          .byte $FF
+BEA0: FF          .byte $FF
+BEA1: FF          .byte $FF
+BEA2: FF          .byte $FF
+BEA3: FF          .byte $FF
+BEA4: FF          .byte $FF
+BEA5: FF          .byte $FF
+BEA6: FF          .byte $FF
+BEA7: FF          .byte $FF
+BEA8: FF          .byte $FF
+BEA9: FF          .byte $FF
+BEAA: FF          .byte $FF
+BEAB: FF          .byte $FF
+BEAC: FF          .byte $FF
+BEAD: FF          .byte $FF
+BEAE: FF          .byte $FF
+BEAF: FF          .byte $FF
+BEB0: FF          .byte $FF
+BEB1: FF          .byte $FF
+BEB2: FF          .byte $FF
+BEB3: FF          .byte $FF
+BEB4: FF          .byte $FF
+BEB5: FF          .byte $FF
+BEB6: FF          .byte $FF
+BEB7: FF          .byte $FF
+BEB8: FF          .byte $FF
+BEB9: FF          .byte $FF
+BEBA: FF          .byte $FF
+BEBB: FF          .byte $FF
+BEBC: FF          .byte $FF
+BEBD: FF          .byte $FF
+BEBE: FF          .byte $FF
+BEBF: FF          .byte $FF
+BEC0: AD 8D 65     LDA $658D
+BEC3: AB          .byte $AB
+BEC4: 8B          .byte $8B
+BEC5: 73          .byte $73
+BEC6: AB          .byte $AB
+BEC7: 8D 73 AB     STA $AB73
+BECA: 8B          .byte $8B
+BECB: 73          .byte $73
+BECC: AB          .byte $AB
+BECD: 8B          .byte $8B
+BECE: 73          .byte $73
+BECF: 0C          .byte $0C
+BED0: FF          .byte $FF
+BED1: FF          .byte $FF
+BED2: FF          .byte $FF
+BED3: FF          .byte $FF
+BED4: FF          .byte $FF
+BED5: FF          .byte $FF
+BED6: FF          .byte $FF
+BED7: FF          .byte $FF
+BED8: FF          .byte $FF
+BED9: FF          .byte $FF
+BEDA: FF          .byte $FF
+BEDB: FF          .byte $FF
+BEDC: FF          .byte $FF
+BEDD: FF          .byte $FF
+BEDE: FF          .byte $FF
+BEDF: FF          .byte $FF
+BEE0: FF          .byte $FF
+BEE1: FF          .byte $FF
+BEE2: FF          .byte $FF
+BEE3: FF          .byte $FF
+BEE4: FF          .byte $FF
+BEE5: FF          .byte $FF
+BEE6: FF          .byte $FF
+BEE7: FF          .byte $FF
+BEE8: FF          .byte $FF
+BEE9: FF          .byte $FF
+BEEA: FF          .byte $FF
+BEEB: FF          .byte $FF
+BEEC: FF          .byte $FF
+BEED: FF          .byte $FF
+BEEE: FF          .byte $FF
+BEEF: FF          .byte $FF
+BEF0: FF          .byte $FF
+BEF1: FF          .byte $FF
+BEF2: FF          .byte $FF
+BEF3: FF          .byte $FF
+BEF4: FF          .byte $FF
+BEF5: FF          .byte $FF
+BEF6: FF          .byte $FF
+BEF7: FF          .byte $FF
+BEF8: FF          .byte $FF
+BEF9: FF          .byte $FF
+BEFA: FF          .byte $FF
+BEFB: FF          .byte $FF
+BEFC: FF          .byte $FF
+BEFD: FF          .byte $FF
+BEFE: FF          .byte $FF
+BEFF: FF          .byte $FF
+BF00: 20 BF 34     JSR $34BF
+BF03: C0 BE        CPY #$BE
+BF05: 0F          .byte $0F
+BF06: 80          .byte $80
+BF07: BF          .byte $BF
+BF08: 2A           ROL A
+BF09: FF          .byte $FF
+BF0A: FF          .byte $FF
+BF0B: FF          .byte $FF
+BF0C: FF          .byte $FF
+BF0D: FF          .byte $FF
+BF0E: FF          .byte $FF
+BF0F: FF          .byte $FF
+BF10: FF          .byte $FF
+BF11: FF          .byte $FF
+BF12: FF          .byte $FF
+BF13: FF          .byte $FF
+BF14: FF          .byte $FF
+BF15: FF          .byte $FF
+BF16: FF          .byte $FF
+BF17: FF          .byte $FF
+BF18: FF          .byte $FF
+BF19: FF          .byte $FF
+BF1A: FF          .byte $FF
+BF1B: FF          .byte $FF
+BF1C: FF          .byte $FF
+BF1D: FF          .byte $FF
+BF1E: FF          .byte $FF
+BF1F: FF          .byte $FF
+BF20: 22          .byte $22
+BF21: 0D 25 22     ORA $2225
+BF24: 09 21        ORA #$21
+BF26: 22          .byte $22
+BF27: 09 21        ORA #$21
+BF29: 1F          .byte $1F
+BF2A: 0B          .byte $0B
+BF2B: 03          .byte $03
+BF2C: AF          .byte $AF
+BF2D: A9 22        LDA #$22
+BF2F: 0B          .byte $0B
+BF30: 23          .byte $23
+BF31: 01 23        ORA ($23,X)
+BF33: 03          .byte $03
+BF34: 22          .byte $22
+BF35: 0B          .byte $0B
+BF36: 23          .byte $23
+BF37: 1F          .byte $1F
+BF38: 0B          .byte $0B
+BF39: 03          .byte $03
+BF3A: 23          .byte $23
+BF3B: 3B          .byte $3B
+BF3C: AF          .byte $AF
+BF3D: 99 23 03     STA $0323,Y
+BF40: 23          .byte $23
+BF41: 3B          .byte $3B
+BF42: AC 1F 0B     LDY $0B1F
+BF45: 03          .byte $03
+BF46: 23          .byte $23
+BF47: 3B          .byte $3B
+BF48: BD 23 03     LDA $0323,X
+BF4B: C3          .byte $C3
+BF4C: B9 23 0B     LDA $0B23,Y
+BF4F: 23          .byte $23
+BF50: 1F          .byte $1F
+BF51: 0B          .byte $0B
+BF52: 03          .byte $03
+BF53: AC 10 FF     LDY $FF10
+BF56: FF          .byte $FF
+BF57: FF          .byte $FF
+BF58: FF          .byte $FF
+BF59: FF          .byte $FF
+BF5A: FF          .byte $FF
+BF5B: FF          .byte $FF
+BF5C: FF          .byte $FF
+BF5D: FF          .byte $FF
+BF5E: FF          .byte $FF
+BF5F: FF          .byte $FF
+BF60: FF          .byte $FF
+BF61: FF          .byte $FF
+BF62: FF          .byte $FF
+BF63: FF          .byte $FF
+BF64: FF          .byte $FF
+BF65: FF          .byte $FF
+BF66: FF          .byte $FF
+BF67: FF          .byte $FF
+BF68: FF          .byte $FF
+BF69: FF          .byte $FF
+BF6A: FF          .byte $FF
+BF6B: FF          .byte $FF
+BF6C: FF          .byte $FF
+BF6D: FF          .byte $FF
+BF6E: FF          .byte $FF
+BF6F: FF          .byte $FF
+BF70: FF          .byte $FF
+BF71: FF          .byte $FF
+BF72: FF          .byte $FF
+BF73: FF          .byte $FF
+BF74: FF          .byte $FF
+BF75: FF          .byte $FF
+BF76: FF          .byte $FF
+BF77: FF          .byte $FF
+BF78: FF          .byte $FF
+BF79: FF          .byte $FF
+BF7A: FF          .byte $FF
+BF7B: FF          .byte $FF
+BF7C: FF          .byte $FF
+BF7D: FF          .byte $FF
+BF7E: FF          .byte $FF
+BF7F: FF          .byte $FF
+BF80: 23          .byte $23
+BF81: 03          .byte $03
+BF82: 03          .byte $03
+BF83: 23          .byte $23
+BF84: 43          .byte $43
+BF85: 23          .byte $23
+BF86: 03          .byte $03
+BF87: 41 69        EOR ($69,X)
+BF89: 41 01        EOR ($01,X)
+BF8B: 43          .byte $43
+BF8C: 6B          .byte $6B
+BF8D: 97          .byte $97
+BF8E: 91 1F        STA ($1F),Y
+BF90: 0B          .byte $0B
+BF91: 03          .byte $03
+BF92: 81 31        STA ($31,X)
+BF94: 49 01        EOR #$01
+BF96: 31 01        AND ($01),Y
+BF98: 33          .byte $33
+BF99: 4B          .byte $4B
+BF9A: 85 1F        STA $1F
+BF9C: 0B          .byte $0B
+BF9D: 03          .byte $03
+BF9E: 69 31        ADC #$31
+BFA0: 49 01        EOR #$01
+BFA2: 31 01        AND ($01),Y
+BFA4: 33          .byte $33
+BFA5: 4B          .byte $4B
+BFA6: 95 23        STA $23,X
+BFA8: 03          .byte $03
+BFA9: 81 10        STA ($10,X)
+BFAB: FF          .byte $FF
+BFAC: FF          .byte $FF
+BFAD: FF          .byte $FF
+BFAE: FF          .byte $FF
+BFAF: FF          .byte $FF
+BFB0: FF          .byte $FF
+BFB1: C5 8A        CMP $8A
+BFB3: 0B          .byte $0B
+BFB4: 00           BRK 
+BFB5: F7          .byte $F7
+BFB6: F1 FA        SBC ($FA),Y
+BFB8: F5 00        SBC $00,X
+BFBA: EA           NOP 
+BFBB: F0 F5        BEQ $BFB2
+BFBD: ED 00 00     SBC $0000
+BFC0: C4 03        CPY $03
+BFC2: 03          .byte $03
+BFC3: 00           BRK 
+BFC4: 00           BRK 
+BFC5: 00           BRK 
+BFC6: 00           BRK 
+BFC7: C4 18        CPY $18
+BFC9: 04          .byte $04
+BFCA: 00           BRK 
+BFCB: 00           BRK 
+BFCC: 00           BRK 
+BFCD: 00           BRK 
+BFCE: 00           BRK 
+BFCF: C4 03        CPY $03
+BFD1: 03          .byte $03
+BFD2: E1 EF        SBC ($EF,X)
+BFD4: EB          .byte $EB
+BFD5: 00           BRK 
+BFD6: C4 18        CPY $18
+BFD8: 04          .byte $04
+BFD9: E2          .byte $E2
+BFDA: EF          .byte $EF
+BFDB: EB          .byte $EB
+BFDC: 00           BRK 
+BFDD: 00           BRK 
+BFDE: C4 18        CPY $18
+BFE0: 04          .byte $04
+BFE1: F8           SED 
+BFE2: F9 F7 F8     SBC $F8F7,Y
+BFE5: 00           BRK 
+BFE6: BF          .byte $BF
+BFE7: 20 E6 B4     JSR $B4E6
+BFEA: 52          .byte $52
+BFEB: FF          .byte $FF
+BFEC: E0 08        CPX #$08
+BFEE: 0F          .byte $0F
+BFEF: C4 00        CPY $00
+BFF1: A2 01        LDX #$01
+BFF3: 50 00        BVC $BFF5
+BFF5: 38           SEC 
+BFF6: 04          .byte $04
+BFF7: 01 18        ORA ($18,X)
+BFF9: A2 00        LDX #$00
+BFFB: 00           BRK 
+BFFC: 08           PHP 
+BFFD: F8           SED 
+BFFE: 3F          .byte $3F
+BFFF: FF          .byte $FF
