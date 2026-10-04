@@ -2,7 +2,7 @@
 
 This is an AI experiment to port the Funvision/Wizzard/Creativision game "Planet Defender" 
 to MSX. So these machines share the same video chip, but have different CPUs and sound chips.
-I mostly used Claude Sonnet 5 to do this. It was relatively seemless, and Claude automatically
+I mostly used Claude Sonnet 5 to do this. It was relatively seamless, and Claude automatically
 used opemnsx to test progress, take screenshots and compare. I used the funnmyu Funvision
 emulator as the reference platform.
 
