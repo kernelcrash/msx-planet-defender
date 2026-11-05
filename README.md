@@ -37,5 +37,3 @@ Keyboard only (this was just a simplification):
 | `assets/` | data blobs carved from the original ROM |
 | `tools/` | `dis6502.py` / `trace6502.py` (6502 disasm), `fv_emu.py` (headless Funvision 6502 harness), `fv_probe.py` / `fv_probe2.py` (RAM-state probes), `fv_trace_fa00.py` / `fv_ingame_input.py` (input decode), `fv_kill.py` (collision trace), `fv_dump_vram.py` / `extract_assets.py` / `view_assets.py` / `view_vram.py` (Phase 2 assets), `sn_decode.py` (SN76489 stream decoder), `check_rom.py` |
 | `docs/` | `reverse-engineering.md`, `memory-map.md`, `coleco-to-msx-sound.md`, raw + traced disassemblies |
-| `funvision-reference/` | original ROMs + `funnymu` reference emulator (I've left this directory empty. You'll need to find these independently) |
-| `coleco-to-msx-reference/` | a ColecoVision→MSX conversion — reference for the SN76489→AY-3-8910 sound layer (I've also left this out) |
